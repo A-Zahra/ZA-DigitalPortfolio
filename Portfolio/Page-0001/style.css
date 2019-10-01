@@ -1,0 +1,245 @@
+* {
+  box-sizing:border-box;
+}
+body {
+  margin: 0px;
+  z-index: 0;
+}
+/* Menu properties*/
+.Menu{
+  position:  fixed;
+  font-family: "Century Gothic", sans-serif;
+  font-size: 1.2vw;
+  color: black;
+  z-index: 3;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.Menu a {
+  text-decoration: none;
+  color: black;
+  padding: 15px;
+  display:inline-block;
+}
+ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  display: inline-block;
+}
+ul :hover {
+  background: rgba(128,128,128, 0.3);
+}
+ul li:hover ul {
+  display: block;
+}
+ul li ul {
+  position: absolute;
+  width: 20em;
+  display: none;
+}
+ul li ul li {
+  background:  rgba(128,128,128, 0.5);
+  display: block;
+}
+ul li ul li a {
+  display:block !important;
+}
+ul li ul li :hover {
+  background: #555;
+  color: white;
+}
+/* properties of first logo div that keeps the two columns side by side*/
+.row1 {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+}
+/* First logo column properties*/
+.column1 {
+  width: 50%;
+  float: left;
+  flex: 50%;
+}
+/* Title properties*/
+.Heading {
+  padding-left: 3%;
+  margin-top: 12%;
+  font-weight: bold;
+  font-family: "Arial", sans-serif;
+  font-size: 1.7vw;
+  color: black;
+  line-height: 2.5vw;
+}
+/* discription properties*/
+.text {
+  font-weight: normal;
+  font-family: "Nueva Std";
+  font-size: 1.3vw;
+  color: black;
+  text-align: justify;
+  line-height: 2vw;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 1%;
+  padding-bottom: 2.5%;
+}
+strong {
+  font-style: italic;
+  color: rgb(128,92,14);
+}
+.set {
+  padding: 10%;
+  background-color: #02A5AD;
+  height: 45vw;
+}
+/* First logo background image properties*/
+.B-color {
+  background: ("");
+  background-repeat: repeat;
+  background-size: 70vw;
+  padding: 25%;
+  padding-bottom: -15%;
+  height: 45vw;
+  margin-right: 0;
+}
+/* Logos properties*/
+.image {
+  margin-top: 12%;
+  border-radius: 330px 330px 330px 330px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* properties of second logo div that keeps the two columns side by side*/
+.row-2 {
+  margin-top: 45.5%;
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+}
+/* Second logo column properties*/
+.column-2 {
+  width: 50%;
+  float: left;
+  flex: 50%;
+}
+/* Second logo background image properties*/
+.B-color-2 {
+  background: url("");
+  background-repeat: repeat;
+  background-size: 70vw;
+  padding: 25%;
+  padding-bottom: -15%;
+  height: 45vw;
+  margin-right: 0;
+}
+.set-2 {
+  padding: 10%;
+  background-color: #705D37;
+  height: 45vw;
+}
+/* specifically setting top margin for second logo title*/
+#difference {
+  margin-top: 2%;
+}
+/* Increasing the space between the paragraph and title*/
+.paragh {
+  padding-top: -5px;
+}
+#I-diff {
+  margin-left: -5%;
+}
+/* properties of third logo div that keeps the two columns side by side*/
+.row-3 {
+  margin-top: 91%;
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+}
+/* Third logo column properties*/
+.column-3 {
+  width: 50%;
+  float: left;
+  flex: 50%;
+}
+/* Third logo background image properties*/
+.B-color-3{
+  background: url("");
+  background-repeat: repeat;
+  background-size: 70vw;
+  padding: 25%;
+  padding-bottom: -15%;
+  height: 45vw;
+  margin-right: 0;
+}
+.set-3 {
+  padding: 10%;
+  background-color: #AD2E24;
+  height: 45vw;
+}
+/* properties of Forth logo div that keeps the two columns side by side*/
+.row-4 {
+  margin-top: 136.5%;
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+}
+/* Forth logo column properties*/
+.column-4 {
+  width: 50%;
+  float: left;
+  flex: 50%;
+}
+/* Forth logo background image properties*/
+.B-color-4 {
+  background: url("");
+  background-repeat: repeat;
+  background-size: 70vw;
+  padding: 25%;
+  padding-bottom: -15%;
+  height: 45vw;
+  margin-right: 0;
+}
+.set-4 {
+  padding: 10%;
+  background-color: #C3997E;
+  height: 45vw;
+}
+/* The Photographer tag properties*/
+.photographer {
+  font-family: "Century Gothic", sans-serif;
+  color: white;
+  margin-left: -40%;
+  margin-top: 50%;
+  font-size: 0.7vw;
+  width: 70%;
+}
+/* The Copyright properties*/
+#Copyright {
+  width: 100%;
+  background-color: black;
+  font-weight: normal;
+  font-family: "Corbel";
+  font-size: 1vw;
+  color: white;
+  text-align: center;
+  z-index: 4;
+  margin-top: 45%;
+  padding-top: 1px;
+  padding-bottom: 6px;
+}
+/*Tablet version*/
+@media screen and (max-width: 1280px) {
+  .Menu {
+    font-size: 1.1em;
+  }
+}
+/* Cell phone version*/
+@media screen and (max-width: 740px) {
+  .Menu {
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 0.5em;
+  }
+}

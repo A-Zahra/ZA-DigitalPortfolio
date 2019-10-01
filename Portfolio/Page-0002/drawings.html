@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Drawing's Gallery</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    </head>
+    <body>
+
+      <!-- Menu-->
+      <div class="Menu">
+        <ul>
+          <li><a href="../../Home/index.html">HOME</a><li>
+          <li><a href="javascript:
+            if(screen.width<1399){
+              location.href = '../../Home/index.html#about-me';
+            }
+            else{
+                console.log('test');
+                localStorage.setItem('previous','drawingsPage');
+                localStorage.setItem('next','aboutPage');
+                  location.href = '../../Home/index.html';
+                }
+              ">ABOUT ME</a></li>
+            <!-- <a href="#about-me">ABOUT ME</a></li> -->
+          <li><a href="javascript:
+            if(screen.width<1399){
+              location.href = '../../Home/index.html#portfolio';
+          }
+          else{
+                console.log('test');
+                localStorage.setItem('previous','drawingsPage');
+                localStorage.setItem('next','portfolioPage');
+                  location.href = '../../Home/index.html';
+                }
+              ">MY PORTFOLIO</a><!-- <a href="#">MY PORTFOLIO</a> -->
+            <ul>
+              <li><a class="options" href="../Page-0001/logos.html">Logo Design</a></li>
+              <li><a class="options" href="../Page-0002/drawings.html">Drawing's Gallery</a></li>
+              <li><a class="options" href="../Page-0003/animations.html">Animation Project</a></li>
+            </ul>
+          </li>
+          <li><a href="javascript:
+            if(screen.width<1399){
+              location.href = '../../Home/index.html#Contact-me';
+          }
+          else{
+                console.log('test');
+                localStorage.setItem('previous','drawingsPage');
+                localStorage.setItem('next','contactPage');
+                  location.href = '../../Home/index.html';
+                }">CONTACT ME</a>
+            <!-- <a href="#Contact-me">CONTACT ME</a> -->
+          <li>
+        </ul>
+      </div>
+
+      <!-- Welcome sentence-->
+      <div class="welcome">
+        <h2 id="Wtext">Welcome to my drawings and posters gallery</h2>
+      </div>
+
+      <!-- Drawings and posters Gallery-->
+      <div class="row">
+
+          <!-- First column of images-->
+          <div class="column" >
+            <!-- First image Row1 Col1-->
+            <div class="w3-container" style="padding: 0px;">
+                <img  class="image" src="../Page-0002/images/MyPortrait.jpg" alt="my portrait" style="width:100%;cursor:zoom-in"
+                onclick="document.getElementById('modal01').style.display='block'">
+                <!-- On click: open in new window-->
+                <div id="modal01" class="w3-modal" onclick="this.style.display='none'" style="width:100%;  overflow-x: hidden; overflow-y: hidden;">
+                  <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+                  <div class="innerRow">
+                    <!-- Information about the work-->
+                    <div class="innerColumn3 innerColumn">
+                      <div class="overlay ">
+                        <div class="text">Work Information: <br> Type of work: Pastel painting <br> Date of completion : 31/12/2016 <br> Size of work: A4 sheet </div>
+                      </div>
+                    </div>
+                    <!-- Magnified image-->
+                    <div class="innerColumn4 innerColumn">
+                      <div class="w3-modal-content w3-animate-zoom" style="width: 100%; ">
+                        <img src="../Page-0002/images/MyPortrait.jpg" alt="my portrait" style=" margin-top: -2%;">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <!-- Second image Row2 Col1-->
+            <div class="w3-container" style="padding: 0px; ">
+                <img src="../Page-0002/images/CelineDion.jpg" alt="Celine dion" style="width:100%;cursor:zoom-in"
+                onclick="document.getElementById('modal02').style.display='block'">
+                <!-- On click: open in new window-->
+                <div id="modal02" class="w3-modal" onclick="this.style.display='none'" style="width: 100%;  overflow-x: hidden; overflow-y: hidden;">
+                  <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+                  <div class="innerRow1">
+                    <!-- Information about the work-->
+                    <div class="innerColumn1 innerColumn special1">
+                      <div class="overlay">
+                        <div class="text">Work Information: <br> Type of work: Conte painting <br> Date of completion : 31/12/2016 <br> Size of work: A4 sheet </div>
+                      </div>
+                    </div>
+                    <!-- Magnified image-->
+                    <div class="innerColumn2 innerColumn special1"  >
+                      <div class="w3-modal-content w3-animate-zoom" style="width: 100%;">
+                        <img src="../Page-0002/images/CelineDion.jpg" alt="Cellon dian" style="margin-top: -2%;">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <!-- Third image Row3 Col1-->
+            <div class="w3-container" style="padding: 0px; padding-bottom: 50px;">
+                <img src="../Page-0002/images/Birds.jpg" alt="Two blue birds" style="width:100%;cursor:zoom-in"
+                onclick="document.getElementById('modal03').style.display='block'">
+                <!-- On click: open in new window-->
+                <div id="modal03" class="w3-modal" onclick="this.style.display='none'" style="width: 100%; overflow-x: hidden; overflow-y: hidden;">
+                  <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+                  <div class="innerRow" style="margin-top: -7%;">
+                    <!-- Information about the work-->
+                    <div class="innerColumn3 innerColumn " >
+                      <div class="overlay">
+                        <div class="text">Work Information: <br> Type of work: Colored Pencil painting <br> Date of completion : 01/04/2017 <br> Size of work: A3 sheet  <br> Note: This work is a collaborative work <br>done by my sister (Zohreh Ahmadi) and I</div>
+                      </div>
+                    </div>
+                    <!-- Magnified image-->
+                    <div class="innerColumn4 innerColumn" >
+                      <div class="w3-modal-content w3-animate-zoom" style="width: 100%;">
+                        <img src="../Page-0002/images/Birds.jpg" alt="Two blue birds" style="margin-top: -1%;">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Second column of images-->
+        <div class="column">
+
+          <!-- Forth image Row1 Col2-->
+          <div class="w3-container" style="padding: 0px;">
+              <img src="../Page-0002/images/MelGibson.jpg" alt="Mel Gibson" style="width:100%;cursor:zoom-in"
+              onclick="document.getElementById('modal04').style.display='block'">
+              <!-- On click: open in new window-->
+              <div id="modal04" class="w3-modal" onclick="this.style.display='none'" style="width: 100%; overflow-x: hidden; overflow-y: hidden;">
+                <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+                <div class="innerRow" style="margin-top: -2%;">
+                  <!-- Information about the work-->
+                  <div class="innerColumn1 innerColumn" >
+                    <div class="overlay">
+                      <div class="text">Work Information: <br> Type of work: Conte painting <br> Date of completion : 01/17/2016 <br> Size of work: A4 sheet </div>
+                    </div>
+                  </div>
+                  <!-- Magnified image-->
+                  <div class="innerColumn2 innerColumn" >
+                    <div class="w3-modal-content w3-animate-zoom" style="width: 100%;">
+                      <img src="../Page-0002/images/MelGibson.jpg" alt="mell gibson" style="margin-top: -1%;">
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+          <!-- Fifth image Row2 Col2-->
+          <div class="w3-container" style="padding: 0px; ">
+              <img src="../Page-0002/images/Parrots.jpg" alt="Parrots" style="width:100%;cursor:zoom-in"
+              onclick="document.getElementById('modal05').style.display='block'">
+              <!-- On click: open in new window-->
+              <div id="modal05" class="w3-modal" onclick="this.style.display='none'" style="width: 100%;  overflow-x: hidden; overflow-y: hidden;">
+                <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+                <div class="innerRow2" >
+                  <!-- Information about the work-->
+                  <div class="innerColumn3 innerColumn">
+                    <div class="overlay">
+                      <div class="text">Work Information: <br> Type of work: Colored Pencil painting <br> Date of completion : 01/22/2015 <br> Size of work: A4 sheet </div>
+                    </div>
+                  </div>
+                  <!-- Magnified image-->
+                  <div class="innerColumn4 innerColumn">
+                    <div class="w3-modal-content w3-animate-zoom" style="width:100%;">
+                      <img src="../Page-0002/images/Parrots.jpg" alt="Parrots" style="margin-top: -1%;">
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+          <!-- Sixth image Row3 Col2-->
+          <div class="w3-container" style="padding: 0px; padding-bottom: 50px;">
+              <img src="../Page-0002/images/Conte-painting.jpg" alt="Conte painting" style="width:100%;cursor:zoom-in"
+              onclick="document.getElementById('modal06').style.display='block'">
+              <!-- On click: open in new window-->
+              <div id="modal06" class="w3-modal" onclick="this.style.display='none'" style="width: 100%;  overflow-x: hidden; overflow-y: hidden; ">
+                <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+                <div class="innerRow2" >
+                  <!-- Information about the work-->
+                  <div class="innerColumn3 innerColumn">
+                    <div class="overlay">
+                      <div class="text">Work Information: <br> Type of work: Conte painting <br> Date of completion : 10/30/2013 <br> Size of work: A4 sheet </div>
+                    </div>
+                  </div>
+                  <!-- Magnified image-->
+                  <div class="innerColumn4 innerColumn">
+                    <div class="w3-modal-content w3-animate-zoom" style="width: 100%;">
+                      <img src="../Page-0002/images/Conte-painting.jpg" alt="Conte painting" style=" margin-top: -2%;">
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+
+        <!-- Third column of images-->
+        <div class="column">
+
+          <!-- Seventh image Row1 Col3-->
+          <div class="w3-container" style="padding: 0px;">
+              <img src="../Page-0002/images/Flowers.jpg" alt="Flowers" style="width:100%;cursor:zoom-in"
+              onclick="document.getElementById('modal07').style.display='block'">
+              <!-- On click: open in new window-->
+              <div id="modal07" class="w3-modal" onclick="this.style.display='none'" style="width: 100%; overflow-x: hidden; overflow-y: hidden;">
+                <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+                <div class="innerRow">
+                  <!-- Information about the work-->
+                  <div class="innerColumn1 innerColumn">
+                    <div class="overlay">
+                      <div class="text">Work Information: <br> Type of work: Conte painting <br> Date of completion : 10/30/2013 <br> Size of work: A4 sheet </div>
+                    </div>
+                  </div>
+                  <!-- Magnified image-->
+                  <div class="innerColumn2 innerColumn">
+                    <div class="w3-modal-content w3-animate-zoom" style="width: 100%;">
+                      <img src="../Page-0002/images/Flowers.jpg" alt="Flowers" style="margin-top: -2%;">
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+          <!-- Eighth image Row2 Col3-->
+          <div class="w3-container" style="padding: 0px; ">
+              <img src="../Page-0002/images/Horse.jpg" alt="the horse" style="width:100%;cursor:zoom-in"
+              onclick="document.getElementById('modal08').style.display='block'">
+              <!-- On click: open in new window-->
+              <div id="modal08" class="w3-modal" onclick="this.style.display='none'" style="width: 100%; overflow-x: hidden; overflow-y: hidden;">
+                <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+                <div class="innerRow" style="margin-top: -7%;">
+                  <!-- Information about the work-->
+                  <div class="innerColumn3 innerColumn">
+                    <div class="overlay">
+                      <div class="text">Work Information: <br> Type of work: Conte painting <br> Date of completion : 10/30/2013 <br> Size of work: A4 sheet </div>
+                    </div>
+                  </div>
+                  <!-- Magnified image-->
+                  <div class="innerColumn4 innerColumn">
+                    <div class="w3-modal-content w3-animate-zoom" style="width: 100%;">
+                      <img src="../Page-0002/images/Horse.jpg" alt="the horse" style=" margin-top: -2%;">
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+          <!-- Ninth image Row3 Col3-->
+          <div class="w3-container" style="padding: 0px; padding-bottom: 50px;">
+              <img src="../Page-0002/images/TheLion.jpg" alt="The lion" style="width:100%;cursor:zoom-in"
+              onclick="document.getElementById('modal09').style.display='block'">
+              <!-- On click: open in new window-->
+              <div id="modal09" class="w3-modal" onclick="this.style.display='none'" style="width: 100%;  overflow-x: hidden; overflow-y: hidden; ">
+                <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+                <div class="innerRow1">
+                  <!-- Information about the work-->
+                  <div class="innerColumn1 innerColumn special1">
+                    <div class="overlay">
+                      <div class="text">Work Information: <br> Type of work: Conte painting <br> Date of completion : 10/30/2013 <br> Size of work: A4 sheet </div>
+                    </div>
+                  </div>
+                  <!-- Magnified image-->
+                  <div class="innerColumn2 innerColumn special1">
+                    <div class="w3-modal-content w3-animate-zoom" style="width: 100%;">
+                      <img src="../Page-0002/images/TheLion.jpg" alt="The lion" style="margin-top: -1%;">
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+
+        <!-- Forth column of images-->
+        <div class="column">
+
+          <!-- Tenth image Row1 Col4-->
+          <div class="w3-container" style="padding: 0px;">
+              <img src="../Page-0002/images/YoungLady.jpg" alt="Young lady" style="width:100%;cursor:zoom-in"
+              onclick="document.getElementById('modal010').style.display='block'">
+              <!-- On click: open in new window-->
+              <div id="modal010" class="w3-modal" onclick="this.style.display='none'" style="width: 100%; overflow-x: hidden; overflow-y: hidden;">
+                <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+                <div class="innerRow">
+                  <!-- Information about the work-->
+                  <div class="innerColumn3 innerColumn">
+                    <div class="overlay">
+                      <div class="text">Work Information: <br> Type of work: Conte painting <br> Date of completion : 10/30/2013 <br> Size of work: A4 sheet </div>
+                    </div>
+                  </div>
+                  <!-- Magnified image-->
+                  <div class="innerColumn4 innerColumn">
+                    <div class="w3-modal-content w3-animate-zoom" style="width: 100%;">
+                      <img src="../Page-0002/images/YoungLady.jpg" alt="Young lady" style="margin-top: -2%;">
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+          <!-- Eleventh image Row2 Col4-->
+          <div class="w3-container" style="padding: 0px; ">
+              <img src="../Page-0002/images/Owl.jpg" alt="the owl" style="width:100%;cursor:zoom-in"
+              onclick="document.getElementById('modal011').style.display='block'">
+              <!-- On click: open in new window-->
+              <div id="modal011" class="w3-modal" onclick="this.style.display='none'" style="width: 100%; overflow-x: hidden; overflow-y: hidden; ">
+                <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+                <div class="innerRow1">
+                  <!-- Information about the work-->
+                  <div class="innerColumn1 innerColumn special1">
+                    <div class="overlay">
+                      <div class="text">Work Information: <br> Type of work: School Assignment (Poster) <br> Date of completion : 10/20/2017 <br> Software used: Photoshop & Illustrator </div>
+                    </div>
+                  </div>
+                  <!-- Magnified image-->
+                  <div class="innerColumn2 innerColumn special1">
+                    <div class="w3-modal-content w3-animate-zoom" style="width: 100%;">
+                      <img src="../Page-0002/images/Owl.jpg" alt="the owl" style="margin-top: -2%;">
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+          <!-- twelfth image Row3 Col4-->
+          <div class="w3-container" style="padding: 0px; padding-bottom: 50px;">
+              <img src="../Page-0002/images/Leopard.jpg" alt="the leopard" style="width:100%;cursor:zoom-in"
+              onclick="document.getElementById('modal012').style.display='block'">
+              <!-- On click: open in new window-->
+              <div id="modal012" class="w3-modal" onclick="this.style.display='none'" style="width: 100%; overflow-x: hidden; overflow-y: hidden; ">
+                <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+                <div class="innerRow" >
+                  <!-- Information about the work-->
+                  <div class="innerColumn3 innerColumn">
+                    <div class="overlay">
+                      <div class="text">Work Information: <br> Type of work: School Assignment (Poster) <br> Date of completion : 10/20/2017 <br> Software used: Photoshop & Illustrator </div>
+                    </div>
+                  </div>
+                  <!-- Magnified image-->
+                  <div class="innerColumn4 innerColumn">
+                    <div class="w3-modal-content w3-animate-zoom" style="width: 100%;">
+                      <img src="../Page-0002/images/Leopard.jpg" alt="the leopard" style=" margin-top: -2%;">
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+        </div>
+
+        <!-- Thank you clause-->
+        <div class="thankYou">
+          Thank you for visiting my Galley!<br>
+          Hope you liked my work!!!
+        </div>
+
+        <!-- Photographer name and address tag-->
+        </div>
+            <div id="special">Photographer: Brandi Redd<br><a href="https://unsplash.com/@brandi1" style="color: white; text-decoration: none;">https://unsplash.com/@brandi1</a></div>
+        </div>
+
+        <!-- The Copyright-->
+        <div id="Copyright">
+          <p style="padding-bottom: 6px; padding-top: 5px; height: 1vw;">Zahra's portfolio website &copy; 2019 ZahraAhmadi.com</p>
+        </div>
+    </body>
+</html>

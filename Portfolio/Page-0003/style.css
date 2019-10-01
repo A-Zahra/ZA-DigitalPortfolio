@@ -1,0 +1,224 @@
+* {
+  box-sizing:border-box;
+}
+body {
+  margin: 0px;
+  z-index: 0;
+  background: url("https://images.unsplash.com/photo-1503435980610-a51f3ddfee50?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80");
+  background-size: cover;
+}
+/* Menu properties*/
+.Menu{
+  font-family: "Century Gothic", sans-serif;
+  font-size: 1.2em;
+  color: black;
+  z-index: 1;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.Menu a {
+  text-decoration: none;
+  color: black;
+  padding: 15px;
+  display:inline-block;
+}
+ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  display: inline-block;
+}
+ul :hover {
+  background: rgba(128,128,128, 0.3);
+}
+ul li:hover ul {
+  display: block;
+}
+ul li ul {
+  position: absolute;
+  width: 18em;
+  display: none;
+}
+ul li ul li {
+  background:  rgba(128,128,128, 0.5);
+  display: block;
+}
+ul li ul li a {
+  display:block !important;
+}
+ul li ul li :hover {
+  background: #555;
+  color: white;
+}
+/* Discription properties*/
+.disc {
+  z-index: 2;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 4%;
+}
+/* Heading properties*/
+.heading {
+  font-weight: bold;
+  font-family: "Lucida handwriting", sans-serif;
+  font-size: 2vw;
+  color: black;
+}
+.text {
+  font-weight: normal;
+  font-family: "Nueva Std";
+  font-size: 1.3vw;
+  color: black;
+  text-align: justify;
+  line-height: 2vw;
+  padding-right: 3%;
+
+  padding-bottom: 1.5%;
+}
+/* Position of the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+  margin-top: 2%;
+  width: 80%;
+  margin-left: 10%;
+  border: 5px solid black;
+  border-radius: 10px;
+  z-index: 2;
+}
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+/* Container for image text */
+.caption-container {
+  background-color: #222;
+  margin-top: -7px;
+  padding: 2px 16px;
+  color: white;
+}
+/* Caption property*/
+#caption {
+  text-align: center;
+  font-size: 2vw;
+  font-family: "Century Gothic", sans-serif;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 10%;
+  margin-bottom: -4px;
+}
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+.active,
+.demo:hover {
+  opacity: 1;
+}
+/* Copyright properties*/
+#Copyright {
+  width: 100%;
+  background-color: black;
+  font-weight: normal;
+  font-family: "Corbel";
+  font-size: 1vw;
+  color: white;
+  text-align: center;
+  z-index: 4;
+  margin-top: 670px;
+  padding-bottom: 6px;
+  padding-top: 0.5px;
+}
+/* Photographer tag properties*/
+#special {
+  color: white;
+  position: absolute;
+  margin-top: 1000em;
+  margin-left: 25px;
+  font-weight: normal;
+  font-family: "Century Gothic", sans-serif;
+  font-size: 0.8vw;
+  text-align: left;
+  z-index: 3;
+}
+/* video's general properties*/
+.videoRow {
+  position: absolute;
+  z-index: 2;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 3%;
+
+}
+/* To put videos side by side*/
+.videoColumn {
+  flex: 50%;
+  width: 50%;
+  float: left;
+  border: 5px solid black;
+  border-radius: 10px;
+}
+iframe {
+  height: 22vw;
+}
+/* Tablet version*/
+@media screen and (max-width: 800px) {
+.Menu {
+  font-size: 1.1em;
+  }
+}
+/* Cell phone version*/
+@media screen and (max-width: 600px) {
+  .Menu {
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 0.5em;
+  }
+  .videoRow {
+    width: 80%;
+  }
+  .videoColumn {
+    width: 100%;
+  }
+  iframe {
+    height: 40vw;
+  }
+}
