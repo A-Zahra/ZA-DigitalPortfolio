@@ -403,7 +403,6 @@ ul li ul li :hover {
     position: absolute;
     margin: 0;
   }
-
   .po-column {
     width: 30%;
   }
@@ -411,7 +410,7 @@ ul li ul li :hover {
     height:55vw;
   }
   .Menu {
-    font-size: 0.7em;
+    font-size: 0.5em;
     position: fixed;
   }
   .mySlides {
