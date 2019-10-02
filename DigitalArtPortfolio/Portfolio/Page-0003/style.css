@@ -161,7 +161,7 @@ ul li ul li :hover {
 }
 /* Copyright properties*/
 #Copyright {
-  position: fixed;
+  position: relative;
   width: 100%;
   background-color: black;
   font-weight: normal;
@@ -170,7 +170,7 @@ ul li ul li :hover {
   color: white;
   text-align: center;
   z-index: 4;
-  margin-top: 156em;
+  margin-top: 174vw;
   padding-bottom: 6px;
   padding-top: 0.5px;
 }
