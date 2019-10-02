@@ -365,7 +365,7 @@ ul li ul li :hover {
     font-size: 2vw;
   }
   #discription {
-    font-size: 1.2vw;
+    font-size: 1.5vw;
     padding-top: 3vw;
   }
   .welcome {
@@ -432,10 +432,10 @@ ul li ul li :hover {
     padding: 10px;
   }
   .col1 {
-    width: 55%;
+    width: 60%;
   }
   .col2 {
-    width: 33%;
+    width: 30%;
   }
   .welcome {
     margin-top: -30%;
