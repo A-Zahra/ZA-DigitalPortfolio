@@ -469,3 +469,23 @@ ul li ul li :hover {
     display: block;
   }
 }
+/* Cell phone version 2*/
+@media screen and (max-width: 300px) {
+  #discription {
+    font-size: 1vw;
+    padding-top: 3vw;
+  }
+  .row {
+    margin-left: 5%;
+    margin-top: -47%;
+  }
+  .column {
+    padding: 5px;
+  }
+  .col1 {
+    width: 65%;
+  }
+  .col2 {
+    width: 25%;
+  }
+}
