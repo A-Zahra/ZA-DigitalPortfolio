@@ -398,7 +398,7 @@ ul li ul li :hover {
   }
 }
 /* Cell phone version*/
-@media screen and (max-width: 740px) {
+@media screen and (min-width: 740px) {
   .slideshow-container {
     position: absolute;
     margin: 0;
@@ -485,5 +485,5 @@ ul li ul li :hover {
   .col1 {
     width: 100%;
   }
-  
+
 }
