@@ -424,10 +424,6 @@ ul li ul li :hover {
   .Dots {
     display: none;
   }
-  .row {
-    margin-left: 8%;
-    margin-top: -45%;
-  }
   .column {
     padding: 10px;
   }
@@ -435,7 +431,8 @@ ul li ul li :hover {
     width: 60%;
   }
   .col2 {
-    width: 30%;
+    width: 40%;
+    margin-left: -12px;
   }
   .welcome {
     margin-top: -30%;
@@ -451,7 +448,7 @@ ul li ul li :hover {
     font-size: 1.5vw;
   }
   #discription {
-    font-size: 1.2vw;
+    font-size: 1.5vw;
     padding-top: 3vw;
   }
   .c_row {
