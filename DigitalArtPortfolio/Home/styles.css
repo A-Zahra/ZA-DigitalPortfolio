@@ -483,9 +483,7 @@ ul li ul li :hover {
     padding: 5px;
   }
   .col1 {
-    width: 65%;
+    width: 100%;
   }
-  .col2 {
-    width: 25%;
-  }
+  
 }
