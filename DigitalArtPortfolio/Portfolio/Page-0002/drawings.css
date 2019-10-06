@@ -198,7 +198,7 @@ ul li ul li :hover {
     max-width: 50%;
   }
   .Menu {
-    font-size: 1.1em;
+    font-size: 1.4em;
     width: 100%;
     background-color: rgb(255, 255, 255, 0.7);
     margin: 0px;
@@ -288,7 +288,26 @@ ul li ul li :hover {
   }
   .innerColumn {
     width: 100%;
-    padding: 35px;
+    padding: 5px;
+  }
+  .innerColumn1 {
+    margin-top: 10%;
+  }
+  .innerColumn2 {
+    margin-top: 30%;
+  }
+  .innerColumn3 {
+    margin-top: 10%;
+  }
+  .innerColumn4 {
+    margin-top: 30%;
+  }
+  .special1 {
+    width: 100%;
+    margin-top: 35%;
+  }
+  .text {
+    font-size: 3vw;
   }
   .overlay {
     margin-left: 2%;
