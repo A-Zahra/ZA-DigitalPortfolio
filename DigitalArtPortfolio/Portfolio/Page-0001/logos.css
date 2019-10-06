@@ -261,6 +261,24 @@ strong {
 @media screen and (max-width: 1280px) {
   .Menu {
     font-size: 1.1em;
+    width: 100%;
+    background-color: rgb(255, 255, 255, 0.7);
+    margin: 0px;
+  }
+  .Menu a {
+    font-weight: bold;
+  }
+  .set, .set-2, .set-3, .set-4{
+    padding: 7%;
+  }
+  .Heading {
+    margin-top: 15%;
+  }
+  .text {
+    font-size: 1.5vw;
+  }
+  #difference {
+    margin-top: 1%;
   }
 }
 /* Cell phone version*/

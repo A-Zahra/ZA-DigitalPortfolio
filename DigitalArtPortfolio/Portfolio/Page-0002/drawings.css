@@ -187,7 +187,7 @@ ul li ul li :hover {
 .thankYou {
   text-align: left;
   font-family: "Nueva Std";
-  font-size: 2vw;
+  font-size: 2.5vw;
   margin-left: 10.5%;
   margin-top: 2%;
 }
@@ -198,10 +198,13 @@ ul li ul li :hover {
     max-width: 50%;
   }
   .Menu {
-    font-size: 1em;
-    margin-left: 10px;
-    margin-top: 5px;
-    position: fixed;
+    font-size: 1.1em;
+    width: 100%;
+    background-color: rgb(255, 255, 255, 0.7);
+    margin: 0px;
+  }
+  .Menu a {
+    font-weight: bold;
   }
   .welcome {
     margin-top: 15%;
@@ -214,16 +217,17 @@ ul li ul li :hover {
     width: 40%;
   }
   .innerColumn2 {
-    width: 60%;
+    width: 100%;
   }
   .innerColumn3 {
     width: 40%;
   }
   .innerColumn4 {
-    width: 60%;
+    width: 100%;
+    margin-top: 2%;
   }
   .special1 {
-    width: 90%;
+    width: 100%;
     margin-top: -6%;
     padding: 80px;
   }
@@ -241,6 +245,17 @@ ul li ul li :hover {
     margin-left: 3%;
     width: 92%;
     margin-top: -9%;
+  }
+  .text {
+    font-size: 2vw;
+  }
+  .thankYou {
+    margin-top: 0vw;
+    font-size: 3.5vw;
+  }
+  #special {
+    font-size: 1.5vw;
+    margin-top: 2vw;
   }
 }
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other - Cell phone version*/

@@ -30,7 +30,7 @@ body {
   padding: 16px;
   color: white;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 20px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
@@ -177,11 +177,11 @@ ul li ul li :hover {
 #discription {
   font-weight: normal;
   font-family: "Nueva Std";
-  font-size: 1.5vw;
+  font-size: 1.6vw;
   color: black;
   text-align: justify;
   line-height: 2.5vw;
-  padding-left: 3.5%;
+  /* padding-left: 3.5%; */
   padding-right: 3.5%;
   padding-top: 2.5%;
   padding-bottom: 2.5%;
@@ -222,7 +222,7 @@ ul li ul li :hover {
   opacity: 0;
   position: absolute;
   top: 50%;
-  left: 42.5%;
+  left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%)
 }
@@ -235,9 +235,9 @@ ul li ul li :hover {
 /* click button properties*/
 .text {
   background-color: #2CC8E8;
-  font-size: 1.2vw;
+  font-size: 1.7vw;
   border-radius: 5px 5px 5px 5px;
-  padding: 10px 15px;
+  padding: 18px 18px;
   font-weight: normal;
   font-family: "Century Gothic", sans-serif;
 }
@@ -258,17 +258,22 @@ ul li ul li :hover {
 .po_row {
   margin-left: 7%;
   position: absolute;
-  margin-top: -36.5vw;
+  margin-top: -45.5vw;
+  width: 90%;
 }
 .po_row::after {
  display: flex;
+}
+#po-title {
+  margin-top: 40px;
+  margin-left: 1%;
 }
 /* Contact me inner div general properties*/
 .c_row {
   margin-left: 9%;
   position: absolute;
   margin-top: -44vw;
-  width: 50%;
+  width: 82%;
 
 }
 /* Contact-me title properties*/
@@ -276,11 +281,12 @@ ul li ul li :hover {
   z-index: 3;
   width: 20vw;
   float: left;
+  margin-top: 15px;
 }
 /* Information section properties*/
 .C-column {
 
-  width: 45vw;
+  width: 100%;
   height: 30vw;
   flex: 70vw;
   float: left;
@@ -293,7 +299,7 @@ ul li ul li :hover {
 .items {
   font-weight: normal;
   font-family: "Nueva Std";
-  font-size: 1.3vw;
+  font-size: 2vw;
   color: black;
   text-align: justify;
   padding-top: -5%;
@@ -361,34 +367,55 @@ ul li ul li :hover {
   }
   .Titles {
     font-size: 2vw;
+    background-color: rgb(255, 255, 255, 0.8);
+    padding: 10px;
+    width: 100%;
+  }
+  #po-title {
+    margin-left: 10px;
+    width: 92%;
   }
   #discription {
     font-size: 1.5vw;
     padding-top: 3vw;
+    padding-left: 0px;
   }
   .welcome {
     margin-top: -30%;
   }
   .po_row {
-    margin-left: 5%;
+    margin-left: 7.2%;
     margin-top: -46%;
+    width: 90%;
   }
-  .po-column {
+  .middle {
+    top: 50%;
+    left: 50%;
+  }
+  .text {
+    font-size: 1.5vw;
+  }
+  /* .po-column {
     padding: 5px;
     width: 33%;
-  }
+  } */
   .c_row {
     margin-left: 8%;
     margin-top: -50%;
+    width: 83%;
   }
   .C-column {
     width: 100%;
   }
   .items {
-    font-size: 1.5vw;
+    font-size: 2.2vw;
+    padding-left: 2px;
+  }
+  .c-links {
+    font-size: 2vw;
   }
   .C-Info {
-    width: 70%;
+    width: 100%;
   }
   #Copyright {
     margin-top: -25px;
@@ -470,6 +497,11 @@ ul li ul li :hover {
     padding: 3px;
     background-color: rgb(255,255,255,0.7);
   }
+  #po-title {
+    width:92%;
+    margin-left: -5px;
+    margin-top: -15px;
+  }
   #discription {
     font-size: 1.5vw;
     padding-top: 2.5vw;
@@ -483,9 +515,11 @@ ul li ul li :hover {
   }
   .C-column {
     width: 100%;
+    margin-left: -2px;
   }
   .C-Info {
     width: 100%;
+    margin-left: -2px;
   }
   .items {
     font-size: 0.5em;

@@ -74,10 +74,10 @@ ul li ul li :hover {
 .text {
   font-weight: normal;
   font-family: "Nueva Std";
-  font-size: 1.3vw;
+  font-size: 1.7vw;
   color: black;
   text-align: justify;
-  line-height: 2vw;
+  line-height: 2.5vw;
   padding-right: 3%;
 
   padding-bottom: 1.5%;
@@ -206,8 +206,25 @@ iframe {
 }
 /* Tablet version*/
 @media screen and (max-width: 800px) {
-.Menu {
-  font-size: 1.1em;
+  .Menu {
+    font-size: 1.1em;
+    width: 100%;
+    background-color: rgb(255, 255, 255, 0.7);
+    margin: 0px;
+  }
+  .Menu a {
+    font-weight: bold;
+  }
+  .text {
+    font-size: 1.6vw;
+    line-height: 2.5vw;
+  }
+  #Copyright {
+    margin-top: 50vw;
+  }
+  #special {
+    margin-top: 44vw;
+    font-size: 1.3vw;
   }
 }
 /* Cell phone version*/
