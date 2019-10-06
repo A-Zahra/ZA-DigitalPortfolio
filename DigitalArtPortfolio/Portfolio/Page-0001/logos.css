@@ -312,19 +312,21 @@ strong {
   }
   .photographer {
     font-size: 4px;
-    margin-top: 35px;
+    margin-top: 7vw;
+    width: 100%;
   }
   .photographer2 {
     font-size: 4px;
-    margin-top: 35px;
-    width: 90%;
+    margin-top: 7vw;
+    width: 115%;
   }
   .photographer3 {
     font-size: 4px;
-    margin-top: 35px;
+    margin-top: 7vw;
+    width: 100%;
   }
   .photographer4 {
     font-size: 4px;
-    margin-top: 35px;
+    margin-top: 7vw;
   }
 }
