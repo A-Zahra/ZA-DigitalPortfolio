@@ -70,7 +70,7 @@ ul li ul li :hover {
 /* Title properties*/
 .Heading {
   padding-left: 3%;
-  margin-top: 12%;
+  margin-top: 10%;
   font-weight: bold;
   font-family: "Arial", sans-serif;
   font-size: 1.7vw;
@@ -250,5 +250,12 @@ strong {
   .Menu a {
     padding: 10px;
     font-weight: bold;
+  }
+  .text {
+    padding-bottom: 2px;
+  }
+  /* specifically setting top margin for second logo title*/
+  #difference {
+    margin-top: 0%;
   }
 }
