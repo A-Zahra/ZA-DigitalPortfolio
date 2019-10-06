@@ -479,6 +479,7 @@ ul li ul li :hover {
   .c_row {
     margin-left: 9%;
     margin-top: -50%;
+    width: 82%;
   }
   .C-column {
     width: 100%;
@@ -487,7 +488,7 @@ ul li ul li :hover {
     width: 100%;
   }
   .items {
-    font-size: 0.45em;
+    font-size: 0.5em;
     color: white;
   }
   .c-links {

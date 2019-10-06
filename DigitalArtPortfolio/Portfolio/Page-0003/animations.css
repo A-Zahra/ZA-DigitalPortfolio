@@ -225,6 +225,9 @@ iframe {
     padding: 10px;
     font-weight: bold;
   }
+  .prev, .next {
+    top: 55%;
+  }
   .videoRow {
     width: 80%;
   }
@@ -236,6 +239,9 @@ iframe {
     height: 40vw;
   }
 
+  .text {
+    font-size: 1.5vw;
+  }
   #special {
     font-size: 4px;
     margin-top: 58vw;
