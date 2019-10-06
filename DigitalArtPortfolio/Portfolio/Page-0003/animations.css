@@ -180,7 +180,7 @@ ul li ul li :hover {
   margin-left: 25px;
   font-weight: normal;
   font-family: "Century Gothic", sans-serif;
-  font-size: 0.8vw;
+  font-size: 1vw;
   text-align: left;
   z-index: 3;
 }
@@ -213,17 +213,39 @@ iframe {
 /* Cell phone version*/
 @media screen and (max-width: 600px) {
   .Menu {
-    margin-left: 10px;
-    margin-top: 5px;
     font-size: 0.5em;
+    position: relative;
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 100%;
+    opacity: 1;
+    background-color: white;
+  }
+  .Menu a {
+    padding: 10px;
+    font-weight: bold;
   }
   .videoRow {
     width: 80%;
   }
   .videoColumn {
-    width: 100%;
+    width: 50%;
+    height: 42vw;
   }
   iframe {
     height: 40vw;
   }
+
+  #special {
+    font-size: 4px;
+    margin-top: 58vw;
+  }
+  /* Copyright properties*/
+  #Copyright {
+    position: relative;
+    width: 100%;
+    margin-top: 64vw;
+    padding: 2px;
+  }
+
 }

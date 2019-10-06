@@ -70,7 +70,7 @@ ul li ul li :hover {
 /* Title properties*/
 .Heading {
   padding-left: 3%;
-  margin-top: 10%;
+  margin-top: 8%;
   font-weight: bold;
   font-family: "Arial", sans-serif;
   font-size: 1.7vw;
@@ -278,16 +278,16 @@ strong {
     padding: 10px;
     font-weight: bold;
   }
-  /* .paragh {
-    margin-top: -2%;
-  } */
+  .paragh {
+    margin-top: -1%;
+  }
   .text {
     padding-bottom: 5px;
     text-indent: 15px;
   }
   /* specifically setting top margin for second logo title*/
   #difference {
-    margin-top: -3%;
+    margin-top: -4%;
   }
   .photographer {
     font-size: 4px;
