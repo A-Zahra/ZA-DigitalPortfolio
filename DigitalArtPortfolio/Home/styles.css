@@ -385,7 +385,7 @@ ul li ul li :hover {
   }
   .po_row {
     margin-left: 7.2%;
-    margin-top: -46%;
+    margin-top: -53%;
     width: 90%;
   }
   .middle {
@@ -428,9 +428,6 @@ ul li ul li :hover {
     position: absolute;
     margin: 0;
   }
-  .po-column {
-    width: 30%;
-  }
   .images {
     height:55vw;
   }
@@ -472,20 +469,23 @@ ul li ul li :hover {
     margin-top: -30%;
   }
   .po_row {
-    margin-left: 9%;
-    margin-top: -40%;
+    margin-left: 5%;
+    margin-top: -43%;
   }
   .po-column {
-    padding: 10px;
+    padding: 20px;
+    width: 33%;
+    margin-top: -4%;
   }
   .middle {
-    top: 50%;
+    top: 100%;
     left: 50%;
+    opacity: 1;
   }
   .text {
-    font-size: 1.2vw;
+    font-size: 1.5vw;
     font-weight: bold;
-    padding: 10px 10px;
+    padding: 8px 8px;
   }
   .image {
     width: 100%;
@@ -498,8 +498,8 @@ ul li ul li :hover {
     background-color: rgb(255,255,255,0.7);
   }
   #po-title {
-    width:92%;
-    margin-left: -5px;
+    width:93%;
+    margin-left: 12px;
     margin-top: -15px;
   }
   #discription {
