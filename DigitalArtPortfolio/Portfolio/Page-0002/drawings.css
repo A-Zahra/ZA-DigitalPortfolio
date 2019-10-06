@@ -211,24 +211,27 @@ ul li ul li :hover {
   }
   .innerColumn {
     width: 50%;
-    padding: 50px;
+    padding: 70px;
   }
   .innerColumn1 {
     width: 40%;
+    margin-top: 2%;
   }
   .innerColumn2 {
     width: 100%;
+    margin-top: 4%;
   }
   .innerColumn3 {
     width: 40%;
+    margin-top: 2%;
   }
   .innerColumn4 {
     width: 100%;
-    margin-top: 2%;
+    margin-top: 4%;
   }
   .special1 {
     width: 100%;
-    margin-top: -6%;
+    margin-top: 1%;
     padding: 80px;
   }
   .innerRow {
