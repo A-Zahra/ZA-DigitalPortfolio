@@ -505,7 +505,7 @@ ul li ul li :hover {
   #discription {
     font-size: 1.5vw;
     padding-top: 2.5vw;
-    margin-left: -5px;
+    /* margin-left: -5px; */
     line-height: 2.8vw;
   }
   .c_row {
