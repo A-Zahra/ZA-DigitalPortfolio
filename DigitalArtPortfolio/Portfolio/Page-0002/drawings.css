@@ -138,6 +138,59 @@ ul li ul li :hover {
 .w3-model-content {
   margin: 0px;
 }
+/* .Menu {
+  position: fixed;
+} */
+.welcome {
+  margin-top: 15%;
+}
+/* Overlay - information properties*/
+.overlay {
+  position: absolute;
+  width: 100%;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+.text {
+  font-family: "Century Gothic", sans-serif;
+  color: white;
+  font-size: 1.3vw;
+  position: absolute;
+  text-align: left;
+}
+/* Copyright properties*/
+#Copyright {
+  width: 100%;
+  background-color: black;
+  font-weight: normal;
+  font-family: "Corbel";
+  font-size: 1vw;
+  color: white;
+  text-align: center;
+  z-index: 4;
+  margin-top: 8%;
+  padding-bottom: 6px;
+}
+/* The Photographer tag properties*/
+#special {
+  color: white;
+  position: absolute;
+  margin-top: 3%;
+  margin-left: 2%;
+  font-weight: normal;
+  font-family: "Century Gothic", sans-serif;
+  font-size: 1.2vw;
+  text-align: left;
+  z-index: 3;
+}
+/* Thank you clause properties*/
+.thankYou {
+  text-align: left;
+  font-family: "Nueva Std";
+  font-size: 2vw;
+  margin-left: 10.5%;
+  margin-top: 2%;
+}
 /* Responsive layout - makes a two column-layout instead of four columns - Tablet version*/
 @media screen and (max-width: 1280px) {
   .column {
@@ -197,7 +250,17 @@ ul li ul li :hover {
     max-width: 100%;
   }
   .Menu {
-    font-size: 0.7em;
+    font-size: 0.5em;
+    position: fixed;
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 100%;
+    opacity: 0.8;
+    background-color: white;
+  }
+  .Menu a {
+    padding: 10px;
+    font-weight: bold;
   }
   .innerColumn {
     width: 100%;
@@ -220,63 +283,28 @@ ul li ul li :hover {
     width: 90%;
     margin-top: -7%;
   }
+  /* Thank you clause properties*/
+  .thankYou {
+    text-align: left;
+    font-family: "Nueva Std";
+    font-size: 3vw;
+    margin-left: 10.5%;
+    margin-top: -3%;
+  }
+  /* The Photographer tag properties*/
+  #special {
+    margin-top: 3%;
+    margin-left: 2%;
+    font-size: 1.6vw;
+  }
+  #Copyright {
+    margin-top: 10%;
+    padding-bottom: 3px;
+  }
 }
 
 @media (max-width: 740px) {
   .w3-modal-content {
   margin: initial;
   }
-}
-.Menu {
-  position: fixed;
-}
-.welcome {
-  margin-top: 15%;
-}
-/* Overlay - information properties*/
-.overlay {
-  position: absolute;
-  width: 100%;
-  transition: .5s ease;
-  background-color: #008CBA;
-}
-.text {
-  font-family: "Century Gothic", sans-serif;
-  color: white;
-  font-size: 1.3vw;
-  position: absolute;
-  text-align: left;
-}
-/* Copyright properties*/
-#Copyright {
-  width: 100%;
-  background-color: black;
-  font-weight: normal;
-  font-family: "Corbel";
-  font-size: 1vw;
-  color: white;
-  text-align: center;
-  z-index: 4;
-  margin-top: 8%;
-  padding-bottom: 6px;
-}
-/* The Photographer tag properties*/
-#special {
-  color: white;
-  position: absolute;
-  margin-top: 4%;
-  margin-left: 2%;
-  font-weight: normal;
-  font-family: "Century Gothic", sans-serif;
-  font-size: 0.8vw;
-  text-align: left;
-  z-index: 3;
-}
-/* Thank you clause properties*/
-.thankYou {
-  text-align: left;
-  font-family: "Nueva Std";
-  font-size: 1.5vw;
-  margin-left: 10.5%;
-  margin-top: 2%;
 }
