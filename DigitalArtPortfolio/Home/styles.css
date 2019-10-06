@@ -440,7 +440,7 @@ ul li ul li :hover {
   .col2 {
     width: 38%;
     margin-left: -12px;
-    margin-top: 3%;
+    margin-top: 4%;
   }
   .welcome {
     margin-top: -30%;
@@ -458,7 +458,8 @@ ul li ul li :hover {
   }
   .text {
     font-size: 1vw;
-    padding: 7px 7px;
+    font-weight: bold;
+    padding: 10px 10px;
   }
   .image {
     width: 100%;
@@ -472,9 +473,9 @@ ul li ul li :hover {
   }
   #discription {
     font-size: 1.5vw;
-    padding-top: 3vw;
+    padding-top: 2.5vw;
     margin-left: -5px;
-    line-height: 3vw;
+    line-height: 2.8vw;
   }
   .c_row {
     margin-left: 9%;
