@@ -245,6 +245,12 @@ ul li ul li :hover {
 }
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other - Cell phone version*/
 @media screen and (max-width: 740px) {
+  #Wtext {
+    font-family: "Lucida handwriting",sans-serif;
+    color: black;
+    font-size: 3.2vw;
+    text-align: center;
+  }
   .column {
     flex: 100%;
     max-width: 100%;
