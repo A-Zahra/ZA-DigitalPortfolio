@@ -87,8 +87,9 @@ ul li ul li :hover {
   line-height: 2vw;
   padding-left: 3%;
   padding-right: 3%;
-  padding-top: 1%;
-  padding-bottom: 2.5%;
+  /* padding-top: 1%; */
+  padding-bottom: 2%;
+  text-indent: 50px;
 }
 strong {
   font-style: italic;
@@ -144,11 +145,11 @@ strong {
 }
 /* specifically setting top margin for second logo title*/
 #difference {
-  margin-top: 2%;
+  margin-top: -2%;
 }
 /* Increasing the space between the paragraph and title*/
 .paragh {
-  padding-top: -5px;
+  margin-top: 2%;
 }
 #I-diff {
   margin-left: -5%;
@@ -216,6 +217,32 @@ strong {
   font-size: 0.7vw;
   width: 70%;
 }
+.photographer2 {
+  font-family: "Century Gothic", sans-serif;
+  color: black;
+  margin-left: -45%;
+  margin-top: 50%;
+  background-color: rgba(112,93,55, 1);
+  width: 80%;
+  font-size: 0.7vw;
+  padding:3%;
+}
+.photographer3 {
+  color: black;
+  margin-top: 52%;
+  margin-left: -42%;
+  width: 80%;
+  font-family: "Century Gothic", sans-serif;
+  font-size: 0.7vw;
+}
+.photographer4 {
+  color: black;
+  margin-top: 52%;
+  margin-left: -42%;
+  width: 80%;
+  font-family: "Century Gothic", sans-serif;
+  font-size: 0.7vw;
+}
 /* The Copyright properties*/
 #Copyright {
   width: 100%;
@@ -253,9 +280,27 @@ strong {
   }
   .text {
     padding-bottom: 5px;
+    text-indent: 20px;
   }
   /* specifically setting top margin for second logo title*/
   #difference {
-    margin-top: -2%;
+    margin-top: -3%;
+  }
+  .photographer {
+    font-size: 4px;
+    margin-top: 35px;
+  }
+  .photographer2 {
+    font-size: 4px;
+    margin-top: 35px;
+    width: 90%;
+  }
+  .photographer3 {
+    font-size: 4px;
+    margin-top: 35px;
+  }
+  .photographer4 {
+    font-size: 4px;
+    margin-top: 35px;
   }
 }
