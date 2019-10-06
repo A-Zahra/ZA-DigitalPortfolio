@@ -167,7 +167,6 @@ ul li ul li :hover {
 }
 /* About-me title*/
 .Titles {
-  padding-left: 3%;
   margin-top: -1%;
   font-weight: normal;
   font-family: "Lucida handwriting", sans-serif;
@@ -266,7 +265,7 @@ ul li ul li :hover {
 }
 /* Contact me inner div general properties*/
 .c_row {
-  margin-left: 12%;
+  margin-left: 9%;
   position: absolute;
   margin-top: -44vw;
   width: 50%;
@@ -277,7 +276,6 @@ ul li ul li :hover {
   z-index: 3;
   width: 20vw;
   float: left;
-  padding: 2vw;
 }
 /* Information section properties*/
 .C-column {
@@ -287,9 +285,9 @@ ul li ul li :hover {
   flex: 70vw;
   float: left;
   padding-left: 1vw;
-  background-color: rgba(255,215,135,0.3);
-  margin-top: -5%;
-  margin-left: 5.5%;
+  background-color: rgba(255,215,135,0.4);
+  /* margin-top: -5%; */
+  /* margin-left: 5.5%; */
 }
 /* Each address properties*/
 .items {
@@ -380,7 +378,7 @@ ul li ul li :hover {
     width: 33%;
   }
   .c_row {
-    margin-left: 10%;
+    margin-left: 8%;
     margin-top: -50%;
   }
   .C-column {
@@ -415,11 +413,13 @@ ul li ul li :hover {
     margin-left: 0px;
     margin-top: 0px;
     width: 100%;
-    opacity: 0.7;
+    opacity: 0.8;
+
     background-color: white;
   }
   .Menu a {
     padding: 10px;
+    font-weight: bold;
   }
   .mySlides {
     display: block;
@@ -438,38 +438,60 @@ ul li ul li :hover {
     width: 60%;
   }
   .col2 {
-    width: 40%;
+    width: 38%;
     margin-left: -12px;
+    margin-top: 3%;
   }
   .welcome {
     margin-top: -30%;
   }
   .po_row {
-    margin-left: 12%;
+    margin-left: 9%;
     margin-top: -40%;
   }
   .po-column {
-    padding: 5px;
+    padding: 10px;
+  }
+  .image {
+    width: 100%;
   }
   .Titles {
-    font-size: 1.5vw;
+    font-weight: bold;
+    font-size: 2vw;
+    font-family: "Century Gothic", sans-serif;
+    padding: 3px;
+    background-color: rgb(255,255,255,0.7);
   }
   #discription {
-    font-size: 1.5vw;
+    font-size: 1.6vw;
     padding-top: 3vw;
+    margin-left: -5px;
+    line-height: 3vw;
   }
   .c_row {
-    margin-left: 10%;
+    margin-left: 9%;
     margin-top: -50%;
   }
   .C-column {
     width: 100%;
   }
+  .C-Info {
+    width: 100%;
+  }
   .items {
-    font-size: 0.3em;
+    font-size: 0.45em;
+    color: white;
+  }
+  .c-links {
+    color: white;
+  }
+  #photographer {
+    font-size: 5px;
+    margin-top: -20px;
   }
   #Copyright {
     margin-top: -25px;
     display: block;
+
   }
 }
