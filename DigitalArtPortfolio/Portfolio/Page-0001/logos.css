@@ -278,6 +278,9 @@ strong {
     padding: 10px;
     font-weight: bold;
   }
+  .paragh {
+    margin-top: -2%;
+  }
   .text {
     padding-bottom: 5px;
     text-indent: 15px;
