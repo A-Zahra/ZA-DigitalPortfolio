@@ -250,13 +250,13 @@ ul li ul li :hover {
   z-index: 3;
   flex: 30%;
   float: left;
-  width: 32%;
-  padding: 15px;
+  width: 31%;
+  padding: 35px;
   position: relative;
 }
 /* My portfolio inner div general properties*/
 .po_row {
-  margin-left: 7%;
+  margin-left: 8%;
   position: absolute;
   margin-top: -45.5vw;
   width: 90%;
