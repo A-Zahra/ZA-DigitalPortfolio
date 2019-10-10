@@ -1,188 +1,201 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Zahra's Website</title>
-        <link rel="stylesheet" type="text/css" href="styles.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script type="text/javascript" src="script.js"></script>
-        <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    </head>
-    <body>
-        <!-- Slideshow container -->
-        <div class="slideshow-container">
 
-          <!-- Menu-->
-          <div class="Menu">
-            <ul>
-            <!-- If screen smaller than 1530 do the navigation using slide number-->
-            <!-- If screen size is over 1530, refers to the location the slide is stored, once the user navigates-->
-            <!-- Home-->
-            <li><a href="javascript:
+<head>
+  <meta charset="utf-8">
+  <title>Zahra's Website</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="text/javascript" src="script.js"></script>
+  <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+
+<body>
+  <!-- Slideshow container -->
+  <div class="slideshow-container">
+
+    <!-- Menu-->
+    <div class="Menu">
+      <ul>
+        <!-- If screen smaller than 1530 do the navigation using slide number-->
+        <!-- If screen size is over 1530, refers to the location the slide is stored, once the user navigates-->
+        <!-- Home-->
+        <li><a href="javascript:
               if(screen.width>1530){
                 currentSlide(1);
               }
               else{
-                  self.location.href = '#home';
-                  location.reload(true);
+                self.location.href = '#home';
+                location.reload(true);
               }
-              ">HOME</a></li>
+            ">HOME</a></li>
 
-              <!-- About-me-->
-              <li><a href="javascript:
-                if(screen.width>1530){
+        <!-- About-me-->
+        <li><a href="javascript:
+              if(screen.width>1530){
                   currentSlide(2);
                 }
-                else{
-                    self.location.href = '#about-me';
-                    location.reload(true);
-                  }
-                ">ABOUT ME</a></li>
+              else{
+                self.location.href = '#about-me';
+                location.reload(true);
+              }
+            ">ABOUT ME</a></li>
 
-              <!-- Portfolio-->
-              <li>
-                <a href="javascript:
+        <!-- Portfolio-->
+        <li>
+          <a href="javascript:
                 if(screen.width>1530){
                     currentSlide(3);
+                }
+                else{
+                  self.location.href = '#portfolio';
+                  location.reload(true);
                   }
-                  else{
-                      self.location.href = '#portfolio';
-                      location.reload(true);
-                    }
-                ">MY PORTFOLIO</a>
-                <ul>
-                  <!-- Portfolio Options-->
-                  <li><a class="options" href="../Portfolio/Page-0001/logos.html">Logo Design</a></li>
-                  <li><a class="options" href="../Portfolio/Page-0002/drawings.html">Drawing's Gallery</a></li>
-                  <li><a class="options" href="../Portfolio/Page-0003/animations.html">Animation Project</a></li>
-                </ul>
-              </li>
+            ">MY PORTFOLIO</a>
+          <ul>
+            <!-- Portfolio options-->
+            <li><a class="options" href="../Portfolio/Page-0001/logos.html">Logo Design</a></li>
+            <li><a class="options" href="../Portfolio/Page-0002/drawings.html">Drawing's Gallery</a></li>
+            <li><a class="options" href="../Portfolio/Page-0003/animations.html">Animation Project</a></li>
+          </ul>
+        </li>
 
-              <!-- Contact-me-->
-              <li><a href="javascript:
+        <!-- Contact-me-->
+        <li><a href="javascript:
                 if(screen.width>1530){
                   currentSlide(4);
                 }
                 else{
-                    self.location.href = '#portfolio';
-                    location.reload(true);
-                  }">CONTACT ME</a><li>
-            </ul>
-          </div>
+                  self.location.href = '#portfolio';
+                  location.reload(true);
+                }">CONTACT ME</a>
+        <li>
+      </ul>
+    </div>
 
-          <!-- Home screen-->
-          <div class="mySlides fade" id = "home" style=" display:block;">
-            <!-- Background image-->
-            <img class="images img1" src="../Home/images/Background/butterfly.jpg" style="width:100%">
-            <!-- Welcome sentence-->
-            <h2 class="welcome">Welcome to my Website!!!</h2>
-            <!-- Photographer name and website address-->
-            <div id="photographer">Photographer: Josephine Amalie Paysen<br><a href="https://unsplash.com/@josephineamaliepaysen" target="_blank" style="color: white; text-decoration: none;">https://unsplash.com/@josephineamaliepaysen</a></div>
-          </div>
+    <!-- Home screen-->
+    <div class="mySlides fade" id="home" style=" display:block;">
+      <!-- Background image-->
+      <img class="images img1" src="../Home/images/Background/butterfly.jpg" style="width:100%">
+      <!-- Welcome sentence-->
+      <h2 class="welcome">Welcome to my Website!!!</h2>
+      <!-- Photographer name and website address-->
+      <div id="photographer">Photographer: Josephine Amalie Paysen<br><a href="https://unsplash.com/@josephineamaliepaysen" target="_blank" style="color: white; text-decoration: none;">https://unsplash.com/@josephineamaliepaysen</a></div>
+    </div>
 
-          <!--About-me screen-->
-          <div class="mySlides fade" id="about-me">
-            <!-- Background image-->
-            <img  class="images" src="../Home/images/Background/blossom.jpg" >
-            <!-- Define one main div which includes two divs located side by side-->
-            <!-- The first column includes a short description about me and the second one comprises my picture-->
-            <div class="row">
-              <div class="column col1">
-                <!-- Title of about-me slide-->
-                <h3 class="Titles" style="width:98%;">About me</h3>
-                  <div  id="description"  style="width:100%;"><p style="margin: 0px;">My name is Zahra Ahmadi and I study Computation Arts at Concordia University. I am a third-year student and so far, I have gained several skills like Photoshop,
-                  Illustrator, Adobe premiere pro and Blender at the university. I have chosen this program to study, as it will reinforce more than one skill in me and give me the chance to experience a variety of jobs in
-                  my favorite fields in the future. Among all the different fields I can choose to work, animation is the one that I like the most and from now I am planning for.</p>
-                  <p style="margin: 0px;">I have designed this website for two purposes. First, it would showcase my portfolio in a professional manner. Second, it would be accessible to people who like to know more about my skills, abilities and achievements.<br>Hope you enjoy watching my work!!</p></div>
-              </div>
-              <div class="column col2">
-                <img id="Zahra-pic" src="https://scontent.fymq2-1.fna.fbcdn.net/v/t31.0-8/17191862_103480336850666_4105477637696985963_o.jpg?_nc_cat=102&_nc_oc=AQmOAx3Yo8S1nq2Ne8Qwi_kd8DHMpP_RqRs7l7GjZ0qDOs3Ti8V1APGvQdRQEf3mjJ4&_nc_ht=scontent.fymq2-1.fna&oh=b5281eb21de2bfab82b17f74a55e50f3&oe=5DEE3C31" alt="My photo" style="width:100%;  border-radius: 250px;">
-              </div>
-            </div>
-              <!-- Photographer name and website address-->
-              <div id="photographer">Photographer: Anthony DELANOIX<br><a href="https://unsplash.com/@anthonydelanoix" target="_blank" style="color: white; text-decoration: none;">https://unsplash.com/@anthonydelanoix</a></div>
-          </div>
-
-          <!-- Portfolio screen-->
-          <div class="mySlides fade" id="portfolio" >
-          <!-- Background image-->
-            <img class="images" src="../Home/images/Background/painting.jpg" style="width:100%">
-            <div class="po_row">
-              <!-- Title of portfolio slide-->
-              <h3 class="Titles" id="po-title">My Portfolio</h3>
-
-                <!--Logo section-->
-                <div class="po-column " id="Logo-design">
-                  <!-- Logo image-->
-                  <img  class="image" src="https://scontent.fymq2-1.fna.fbcdn.net/v/t1.0-9/67099738_568322853699743_754452524991250432_o.jpg?_nc_cat=101&_nc_oc=AQkxKqdqrIqTuKQ8R1iW6iqPH3VhNWRyQFZ7BdDPxCrek6FrRmLHtq-fmt90RNIdOu0&_nc_ht=scontent.fymq2-1.fna&oh=729197aa19db18cf1fe344c777d380f2&oe=5DE0A177" alt="My Logos" style="width:100%;">
-                  <!-- Click button-->
-                  <div class="middle">
-                    <h4 class="text"><a class="click" href="../Portfolio/Page-0001/logos.html"> Click on me!</a></h4>
-                  </div>
-                </div>
-
-                <!--Drawing section-->
-                <div class="po-column" id="Drawing-gallery">
-                  <!-- Drawing image-->
-                  <img class="image" src="https://scontent.fymq2-1.fna.fbcdn.net/v/t1.0-9/67315462_568324963699532_7202689142126280704_n.jpg?_nc_cat=110&_nc_oc=AQm7Lam05Cu8UnXJr8BUlfM4bAlljVhqzX6PxmvFdbn1uexQQe3xFtZI4R9Yka9fVk8&_nc_ht=scontent.fymq2-1.fna&oh=e6563bc1aaa9a117d1b6a6c4dfde0e81&oe=5DA25B79" alt="My Drawings" style="width: 100%;">
-                  <!-- Click button-->
-                  <div class="middle">
-                      <h4 class="text"><a class="click" href="../Portfolio/Page-0002/drawings.html"> Click on me!</a></h4>
-                  </div>
-                </div>
-
-                <!--Animation section-->
-                <div class="po-column" id="Animation">
-                  <!-- Animation gif-->
-                  <img class="image" src= "https://github.com/A-Zahra/Cart-351/blob/master/My-website/GIf-%D9%8EAnimation.gif?raw=true" alt="Animation gif" style="width:100%;">
-                  <!-- Click button-->
-                  <div class="middle">
-                    <h4 class="text"><a class="click" href="../Portfolio/Page-0003/animations.html"> Click on me!</a></h4>
-                  </div>
-                </div>
-            </div>
-              <!-- Photographer name and website address-->
-              <div id="photographer" style="color: black;">Photographer: Alice Achterhof<br><a href="https://unsplash.com/@alicegrace" target="_blank" style="color: black; text-decoration: none;">https://unsplash.com/@alicegrace</a></div>
-          </div>
-
-          <!-- Contact-me screen-->
-          <div class="mySlides fade" id="Contact-me">
-            <!-- Background image-->
-            <img  class="images" src="../Home/images/Background/letter.jpg" style="opacity:0.95;" >
-            <div class="c_row">
-              <div class="C-Info">
-                <!-- Title of contact-me slide-->
-                <h3 class="Titles">Contact me</h3>
-              </div>
-              <!-- Links to my social media-->
-              <div class="C-column">
-                <h5 class="items">You can contact me by:</h5>
-                <p class="items">EMAIL: <a class="c-links" href="#" target="_blank"> z.a.ahmadi18@gmail.com</a></p>
-                <p class="items">LINKEDIN: <a class="c-links" href="https://www.linkedin.com/in/zahra-1997" target="_blank">www.linkedin.com/in/zahra-1997</a></p>
-                <p class="items">FACEBOOK: <a class="c-links" href="https://www.facebook.com/zahra.ahmadi21?ref=bookmarks" target="_blank">https://www.facebook.com/zahra.ahmadi21?ref=bookmarks</a></p>
-              </div>
-            </div>
-                <!-- Photographer name and website address-->
-                <div id="photographer"> Photographer: Joanna Kosinska<br><a href="https://unsplash.com/@joannakosinska" target="_blank" style="color: white; text-decoration: none;">https://unsplash.com/@joannakosinska</a></div>
-          </div>
-
-          <!-- Next and previous buttons -->
-          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-          <a class="next" onclick="plusSlides(1)">&#10095;</a>
-          <br>
-          <!-- The dots/circles -->
-          <div class="Dots" style="text-align:center">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
-            <span class="dot" onclick="currentSlide(4)"></span>
-          </div>
-
-          <!-- The Copyright-->
-          <div id="Copyright">
-            <p style="padding-bottom: 6px; padding-top: 5px; height: 1vw;">Zahra's portfolio website &copy; 2019 ZahraAhmadi.com</p>
+    <!--About-me screen-->
+    <div class="mySlides fade" id="about-me">
+      <!-- Background image-->
+      <img class="images" src="../Home/images/Background/blossom.jpg">
+      <!-- Define one main div which includes two divs located side by side-->
+      <!-- The first column includes a short description about me and the second one comprises my picture-->
+      <div class="row">
+        <div class="column col1">
+          <!-- Title of about-me slide-->
+          <h3 class="Titles" style="width:98%;">About me</h3>
+          <div id="description" style="width:100%;">
+            <p style="margin: 0px;">My name is Zahra Ahmadi and I study Computation Arts at Concordia University. I am a third-year student and so far, I have gained several skills like Photoshop,
+              Illustrator, Adobe premiere pro and Blender at the university. I have chosen this program to study, as it will reinforce more than one skill in me and give me the chance to experience a variety of jobs in
+              my favorite fields in the future. Among all the different fields I can choose to work, animation is the one that I like the most and from now I am planning for.</p>
+            <p style="margin: 0px;">I have designed this website for two purposes. First, it would showcase my portfolio in a professional manner. Second, it would be accessible to people who like to know more about my skills, abilities and
+              achievements.<br>Hope you enjoy watching my work!!</p>
           </div>
         </div>
-    </body>
+        <div class="column col2">
+          <img id="Zahra-pic"
+            src="https://scontent.fymq2-1.fna.fbcdn.net/v/t31.0-8/17191862_103480336850666_4105477637696985963_o.jpg?_nc_cat=102&_nc_oc=AQmOAx3Yo8S1nq2Ne8Qwi_kd8DHMpP_RqRs7l7GjZ0qDOs3Ti8V1APGvQdRQEf3mjJ4&_nc_ht=scontent.fymq2-1.fna&oh=b5281eb21de2bfab82b17f74a55e50f3&oe=5DEE3C31"
+            alt="My photo" style="width:100%;  border-radius: 250px;">
+        </div>
+      </div>
+      <!-- Photographer name and website address-->
+      <div id="photographer">Photographer: Anthony DELANOIX<br><a href="https://unsplash.com/@anthonydelanoix" target="_blank" style="color: white; text-decoration: none;">https://unsplash.com/@anthonydelanoix</a></div>
+    </div>
+
+    <!-- Portfolio screen-->
+    <div class="mySlides fade" id="portfolio">
+      <!-- Background image-->
+      <img class="images" src="../Home/images/Background/painting.jpg" style="width:100%">
+      <div class="po_row">
+        <!-- Title of portfolio slide-->
+        <h3 class="Titles" id="po-title">My Portfolio</h3>
+
+        <!--Logo section-->
+        <div class="po-column " id="Logo-design">
+          <!-- Logo image-->
+          <img class="image"
+            src="https://scontent.fymq2-1.fna.fbcdn.net/v/t1.0-9/67099738_568322853699743_754452524991250432_o.jpg?_nc_cat=101&_nc_oc=AQkxKqdqrIqTuKQ8R1iW6iqPH3VhNWRyQFZ7BdDPxCrek6FrRmLHtq-fmt90RNIdOu0&_nc_ht=scontent.fymq2-1.fna&oh=729197aa19db18cf1fe344c777d380f2&oe=5DE0A177"
+            alt="My Logos" style="width:100%;">
+          <!-- Click button-->
+          <div class="middle">
+            <h4 class="text"><a class="click" href="../Portfolio/Page-0001/logos.html"> Click on me!</a></h4>
+          </div>
+        </div>
+
+        <!--Drawing section-->
+        <div class="po-column" id="Drawing-gallery">
+          <!-- Drawing image-->
+          <img class="image"
+            src="https://scontent.fymq2-1.fna.fbcdn.net/v/t1.0-9/67315462_568324963699532_7202689142126280704_n.jpg?_nc_cat=110&_nc_oc=AQm7Lam05Cu8UnXJr8BUlfM4bAlljVhqzX6PxmvFdbn1uexQQe3xFtZI4R9Yka9fVk8&_nc_ht=scontent.fymq2-1.fna&oh=e6563bc1aaa9a117d1b6a6c4dfde0e81&oe=5DA25B79"
+            alt="My Drawings" style="width: 100%;">
+          <!-- Click button-->
+          <div class="middle">
+            <h4 class="text"><a class="click" href="../Portfolio/Page-0002/drawings.html"> Click on me!</a></h4>
+          </div>
+        </div>
+
+        <!--Animation section-->
+        <div class="po-column" id="Animation">
+          <!-- Animation gif-->
+          <img class="image" src="https://github.com/A-Zahra/Cart-351/blob/master/My-website/GIf-%D9%8EAnimation.gif?raw=true" alt="Animation gif" style="width:100%;">
+          <!-- Click button-->
+          <div class="middle">
+            <h4 class="text"><a class="click" href="../Portfolio/Page-0003/animations.html"> Click on me!</a></h4>
+          </div>
+        </div>
+      </div>
+      <!-- Photographer name and website address-->
+      <div id="photographer" style="color: black;">Photographer: Alice Achterhof<br><a href="https://unsplash.com/@alicegrace" target="_blank" style="color: black; text-decoration: none;">https://unsplash.com/@alicegrace</a></div>
+    </div>
+
+    <!-- Contact-me screen-->
+    <div class="mySlides fade" id="Contact-me">
+      <!-- Background image-->
+      <img class="images" src="../Home/images/Background/letter.jpg" style="opacity:0.95;">
+      <div class="c_row">
+        <div class="C-Info">
+          <!-- Title of contact-me slide-->
+          <h3 class="Titles">Contact me</h3>
+        </div>
+        <!-- Links to my social media-->
+        <div class="C-column">
+          <h5 class="items">You can contact me by:</h5>
+          <p class="items">EMAIL: <a class="c-links" href="#" target="_blank"> z.a.ahmadi18@gmail.com</a></p>
+          <p class="items">LINKEDIN: <a class="c-links" href="https://www.linkedin.com/in/zahra-1997" target="_blank">www.linkedin.com/in/zahra-1997</a></p>
+          <p class="items">FACEBOOK: <a class="c-links" href="https://www.facebook.com/zahra.ahmadi21?ref=bookmarks" target="_blank">https://www.facebook.com/zahra.ahmadi21?ref=bookmarks</a></p>
+        </div>
+      </div>
+      <!-- Photographer name and website address-->
+      <div id="photographer"> Photographer: Joanna Kosinska<br><a href="https://unsplash.com/@joannakosinska" target="_blank" style="color: white; text-decoration: none;">https://unsplash.com/@joannakosinska</a></div>
+    </div>
+
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    <br>
+    <!-- The dots/circles -->
+    <div class="Dots" style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+
+    <!-- The Copyright-->
+    <div id="Copyright">
+      <p style="padding-bottom: 6px; padding-top: 5px; height: 1vw;">Zahra's portfolio website &copy; 2019 ZahraAhmadi.com</p>
+    </div>
+  </div>
+</body>
+
 </html>
