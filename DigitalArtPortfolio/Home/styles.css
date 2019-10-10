@@ -92,7 +92,7 @@ body {
 .Menu{
   position:  absolute;
   font-family: "Century Gothic", sans-serif;
-  font-size: 1.2em;
+  font-size: 1.6em;
   color: black;
   z-index: 4;
   margin-left: 20px;
@@ -102,7 +102,7 @@ body {
 .Menu a {
   text-decoration: none;
   color: black;
-  padding: 15px;
+  padding: 20px;
   display:inline-block;
 }
 /* Menu list initial values*/

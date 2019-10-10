@@ -8,25 +8,31 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+/* Main div*/
 #screen {
   position: relative;
   top: 0;
 }
+
+/* Navigation bar*/
 /* Menu properties*/
 .Menu{
   font-family: "Century Gothic", sans-serif;
-  font-size: 1.2em;
+  font-size: 1.6em;
   color: black;
   z-index: 1;
   margin-left: 20px;
   margin-top: 10px;
 }
+/* Menu links*/
 .Menu a {
   text-decoration: none;
   color: black;
-  padding: 15px;
+  padding: 20px;
   display:inline-block;
 }
+/* Menu list general properties*/
 ul {
   display: inline;
   margin: 0;
@@ -35,15 +41,17 @@ ul {
 ul li {
   display: inline-block;
 }
+/* On hover: Change background color*/
 ul :hover {
   background: rgba(128,128,128, 0.3);
 }
+/* On hover display menu options*/
 ul li:hover ul {
   display: block;
 }
 ul li ul {
   position: absolute;
-  width: 18em;
+  width: 20em;
   display: none;
 }
 ul li ul li {
@@ -53,12 +61,14 @@ ul li ul li {
 ul li ul li a {
   display:block !important;
 }
+/* On hover: show this background color for menu options*/
 ul li ul li :hover {
   background: #555;
   color: white;
 }
-/* Discription properties*/
-.disc {
+
+/* Description div properties*/
+.desc {
   z-index: 2;
   width: 80%;
   margin-left: 10%;
@@ -71,6 +81,7 @@ ul li ul li :hover {
   font-size: 2vw;
   color: black;
 }
+/* Description text*/
 .text {
   font-weight: normal;
   font-family: "Nueva Std";
@@ -79,7 +90,6 @@ ul li ul li :hover {
   text-align: justify;
   line-height: 2.5vw;
   padding-right: 3%;
-
   padding-bottom: 1.5%;
 }
 /* Position of the image container (needed to position the left and right arrows) */
@@ -158,6 +168,37 @@ ul li ul li :hover {
 .demo:hover {
   opacity: 1;
 }
+/* video's general properties*/
+.videoRow {
+  position: absolute;
+  z-index: 2;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 3%;
+}
+/* To put videos side by side*/
+.videoColumn {
+  flex: 50%;
+  width: 50%;
+  float: left;
+  border: 5px solid black;
+  border-radius: 10px;
+}
+iframe {
+  height: 22vw;
+}
+/* Photographer tag properties*/
+#photographer {
+  color: white;
+  position: absolute;
+  margin-top: 40vw;
+  margin-left: 25px;
+  font-weight: normal;
+  font-family: "Century Gothic", sans-serif;
+  font-size: 1vw;
+  text-align: left;
+  z-index: 3;
+}
 /* Copyright properties*/
 #Copyright {
   position: relative;
@@ -172,40 +213,10 @@ ul li ul li :hover {
   margin-top: 44vw;
   padding: 2px;
 }
-/* Photographer tag properties*/
-#special {
-  color: white;
-  position: absolute;
-  margin-top: 40vw;
-  margin-left: 25px;
-  font-weight: normal;
-  font-family: "Century Gothic", sans-serif;
-  font-size: 1vw;
-  text-align: left;
-  z-index: 3;
-}
-/* video's general properties*/
-.videoRow {
-  position: absolute;
-  z-index: 2;
-  width: 80%;
-  margin-left: 10%;
-  margin-top: 3%;
 
-}
-/* To put videos side by side*/
-.videoColumn {
-  flex: 50%;
-  width: 50%;
-  float: left;
-  border: 5px solid black;
-  border-radius: 10px;
-}
-iframe {
-  height: 22vw;
-}
 /* Tablet version*/
 @media screen and (max-width: 800px) {
+  /* Navigation bar*/
   .Menu {
     font-size: 1.1em;
     width: 100%;
@@ -215,27 +226,32 @@ iframe {
   .Menu a {
     font-weight: bold;
   }
+  /* Description text*/
   .text {
     font-size: 1.6vw;
     line-height: 2.5vw;
   }
-  #Copyright {
-    margin-top: 50vw;
-  }
-  #special {
+  /* Photographer name and website address properties*/
+  #photographer {
     margin-top: 44vw;
     font-size: 1.3vw;
   }
+  /* Copyright*/
+  #Copyright {
+    margin-top: 50vw;
+  }
 }
+
 /* Cell phone version*/
 @media screen and (max-width: 600px) {
+  /* Navigation bar*/
   .Menu {
     font-size: 0.5em;
     position: relative;
     margin-left: 0px;
     margin-top: 0px;
     width: 100%;
-    opacity: 1;
+    opacity: 0.8;
     background-color: white;
   }
   .Menu a {
@@ -247,6 +263,7 @@ iframe {
     padding: 7px;
     font-size: 15px;
   }
+  /* Videos properties*/
   .videoRow {
     width: 80%;
   }
@@ -257,20 +274,20 @@ iframe {
   iframe {
     height: 40vw;
   }
-
+  /* Description text*/
   .text {
     font-size: 1.5vw;
   }
-  #special {
+  /* Photographer name and website address properties*/
+  #photographer {
     font-size: 4px;
     margin-top: 58vw;
   }
-  /* Copyright properties*/
+  /* Copyright*/
   #Copyright {
     position: relative;
     width: 100%;
     margin-top: 64vw;
     padding: 2px;
   }
-
 }

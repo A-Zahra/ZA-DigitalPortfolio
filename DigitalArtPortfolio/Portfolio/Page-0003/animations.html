@@ -11,7 +11,13 @@
         <!-- Menu-->
         <div class="Menu">
           <ul>
+            <!-- Home-->
             <li><a href="../../Home/index.html">HOME</a><li>
+              <!-- If screen size is less than 1399px, uses slides id for navigation between different slides and pages-->
+              <!-- If screen size is more than 1399px, consider the current page as previous page
+                    and finds the slide (the user wants to go there) from local storage, and puts it as next page.-->
+
+                <!-- About-me-->
               <li><a href="javascript:
                 if(screen.width<1399){
                   location.href = '../../Home/index.html#about-me';
@@ -22,8 +28,9 @@
                     localStorage.setItem('next','aboutPage');
                       location.href = '../../Home/index.html';
                     }
-                  ">ABOUT ME</a></li>
-                <!-- <a href="#about-me">ABOUT ME</a></li> -->
+                  ">ABOUT</a></li>
+
+                <!-- Portfolio-->
               <li><a href="javascript:
                 if(screen.width<1399){
                   location.href = '../../Home/index.html#portfolio';
@@ -34,13 +41,15 @@
                     localStorage.setItem('next','portfolioPage');
                       location.href = '../../Home/index.html';
                     }
-                  ">MY PORTFOLIO</a><!-- <a href="#">MY PORTFOLIO</a> -->
+                  ">PORTFOLIO</a>
+                  <!-- Portfolio options-->
                 <ul>
                   <li><a class="options" href="../Page-0001/logos.html">Logo Design</a></li>
                   <li><a class="options" href="../Page-0002/drawings.html">Drawing's Gallery</a></li>
                   <li><a class="options" href="../Page-0003/animations.html">Animation Project</a></li>
                 </ul>
               </li>
+              <!-- Contact-me-->
               <li><a href="javascript:
                 if(screen.width<1399){
                   location.href = '../../Home/index.html#Contact-me';
@@ -50,14 +59,13 @@
                     localStorage.setItem('previous','animationsPage');
                     localStorage.setItem('next','contactPage');
                       location.href = '../../Home/index.html';
-                    }">CONTACT ME</a>
-                <!-- <a href="#Contact-me">CONTACT ME</a> -->
+                    }">CONTACT</a>
               <li>
           </ul>
         </div>
 
-        <!-- A short discription of animation-->
-        <div class="disc">
+        <!-- A short description about the animation character-->
+        <div class="desc">
             <h3 class="heading">AGUMAN, THE MONSTER OF NIGHT</h3>
             <p class="text">Aguman is a school assignment and got created in the fall 2018.
             The original idea of this monster belongs to some one else, but as I didn't like the initial idea, I made some
@@ -154,9 +162,9 @@
               <iframe width="100%" src="https://www.youtube.com/embed/EXCvZXh-xZ4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
 
-            <!-- Photographer name and address tag-->
+            <!-- Photographer name and website address-->
             </div>
-                <div  id="special">Photographer: Filip Zrnzević<br><a href="https://unsplash.com/@filipz" target="_blank" style="color: white; text-decoration: none;">https://unsplash.com/@filipz</a></div>
+                <div  id="photographer">Photographer: Filip Zrnzević<br><a href="https://unsplash.com/@filipz" target="_blank" style="color: white; text-decoration: none;">https://unsplash.com/@filipz</a></div>
             </div>
 
             <!-- Copyright-->

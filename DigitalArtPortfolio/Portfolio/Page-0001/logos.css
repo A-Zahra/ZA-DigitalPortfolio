@@ -7,20 +7,21 @@ body {
 }
 
 /* Navigation bar*/
+/* Menu position, text properties*/
 .Menu{
-  position:  fixed;
+  position:  absolute;
   font-family: "Century Gothic", sans-serif;
-  font-size: 1.2vw;
+  font-size: 1.6em;
   color: black;
-  z-index: 3;
+  z-index: 4;
   margin-left: 20px;
   margin-top: 10px;
 }
-/* Menu links*/
+/* Menu links text properties and display condition*/
 .Menu a {
   text-decoration: none;
   color: black;
-  padding: 15px;
+  padding: 20px;
   display:inline-block;
 }
 /* Menu list general properties*/
