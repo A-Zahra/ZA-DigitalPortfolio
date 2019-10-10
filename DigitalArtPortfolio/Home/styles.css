@@ -92,7 +92,7 @@ body {
 .Menu{
   position:  absolute;
   font-family: "Century Gothic", sans-serif;
-  font-size: 1.6em;
+  font-size: 1.4em;
   color: black;
   z-index: 4;
   margin-left: 20px;
@@ -124,7 +124,7 @@ ul li:hover ul {
 /* Portfolio options poition, width and display condition*/
 ul li ul {
   position: absolute;
-  width: 18em;
+  width: 15em;
   display: none;
 }
 /* Portfolio options background color and display condition*/

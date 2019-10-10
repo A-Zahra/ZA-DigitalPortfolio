@@ -19,7 +19,7 @@ body {
 /* Menu properties*/
 .Menu{
   font-family: "Century Gothic", sans-serif;
-  font-size: 1.6em;
+  font-size: 1.4em;
   color: black;
   z-index: 1;
   margin-left: 20px;
@@ -51,7 +51,7 @@ ul li:hover ul {
 }
 ul li ul {
   position: absolute;
-  width: 20em;
+  width: 15em;
   display: none;
 }
 ul li ul li {
