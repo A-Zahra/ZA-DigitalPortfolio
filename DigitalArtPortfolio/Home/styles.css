@@ -1,10 +1,12 @@
 * {
   box-sizing:border-box;
 }
+
 body {
   margin: 0px;
   z-index: 0;
 }
+
 /* Slideshow container */
 .slideshow-container {
   position: fixed;
@@ -14,12 +16,13 @@ body {
 .mySlides {
   display: none;
 }
-/*Background image property*/
+/*Background images position and z-index*/
 .images {
     width: 100%;
     height: 49.1vw;
     z-index: 1;
 }
+
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
@@ -40,10 +43,11 @@ body {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
-/* On hover, add a black background color with a little bit see-through */
+/* On hover: add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
+
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
@@ -82,7 +86,9 @@ body {
   from {opacity: .4}
   to {opacity: 1}
 }
-/* Menu properties*/
+
+/* Navigation bar*/
+/* Menu position, text properties*/
 .Menu{
   position:  absolute;
   font-family: "Century Gothic", sans-serif;
@@ -92,12 +98,14 @@ body {
   margin-left: 20px;
   margin-top: 10px;
 }
+/* Menu links text properties and display condition*/
 .Menu a {
   text-decoration: none;
   color: black;
   padding: 15px;
   display:inline-block;
 }
+/* Menu list initial values*/
 ul {
   display: inline;
   margin: 0;
@@ -106,17 +114,20 @@ ul {
 ul li {
   display: inline-block;
 }
+/* On hover: change menu options color*/
 ul :hover {
   background: rgba(128,128,128, 0.3);
 }
 ul li:hover ul {
   display: block;
 }
+/* Portfolio options poition, width and display condition*/
 ul li ul {
   position: absolute;
   width: 18em;
   display: none;
 }
+/* Portfolio options background color and display condition*/
 ul li ul li {
   background:  rgba(128,128,128, 0.5);
   display: block;
@@ -124,10 +135,12 @@ ul li ul li {
 ul li ul li a {
   display:block !important;
 }
+/* On hover: change background color of portfolio options*/
 ul li ul li :hover {
   background: #555;
   color: white;
 }
+
 /* The welcome sentence*/
 .welcome {
   position: absolute;
@@ -140,7 +153,29 @@ ul li ul li :hover {
   text-align: center;
   z-index: 3;
 }
-/* About-me inner div*/
+/* Titles*/
+.Titles {
+  margin-top: -4%;
+  font-weight: normal;
+  font-family: "Lucida handwriting", sans-serif;
+  font-size: 2.3vw;
+  color: black;
+}
+/* The photographer name + address*/
+#photographer {
+  color: white;
+  position: absolute;
+  margin-top: -4%;
+  margin-left: 2%;
+  font-weight: normal;
+  font-family: "Century Gothic", sans-serif;
+  font-size: 0.8vw;
+  text-align: left;
+  z-index: 3;
+}
+
+/* About-me slide*/
+/* About-me main div*/
 .row {
   margin-left: 7%;
   position: absolute;
@@ -157,7 +192,7 @@ ul li ul li :hover {
   flex: 50%;
   float: left;
 }
-/* Columns properties individually*/
+/* Columns width*/
 .col1 {
   width: 55%;
 }
@@ -165,16 +200,8 @@ ul li ul li :hover {
   width:36%;
   margin-top: 26px;
 }
-/* About-me title*/
-.Titles {
-  margin-top: -4%;
-  font-weight: normal;
-  font-family: "Lucida handwriting", sans-serif;
-  font-size: 2.3vw;
-  color: black;
-}
-
-#discription {
+/* About-me short description*/
+#description {
   font-weight: normal;
   font-family: "Nueva Std";
   font-size: 1.6vw;
@@ -190,21 +217,42 @@ ul li ul li :hover {
   -webkit-transition: background-color 2s; /* For Safari 3.0 to 6.0 */
   transition: background-color 2s; /* For modern browsers */
 }
-#discription:hover {
+/* On hover: change description background color*/
+#description:hover {
    background-color: rgba(129,129,129, 0.5);
 }
 
-/* The photographer name + address*/
-#photographer {
-  color: white;
+/* Portfolio slide*/
+/* My portfolio main div*/
+.po_row {
+  margin-left: 8%;
   position: absolute;
-  margin-top: -4%;
-  margin-left: 2%;
-  font-weight: normal;
-  font-family: "Century Gothic", sans-serif;
-  font-size: 0.8vw;
-  text-align: left;
+  margin-top: -45.5vw;
+  width: 90%;
+}
+.po_row::after {
+ display: flex;
+}
+/* Put columns side by side*/
+.po-column {
   z-index: 3;
+  flex: 30%;
+  float: left;
+  width: 31%;
+  padding: 35px;
+  position: relative;
+}
+/* On hover: set the opacity of image to 0.5 and the click button to 1.0*/
+.po-column:hover .image {
+  opacity: 0.5;
+}
+.po-column:hover .middle {
+  opacity: 1;
+}
+/* Specific properties for Portfolio title*/
+#po-title {
+  margin-top: 40px;
+  margin-left: 1%;
 }
 /* My portfolio each section image*/
 .image {
@@ -227,13 +275,7 @@ ul li ul li :hover {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
-.po-column:hover .image {
-  opacity: 0.5;
-}
-.po-column:hover .middle {
-  opacity: 1;
-}
-/* click button properties*/
+/* Click button*/
 .text {
   background-color: #2CC8E8;
   font-size: 1.7vw;
@@ -246,47 +288,24 @@ ul li ul li :hover {
   color: white;
   text-decoration: none;
 }
-/* To put columns side by side*/
-.po-column {
-  z-index: 3;
-  flex: 30%;
-  float: left;
-  width: 31%;
-  padding: 35px;
-  position: relative;
-}
-/* My portfolio inner div general properties*/
-.po_row {
-  margin-left: 8%;
-  position: absolute;
-  margin-top: -45.5vw;
-  width: 90%;
-}
-.po_row::after {
- display: flex;
-}
-#po-title {
-  margin-top: 40px;
-  margin-left: 1%;
-}
-/* Contact me inner div general properties*/
+
+/* Contact-me slide*/
+/* Contact me main div*/
 .c_row {
   margin-left: 9%;
   position: absolute;
   margin-top: -43%;
   width: 82%;
-
 }
-/* Contact-me title properties*/
+/* Contact-me title*/
 .C-Info {
   z-index: 3;
   width: 20vw;
   float: left;
   margin-top: 15px;
 }
-/* Information section properties*/
+/* Information section*/
 .C-column {
-
   width: 100%;
   height: 30vw;
   flex: 70vw;
@@ -304,7 +323,6 @@ ul li ul li :hover {
   color: black;
   text-align: justify;
   padding-top: -5%;
-
 }
 .c-links{
   text-decoration: none;
@@ -314,6 +332,7 @@ ul li ul li :hover {
 .c-links:hover {
   color: rgb(253,165,185);
 }
+
 /* The copyright properties*/
 #Copyright {
   width: 100%;
@@ -329,14 +348,17 @@ ul li ul li :hover {
   padding-bottom: 6px;
   display: none;
 }
+
 /* Tablet version*/
 @media only screen and (max-width: 1280px) {
+  /* Home page*/
+  /* slideshow container*/
   .slideshow-container {
     position: absolute;
     margin: 0;
   }
-  .images {
-    height:58vw;
+  .welcome {
+    margin-top: -30%;
   }
   .Menu {
     position: fixed;
@@ -352,6 +374,17 @@ ul li ul li :hover {
   .Dots {
     display: none;
   }
+  .images {
+    height:58vw;
+  }
+  .Titles {
+    font-size: 2vw;
+    background-color: rgb(255, 255, 255, 0.8);
+    padding: 10px;
+    width: 100%;
+  }
+
+  /* About-me slide*/
   .row {
     margin-left: 5%;
     margin-top: -49%;
@@ -366,29 +399,22 @@ ul li ul li :hover {
     width: 40%;
     margin-top: 0%;
   }
-  .Titles {
-    font-size: 2vw;
-    background-color: rgb(255, 255, 255, 0.8);
-    padding: 10px;
-    width: 100%;
-  }
-  #po-title {
-    margin-left: 10px;
-    width: 92%;
-  }
-  #discription {
+  #description {
     font-size: 1.5vw;
     padding-top: 3vw;
     padding-left: 1vw;
     padding-right: 1.5vw;
   }
-  .welcome {
-    margin-top: -30%;
-  }
+
+  /* Portfolio slide*/
   .po_row {
     margin-left: 7.2%;
     margin-top: -52%;
     width: 90%;
+  }
+  #po-title {
+    margin-left: 10px;
+    width: 92%;
   }
   .middle {
     top: 50%;
@@ -397,10 +423,7 @@ ul li ul li :hover {
   .text {
     font-size: 1.5vw;
   }
-  /* .po-column {
-    padding: 5px;
-    width: 33%;
-  } */
+  /* Contact-me slide*/
   .c_row {
     margin-left: 8%;
     margin-top: -46%;
@@ -419,19 +442,36 @@ ul li ul li :hover {
   .C-Info {
     width: 100%;
   }
+
+  /* Copyrights*/
   #Copyright {
     margin-top: -25px;
     display: block;
   }
 }
+
 /* Cell phone version*/
 @media screen and (max-width: 740px){
+  /* Home page*/
+  /* Slideshow container*/
   .slideshow-container {
     position: absolute;
     margin: 0;
   }
-  .images {
-    height:55vw;
+  .mySlides {
+    display: block;
+    margin-top: -1%;
+  }
+  .welcome {
+    margin-top: -30%;
+  }
+  .Titles {
+    font-weight: bold;
+    font-size: 2vw;
+    font-family: "Century Gothic", sans-serif;
+    padding: 3px;
+    background-color: rgb(255,255,255,0.7);
+    margin-top: 1%;
   }
   .Menu {
     font-size: 0.5em;
@@ -446,15 +486,24 @@ ul li ul li :hover {
     padding: 10px;
     font-weight: bold;
   }
-  .mySlides {
-    display: block;
-    margin-top: -1%;
-  }
   .prev, .next {
     display: none;
   }
   .Dots {
     display: none;
+  }
+  .images {
+    height:55vw;
+  }
+  #photographer {
+    font-size: 5px;
+    margin-top: -20px;
+  }
+
+  /* About-me slide*/
+  .row{
+    margin-left: 5%;
+    margin-top: -52%;
   }
   .column {
     padding: 10px;
@@ -467,13 +516,13 @@ ul li ul li :hover {
     margin-left: -12px;
     margin-top: 3%;
   }
-  .welcome {
-    margin-top: -30%;
+  #description {
+    font-size: 1.5vw;
+    padding-top: 2.5vw;
+    line-height: 2.8vw;
   }
-  .row{
-    margin-left: 5%;
-    margin-top: -52%;
-  }
+
+  /* Portfolio slide*/
   .po_row {
     margin-left: 5%;
     margin-top: -43%;
@@ -482,6 +531,11 @@ ul li ul li :hover {
     padding: 20px;
     width: 33%;
     margin-top: -4%;
+  }
+  #po-title {
+    width:93%;
+    margin-left: 12px;
+    margin-top: -15px;
   }
   .middle {
     top: 105%;
@@ -496,25 +550,8 @@ ul li ul li :hover {
   .image {
     width: 100%;
   }
-  .Titles {
-    font-weight: bold;
-    font-size: 2vw;
-    font-family: "Century Gothic", sans-serif;
-    padding: 3px;
-    background-color: rgb(255,255,255,0.7);
-    margin-top: 1%;
-  }
-  #po-title {
-    width:93%;
-    margin-left: 12px;
-    margin-top: -15px;
-  }
-  #discription {
-    font-size: 1.5vw;
-    padding-top: 2.5vw;
-    /* margin-left: -5px; */
-    line-height: 2.8vw;
-  }
+
+  /* Contact-me slide*/
   .c_row {
     margin-left: 9%;
     margin-top: -53%;
@@ -535,13 +572,10 @@ ul li ul li :hover {
   .c-links {
     color: white;
   }
-  #photographer {
-    font-size: 5px;
-    margin-top: -20px;
-  }
+
+  /* Copyrights*/
   #Copyright {
     margin-top: -25px;
     display: block;
-
   }
 }
