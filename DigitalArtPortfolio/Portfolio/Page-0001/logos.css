@@ -330,7 +330,7 @@ strong {
   }
   /* Headings*/
   .Heading {
-    margin-top: 10%;
+    margin-top: 15%;
   }
   /* Specific setting for EERIC logo description*/
   .paragh {
@@ -344,6 +344,10 @@ strong {
   /* specifically setting top margin for second logo title*/
   #difference {
     margin-top: -4%;
+  }
+  /* Logos images*/
+  .image {
+    margin-top: 15%;
   }
   /* Photographers name and address properties*/
   .photographer {
