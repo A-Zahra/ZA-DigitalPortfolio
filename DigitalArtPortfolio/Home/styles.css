@@ -464,8 +464,9 @@ ul li ul li :hover {
     margin-top: -1%;
   }
   .welcome {
-    margin-top: -32%;
-    font-size: 4.5vw;
+    margin-top: -30%;
+    margin-left: 27%;
+    font-size: 5vw;
     
   }
   .Titles {
