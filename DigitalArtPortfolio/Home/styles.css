@@ -272,7 +272,7 @@ ul li ul li :hover {
   margin-left: 8%;
   position: absolute;
   margin-top: -45.5vw;
-  width: 90%;
+  width: 70%;
 }
 .po_row::after {
  display: flex;
