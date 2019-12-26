@@ -161,12 +161,56 @@ ul li ul li :hover {
   font-size: 2.3vw;
   color: black;
 }
+
+.moreInfo {
+  /*margin-left: 8%;*/ 
+  position: absolute;
+  margin-top: -7%;
+  width: 100%;
+}
+.innerConnection {
+  width:50%; 
+  float: left; 
+  flex: 50%;
+  position: relative;
+  padding: 40px;
+}
+.innerCollection {
+  width: 33%;
+  margin-top: -20px; 
+  float: left; 
+  flex: 33%;
+  position: relative;
+  padding: 10px;
+}
+.innerItems {
+  width: 28%;
+  margin-left: 33vw;
+}
+.emailLink {
+  color: black;
+  font-weight: normal;
+  font-family: "Century Gothic", sans-serif;
+  font-size: 1vw;
+  text-align: left;
+  margin-left: -5vw;
+  margin-top: -5.5vw;
+  padding: 5px;
+  z-index: 3;
+  display: none;
+}  
+
+.email:hover .emailLink {
+  display: block;
+}
+.contacts {
+  width: 100%;
+}
+
+
 /* The photographer name and address*/
 #photographer {
   color: white;
-  position: absolute;
-  margin-top: -4%;
-  margin-left: 2%;
   font-weight: normal;
   font-family: "Century Gothic", sans-serif;
   font-size: 0.8vw;
@@ -208,10 +252,10 @@ ul li ul li :hover {
   color: black;
   text-align: justify;
   line-height: 2.5vw;
-  //padding-left: 2%;
-  padding-right: 3.5%;
-  padding-top: 3%;
-  padding-bottom: 2.5%;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  padding-top: 2.5%;
+  padding-bottom: 2%;
   margin-top: -5%;
   text-indent: 10%;
   -webkit-transition: background-color 2s; /* For Safari 3.0 to 6.0 */
@@ -363,7 +407,7 @@ ul li ul li :hover {
   }
   .Menu {
     position: fixed;
-    font-size: 1.3em;
+    font-size: 1.5em;
   }
   .mySlides {
     display: block;
@@ -383,6 +427,41 @@ ul li ul li :hover {
     background-color: rgb(255, 255, 255, 0.8);
     padding: 10px;
     width: 100%;
+  }
+  .hideContact {
+    display: none;
+  }
+  .hideContact2 {
+    display: none;
+  }
+  .moreInfo {
+    margin-left: 4%;
+    position: absolute;
+    margin-top: -6%;
+    width: 100%;
+  }
+  .innerConnection {
+    padding: 0px;
+  }
+  .innerCollection {
+    width: 33%;
+    float: left; 
+    flex: 33%;
+    position: relative;
+    padding: 5px;
+  }
+  .innerItems {
+    width: 43%;
+    margin-left: 21.5vw;
+    margin-top: -8px;
+  }
+  .emailLink {
+    font-size: 1.3vw;
+    margin-left: -18vw;
+    margin-top: -5vw;
+  }  
+  #photographer {
+    font-size: 1.3vw;
   }
 
   /* About-me slide*/
@@ -490,6 +569,38 @@ ul li ul li :hover {
     padding: 10px;
     font-weight: bold;
   }
+  .hideContact {
+    display: none;
+  }
+  .hideContact2 {
+    display: none;
+  }
+  .moreInfo {
+    margin-left: 4%;
+    position: absolute;
+    margin-top: -6%;
+    width: 100%;
+  }
+  .innerConnection {
+    padding: 0px;
+  }
+  .innerCollection {
+    width: 33%;
+    float: left; 
+    flex: 33%;
+    position: relative;
+    padding: 5px;
+  }
+  .innerItems {
+    width: 45%;
+    margin-left: 21vw;
+    margin-top: 10px;
+  }
+  .emailLink {
+    font-size: 1.3vw;
+    margin-left: -19vw;
+    margin-top: -5.5vw;
+  } 
   .prev, .next {
     display: none;
   }
@@ -500,8 +611,7 @@ ul li ul li :hover {
     height:55vw;
   }
   #photographer {
-    font-size: 5px;
-    margin-top: -20px;
+    font-size: 1.2vw;
   }
 
   /* About-me slide*/
