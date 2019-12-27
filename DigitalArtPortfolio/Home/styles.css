@@ -163,22 +163,22 @@ ul li ul li :hover {
 }
 
 .moreInfo {
-  /*margin-left: 8%;*/ 
+  /*margin-left: 8%;*/
   position: absolute;
   margin-top: -7%;
   width: 100%;
 }
 .innerConnection {
-  width:50%; 
-  float: left; 
+  width:50%;
+  float: left;
   flex: 50%;
   position: relative;
   padding: 40px;
 }
 .innerCollection {
   width: 33%;
-  margin-top: -20px; 
-  float: left; 
+  margin-top: -20px;
+  float: left;
   flex: 33%;
   position: relative;
   padding: 10px;
@@ -198,7 +198,7 @@ ul li ul li :hover {
   padding: 5px;
   z-index: 3;
   display: none;
-}  
+}
 
 .email:hover .emailLink {
   display: block;
@@ -269,10 +269,10 @@ ul li ul li :hover {
 /* Portfolio slide*/
 /* My portfolio main div*/
 .po_row {
-  margin-left: 8%;
+  margin-left: 7%;
   position: absolute;
-  margin-top: -45.5vw;
-  width: 70%;
+  margin-top: -42.5vw;
+  width: 100%;
 }
 .po_row::after {
  display: flex;
@@ -280,11 +280,21 @@ ul li ul li :hover {
 /* Put columns side by side*/
 .po-column {
   z-index: 3;
-  flex: 30%;
+  flex: 25%;
   float: left;
-  width: 31%;
-  padding: 35px;
+  width: 25%;
+  padding: 20px;
   position: relative;
+}
+.sections {
+  margin-top: 9vw;
+  width: 85%;
+}
+#Drawing-gallery {
+  margin-top: -10vw;
+}
+#Games{
+    margin-top: -10vw;
 }
 /* On hover: set the opacity of image to 0.5 and the click button to 1.0*/
 .po-column:hover .image {
@@ -295,8 +305,10 @@ ul li ul li :hover {
 }
 /* Specific properties for Portfolio title*/
 #po-title {
-  margin-top: 40px;
-  margin-left: 1%;
+  margin-top: -20px;
+  padding: 10px;
+  margin-left: 2%;
+  font-size: 3vw;
 }
 /* My portfolio each section image*/
 .image {
@@ -322,7 +334,7 @@ ul li ul li :hover {
 /* Click button*/
 .text {
   background-color: #2CC8E8;
-  font-size: 1.7vw;
+  font-size: 1.2vw;
   border-radius: 5px 5px 5px 5px;
   padding: 18px 18px;
   font-weight: normal;
@@ -438,28 +450,28 @@ ul li ul li :hover {
     margin-left: 4%;
     position: absolute;
     margin-top: -6%;
-    width: 100%;
+    width: 95%;
   }
   .innerConnection {
     padding: 0px;
   }
   .innerCollection {
     width: 33%;
-    float: left; 
+    float: left;
     flex: 33%;
     position: relative;
     padding: 5px;
   }
   .innerItems {
     width: 43%;
-    margin-left: 21.5vw;
+    margin-left: 25.5vw;
     margin-top: -8px;
   }
   .emailLink {
     font-size: 1.3vw;
     margin-left: -18vw;
     margin-top: -5vw;
-  }  
+  }
   #photographer {
     font-size: 1.3vw;
   }
@@ -489,8 +501,17 @@ ul li ul li :hover {
   /* Portfolio slide*/
   .po_row {
     margin-left: 7.2%;
-    margin-top: -52%;
+    margin-top: -46%;
     width: 90%;
+  }
+  .po-column {
+    padding: 15px;
+    width: 25%;
+    margin-top: -4%;
+  }
+  .sections {
+    margin-top: 15vw;
+    margin-left: 4.5%;
   }
   #po-title {
     margin-left: 10px;
@@ -499,9 +520,10 @@ ul li ul li :hover {
   .middle {
     top: 50%;
     left: 50%;
+    width:65%;
   }
   .text {
-    font-size: 1.5vw;
+    font-size: 1.4vw;
   }
   /* Contact-me slide*/
   .c_row {
@@ -546,7 +568,7 @@ ul li ul li :hover {
     margin-top: -30%;
     margin-left: 30%;
     font-size: 5vw;
-    
+
   }
   .Titles {
     font-weight: bold;
@@ -579,28 +601,28 @@ ul li ul li :hover {
     margin-left: 4%;
     position: absolute;
     margin-top: -6%;
-    width: 100%;
+    width: 95%;
   }
   .innerConnection {
     padding: 0px;
   }
   .innerCollection {
     width: 33%;
-    float: left; 
+    float: left;
     flex: 33%;
     position: relative;
     padding: 5px;
   }
   .innerItems {
     width: 45%;
-    margin-left: 21vw;
+    margin-left: 25vw;
     margin-top: 10px;
   }
   .emailLink {
     font-size: 1.3vw;
     margin-left: -19vw;
     margin-top: -5.5vw;
-  } 
+  }
   .prev, .next {
     display: none;
   }
@@ -639,12 +661,22 @@ ul li ul li :hover {
   /* Portfolio slide*/
   .po_row {
     margin-left: 5%;
-    margin-top: -43%;
+    margin-top: -43vw;
+  }
+  .sections {
+    margin-top: 5vw;
+    margin-left: 7%;
   }
   .po-column {
-    padding: 20px;
-    width: 33%;
+    padding: 10px;
+    width: 25%;
     margin-top: -4%;
+  }
+  #Drawing-gallery {
+    margin-top: -3vw;
+  }
+  #Games{
+    margin-top: -3vw;
   }
   #po-title {
     width:93%;
@@ -652,12 +684,13 @@ ul li ul li :hover {
     margin-top: -15px;
   }
   .middle {
-    top: 105%;
+    width: 65%;
+    top: 22vw;
     left: 50%;
     opacity: 1;
   }
   .text {
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     font-weight: bold;
     padding: 8px 8px;
   }
