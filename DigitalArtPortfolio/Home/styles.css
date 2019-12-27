@@ -684,7 +684,7 @@ ul li ul li :hover {
     margin-top: -15px;
   }
   .middle {
-    width: 62%;
+    width: 60%;
     top: 22vw;
     left: 50%;
     opacity: 1;
@@ -692,7 +692,7 @@ ul li ul li :hover {
   .text {
     font-size: 1.4vw;
     font-weight: bold;
-    padding: 6px 6px;
+    padding: 5px 5px;
   }
   .image {
     width: 100%;

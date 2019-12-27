@@ -1,30 +1,75 @@
-<!--CRAFT logo main div-->
-<div class="row1">
-  <!--Short description column-->
-  <div class="column1" style="width: 60%;">
-    <!-- Div containing both title and description-->
-    <div class="set">
-      <h3 class="Heading">Winner of CRAFT logo competition!</h3>
-      <p class="text">In the 2019 logo competition held by the CRAFT organization<strong>the most important Centre for Microfluidic Systems in Chemistry & Biology in Canada</strong>, my logo
-        design was selected to represent the organization. CRAFT is a centre for Research
-        and Applications in Fluidic Technologies and is operated by the Toronto University and
-        NRC organization. I considered three indicators while designing the logo to show the
-        features of the organization. First, I used the blue and red color to represent the Toronto
-        University, NRC and Canada respectively. Secondly, all the letters, excluding the letter
-        “C” are joined to figure the micro-fluidics channels that is the most important feature of
-        my logo and shows the field of research in CRAFT. Thirdly, the maple leaf illustrates
-        that CRAFT is a Canadian organization. </p>
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>My Games</title>
+  <link rel="stylesheet" type="text/css" href="games.css">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+
+<body>
+  <!-- Main div-->
+  <div class="game-container">
+
+    <!-- Menu-->
+    <div class="Menu">
+      <ul>
+        <!-- Home -->
+        <li><a href="../../Home/index.html">HOME</a>
+        <li>
+          <!-- If screen size is less than 1399px, uses slides id for navigation between different slides and pages-->
+          <!-- If screen size is more than 1399px, consider the current page as previous page
+              and finds the slide (the user wants to go there) from local storage, and puts it as next page.-->
+
+          <!-- About-me-->
+        <li>
+          <a href="javascript:
+              if(screen.width<1399){
+                  location.href = '../../Home/index.html#about-me';
+                }
+              else{
+                  console.log('test');
+                  localStorage.setItem('previous','logosPage');
+                  localStorage.setItem('next','aboutPage');
+                    location.href = '../../Home/index.html';
+                }
+              ">ABOUT</a></li>
+
+        <!-- Portfolio-->
+        <li>
+          <a href="javascript:
+              if(screen.width<1399){
+                location.href = '../../Home/index.html#portfolio';
+                }
+              else{
+                  console.log('test');
+                  localStorage.setItem('previous','logosPage');
+                  localStorage.setItem('next','portfolioPage');
+                    location.href = '../../Home/index.html';
+                  }
+                ">PORTFOLIO</a>
+          <!-- Portfolio options-->
+          <ul>
+            <li><a class="options" href="../Page-0001/logos.html">Logo Design</a></li>
+            <li><a class="options" href="../Page-0002/drawings.html">Drawing's Gallery</a></li>
+            <li><a class="options" href="../Page-0003/animations.html">Animation Project</a></li>
+          </ul>
+        </li>
+
+        <!-- Contact-me-->
+        <li><a href="javascript:
+            if(screen.width<1399){
+              location.href = '../../Home/index.html#Contact-me';
+              }
+            else{
+                console.log('test');
+                localStorage.setItem('previous','logosPage');
+                localStorage.setItem('next','contactPage');
+                  location.href = '../../Home/index.html';
+            }">CONTACT</a>
+        <li>
+      </ul>
     </div>
-  </div>
-  <!--Image column-->
-  <div class="column1" style="width: 40%;">
-    <div class="B-color" style="padding-bottom: -15%;">
-      <!-- Logo image-->
-      <img class="image" src="../Page-0001/images/CRAFT.jpg" alt="CRAFT LOGO" style="width:100%;">
-      <!--Photographer name and website address-->
-      <div class="photographer">
-        Photographer: Adi Goldstein <br><a href="https://unsplash.com/@adigold1" target="_blank" style="text-decoration: none; color: white;">https://unsplash.com/@adigold1</a>
-      </div>
-    </div>
-  </div>
-</div>
+    </body>
+    </html>
