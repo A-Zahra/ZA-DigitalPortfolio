@@ -4,6 +4,8 @@
 body {
   margin: 0px;
   z-index: 0;
+  /* background-image: url("https://images.unsplash.com/photo-1513151233558-d860c5398176?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80");
+  background-repeat: no-repeat; */
 }
 
 /* Navigation bar*/
@@ -68,32 +70,82 @@ ul li ul li :hover {
 /* Title properties*/
 .Heading {
   padding-left: 3%;
-  margin-top: 8%;
+  margin-top: 3%;
   font-weight: bold;
   font-family: "Arial", sans-serif;
-  font-size: 1.7vw;
+  font-size: 2vw;
   color: black;
   line-height: 2.5vw;
 }
 /* Logos images*/
 .image {
-  margin-top: 12%;
-  border-radius: 330px 330px 330px 330px;
+  border-radius: 5px 5px 5px 5px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
+.B-color {
+  width: 90%;
+}
 /* CRAFT logo*/
 /* properties of first logo div that keeps the two columns side by side*/
+
 .row1 {
-  position: relative;
+  z-index: 1;
+  width: 100%;
+  margin-top: -3vw;
+  padding: 20px;
+  display: inline-flex;
+  background-color: #00C2BD;
+}
+
+.row2 {
+  /* background-image: url("https://i.ya-webdesign.com/images/retro-games-png-6.png");
+  /* background-repeat: repeat;*/
+  /* background-size: 40vw; */
   z-index: 2;
   width: 100%;
+  margin-top: 0vw;
+  padding: 20px;
+  display: inline-flex;
+  background-color: #FF7A5A;
 }
+.row3 {
+  /* background-image: url("https://i.ya-webdesign.com/images/retro-games-png-6.png");
+  /* background-repeat: repeat; */
+  /*background-size: 40vw; */
+  z-index: 2;
+  width: 100%;
+  margin-top: 0vw;
+  padding: 20px;
+  display: inline-flex;
+  background-color: #FFB85F;
+}
+.row4 {
+  /* background-image: url("https://i.ya-webdesign.com/images/retro-games-png-6.png");
+  /* background-repeat: repeat; */
+  /*background-size: 40vw; */
+  z-index: 2;
+  width: 100%;
+  margin-top: 0vw;
+  padding: 20px;
+  display: inline-flex;
+  background-color: #462066;
+}
+
+.collection{
+  background-image: url("../Page-0004/images/gamePattern.png");
+  /* background-repeat: repeat; */
+  background-size: 40vw;
+  width: 100%;
+  margin: 10vw;
+  padding: 2vw;
+}
+
 /* Columns properties*/
 .column1 {
   width: 50%;
   float: left;
   flex: 50%;
+  padding: 20px;
 }
 /* description*/
 .text {
@@ -115,17 +167,62 @@ strong {
 }
 /* Div containing the title and the description*/
 .set {
-  padding: 10%;
-  background-color: #02A5AD;
-  height: 45vw;
+  padding: 1.1vw;
+  background-color: white;
+  border-radius: 5px 5px 5px 5px;
 }
-/* Logo background image*/
-.B-color {
-  background: url("https://github.com/A-Zahra/Cart-351/blob/master/My-website/microfluidic_chip.jpg?raw=true");
-  background-repeat: repeat;
-  background-size: 70vw;
-  padding: 25%;
-  padding-bottom: -15%;
-  height: 45vw;
-  margin-right: 0;
+.linkCollection{
+  width: 100%;
+  margin-top: -0.1vw;
+}
+.gameLink {
+  z-index: 3;
+  flex: 50%;
+  float: left;
+  width: 50%;
+  padding: 10px;
+  position: relative;
+
+}
+/* Click button*/
+.link {
+  background-color: white;
+  /* background-color: #2CC8E8; */
+  font-size: 1.1vw;
+  border-radius: 5px 5px 5px 5px;
+  padding: 14px 14px;
+  font-weight: normal;
+  font-family: "Century Gothic", sans-serif;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.click  {
+  color: black;
+  text-decoration: none;
+}
+
+
+/* Photographer divs*/
+/* The Photographers name and website address properties*/
+.photographer {
+  font-family: "Century Gothic", sans-serif;
+  color: white;
+  margin-left: -40%;
+  margin-top: 50%;
+  font-size: 0.7vw;
+  width: 70%;
+}
+
+/* The Copyright*/
+#Copyright {
+  width: 100%;
+  background-color: black;
+  font-weight: normal;
+  font-family: "Corbel";
+  font-size: 1.2vw;
+  color: white;
+  text-align: center;
+  z-index: 4;
+  margin-top: 0vw;
+  padding: 5px;
+  position: relative;
 }

@@ -76,7 +76,7 @@ ul li ul li :hover {
 }
 /* Logos images*/
 .image {
-  margin-top: 12%;
+  margin-top: 2vw;
   border-radius: 330px 330px 330px 330px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -84,16 +84,12 @@ ul li ul li :hover {
 /* CRAFT logo*/
 /* properties of first logo div that keeps the two columns side by side*/
 .row1 {
+  display: inline-flex;
   position: relative;
   z-index: 2;
   width: 100%;
 }
-/* Columns properties*/
-.column1 {
-  width: 50%;
-  float: left;
-  flex: 50%;
-}
+
 /* description*/
 .text {
   font-weight: normal;
@@ -132,16 +128,12 @@ strong {
 /* EERIC logo*/
 /* properties of second logo div that keeps the two columns side by side*/
 .row-2 {
+  display: inline-flex;
   position: relative;
   z-index: 2;
   width: 100%;
 }
-/* Columns properties*/
-.column-2 {
-  width: 50%;
-  float: left;
-  flex: 50%;
-}
+
 /* Logo background image*/
 .B-color-2 {
   background: url("https://github.com/A-Zahra/Cart-351/blob/master/My-website/earthquake.jpg?raw=true");
@@ -160,7 +152,7 @@ strong {
 }
 /* specifically setting top margin for this logo title*/
 #difference {
-  margin-top: -2%;
+  margin-top: 1vw;
 }
 /* Specific setting for EERIC logo description*/
 /* Increasing the space between the paragraph and title*/
@@ -174,16 +166,12 @@ strong {
 /* ATLAS logo*/
 /* properties of third logo div that keeps the two columns side by side*/
 .row-3 {
+  display: inline-flex;
   position: relative;
   z-index: 2;
   width: 100%;
 }
-/* Column properties*/
-.column-3 {
-  width: 50%;
-  float: left;
-  flex: 50%;
-}
+
 /* Background image properties*/
 .B-color-3{
   background: url("https://github.com/A-Zahra/Cart-351/blob/master/My-website/googleMap.jpg?raw=true");
@@ -204,15 +192,22 @@ strong {
 /* Loyola-Committee logo*/
 /* properties of Forth logo div that keeps the two columns side by side*/
 .row-4 {
+  display: inline-flex;
   position: relative;
   z-index: 2;
   width: 100%;
 }
 /* Column properties*/
-.column-4 {
-  width: 50%;
+
+.colWidth1 {
+  width: 40%;
   float: left;
-  flex: 50%;
+  flex: 40%;
+}
+.colWidth2 {
+  width:60%;
+  float: left;
+  flex: 60%;
 }
 /* Background image properties*/
 .B-color-4 {
@@ -236,51 +231,85 @@ strong {
 .photographer {
   font-family: "Century Gothic", sans-serif;
   color: white;
-  margin-left: -40%;
-  margin-top: 50%;
-  font-size: 0.7vw;
+  margin-left: -42%;
+  margin-top: 9vw;
+  font-size: 1vw;
   width: 70%;
 }
 .photographer2 {
   font-family: "Century Gothic", sans-serif;
   color: black;
-  margin-left: -45%;
-  margin-top: 50%;
+  margin-left: -42%;
+  margin-top: 8vw;
   background-color: rgba(112,93,55, 1);
-  width: 80%;
-  font-size: 0.7vw;
+  width: 100%;
+  font-size: 1vw;
   padding:3%;
 }
 .photographer3 {
   color: black;
-  margin-top: 52%;
+  margin-top: 9vw;
   margin-left: -42%;
   width: 80%;
   font-family: "Century Gothic", sans-serif;
-  font-size: 0.7vw;
+  font-size: 1vw;
 }
 .photographer4 {
   color: black;
-  margin-top: 52%;
+  margin-top: 9vw;
   margin-left: -42%;
   width: 80%;
   font-family: "Century Gothic", sans-serif;
-  font-size: 0.7vw;
+  font-size: 1vw;
+}
+
+.innerCollection {
+  width: 33%;
+  margin-top: -20px;
+  float: left;
+  flex: 33%;
+  position: relative;
+  padding: 10px;
+}
+.innerItems {
+  width: 14vw;
+  float: right;
+  margin-right: 1vw;
+  margin-top: -4vw;
+}
+.emailLink {
+  color: black;
+  font-weight: normal;
+  font-family: "Century Gothic", sans-serif;
+  font-size: 1vw;
+  text-align: left;
+  margin-left: -5vw;
+  margin-top: -5.5vw;
+  padding: 5px;
+  z-index: 3;
+  display: none;
+}
+
+.email:hover .emailLink {
+  display: block;
+}
+.contacts {
+  width: 100%;
 }
 
 /* The Copyright*/
 #Copyright {
+  height: 4.2vw;
   width: 100%;
   background-color: black;
   font-weight: normal;
   font-family: "Corbel";
-  font-size: 1vw;
+  font-size: 1.4vw;
   color: white;
   text-align: center;
   z-index: 4;
-  margin-top: 180vw;
-  padding: 2px;
   position: relative;
+  display: inline-flex;
 }
 
 /*Tablet version*/
@@ -309,6 +338,25 @@ strong {
   /* Use same padding for all of the divs that contain both the title and the description about the logos*/
   .set, .set-2, .set-3, .set-4{
     padding: 7%;
+  }
+  .innerCollection {
+    width: 33%;
+    margin-top: 3px;
+    float: left;
+    flex: 33%;
+    position: relative;
+    padding: 7px;
+  }
+  .innerItems {
+    width: 17vw;
+    float: right;
+    margin-right: 1vw;
+    margin-top: -7vw;
+  }
+  .photographer, .photographer2, .photographer3, .photographer4 {
+    font-size: 1vw;
+    margin-top: 8vw;
+    width: 100%;
   }
 }
 
@@ -342,31 +390,38 @@ strong {
     text-indent: 15px;
   }
   /* specifically setting top margin for second logo title*/
-  #difference {
+  /* #difference {
     margin-top: -4%;
-  }
+  } */
   /* Logos images*/
   .image {
     margin-top: 15%;
   }
+
   /* Photographers name and address properties*/
-  .photographer {
-    font-size: 4px;
+  .photographer, .photographer2, .photographer3, .photographer4 {
+    font-size: 1vw;
     margin-top: 7vw;
     width: 100%;
   }
-  .photographer2 {
-    font-size: 4px;
-    margin-top: 7vw;
-    width: 115%;
+
+  .innerCollection {
+    width: 33%;
+    margin-top: 4px;
+    float: left;
+    flex: 33%;
+    position: relative;
+    padding: 4px;
   }
-  .photographer3 {
-    font-size: 4px;
-    margin-top: 7vw;
-    width: 100%;
+  .innerItems {
+    width: 18vw;
+    float: right;
+    margin-right: 1vw;
+    margin-top: -7.5vw;
   }
-  .photographer4 {
-    font-size: 4px;
-    margin-top: 7vw;
+
+  #Copyright {
+    font-size: 1.3vw;
+    top: -1.5vw;
   }
 }
