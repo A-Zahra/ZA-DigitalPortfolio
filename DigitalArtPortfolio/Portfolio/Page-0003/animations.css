@@ -187,31 +187,76 @@ ul li ul li :hover {
 iframe {
   height: 22vw;
 }
+.bottom-section {
+  margin-top: 35vw;
+  position: relative;
+}
 /* Photographer tag properties*/
 #photographer {
   color: white;
-  position: absolute;
-  margin-top: 40vw;
-  margin-left: 25px;
   font-weight: normal;
   font-family: "Century Gothic", sans-serif;
   font-size: 1vw;
   text-align: left;
   z-index: 3;
+  padding-bottom: 0px;
+}
+.moreInfo {
+  margin-top: 2vw;
+  width: 100%;
+  display: inline-flex;
+}
+.innerConnection {
+  width:50%;
+  float: left;
+  flex: 50%;
+  position: relative;
+  padding: 40px;
+  padding-bottom: 40px;
+}
+.innerCollection {
+  width: 33%;
+  float: left;
+  flex: 33%;
+  position: relative;
+  padding: 10px;
+}
+.innerItems {
+  width: 28%;
+  margin-left: 33vw;
+}
+.emailLink {
+  color: white;
+  font-weight: normal;
+  font-family: "Century Gothic", sans-serif;
+  font-size: 1vw;
+  text-align: left;
+  margin-left: -5vw;
+  margin-top: -5.5vw;
+  padding: 5px;
+  z-index: 3;
+  display: none;
+}
+
+.email:hover .emailLink {
+  display: block;
+}
+.contacts {
+  width: 100%;
 }
 /* Copyright properties*/
 #Copyright {
-  position: relative;
+  margin-top: -3vw;
   width: 100%;
   background-color: black;
   font-weight: normal;
   font-family: "Corbel";
-  font-size: 1vw;
+  font-size: 1.3vw;
   color: white;
   text-align: center;
   z-index: 4;
-  margin-top: 44vw;
-  padding: 2px;
+  display: inline-flex;
+  height: 4.5vw;
 }
 
 /* Tablet version*/

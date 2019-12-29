@@ -213,7 +213,7 @@ ul li ul li :hover {
   color: white;
   font-weight: normal;
   font-family: "Century Gothic", sans-serif;
-  font-size: 0.8vw;
+  font-size: 1vw;
   text-align: left;
   z-index: 3;
 }
@@ -391,11 +391,12 @@ ul li ul li :hover {
 
 /* The copyright properties*/
 #Copyright {
+  height: 5vw;
   width: 100%;
   background-color: black;
   font-weight: normal;
   font-family: "Corbel";
-  font-size: 1vw;
+  font-size: 1.3vw;
   color: white;
   text-align: center;
   z-index: 4;
@@ -419,7 +420,7 @@ ul li ul li :hover {
   }
   .Menu {
     position: fixed;
-    font-size: 1.5em;
+    font-size: 2.2vw;
   }
   .mySlides {
     display: block;
@@ -460,16 +461,16 @@ ul li ul li :hover {
     float: left;
     flex: 33%;
     position: relative;
-    padding: 5px;
+    padding: 10px;
   }
   .innerItems {
-    width: 43%;
-    margin-left: 25.5vw;
+    width: 50%;
+    margin-left: 23vw;
     margin-top: -8px;
   }
   .emailLink {
-    font-size: 1.3vw;
-    margin-left: -18vw;
+    font-size: 1.5vw;
+    margin-left: -21vw;
     margin-top: -5vw;
   }
   #photographer {
@@ -579,7 +580,7 @@ ul li ul li :hover {
     margin-top: 1%;
   }
   .Menu {
-    font-size: 0.5em;
+    font-size: 2.5vw;
     position: fixed;
     margin-left: 0px;
     margin-top: 0px;
@@ -620,8 +621,8 @@ ul li ul li :hover {
   }
   .emailLink {
     font-size: 1.3vw;
-    margin-left: -19vw;
-    margin-top: -5.5vw;
+    margin-left: -20vw;
+    margin-top: -5vw;
   }
   .prev, .next {
     display: none;
@@ -723,7 +724,6 @@ ul li ul li :hover {
 
   /* Copyrights*/
   #Copyright {
-    margin-top: -25px;
     display: block;
   }
 }

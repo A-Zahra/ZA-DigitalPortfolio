@@ -262,7 +262,11 @@ strong {
   font-family: "Century Gothic", sans-serif;
   font-size: 1vw;
 }
-
+/* .innerConnection {
+  width: 90%;
+  position: relative;
+  padding: 40px;
+} */
 .innerCollection {
   width: 33%;
   margin-top: -20px;
@@ -272,10 +276,11 @@ strong {
   padding: 10px;
 }
 .innerItems {
-  width: 14vw;
-  float: right;
-  margin-right: 1vw;
-  margin-top: -4vw;
+  margin-top: -5.5vw;
+  width: 28%;
+  margin-left: 42vw;
+  /* position: relative; */
+  padding: 30px;
 }
 .emailLink {
   color: black;
@@ -304,7 +309,7 @@ strong {
   background-color: black;
   font-weight: normal;
   font-family: "Corbel";
-  font-size: 1.4vw;
+  font-size: 1.3vw;
   color: white;
   text-align: center;
   z-index: 4;
@@ -316,7 +321,7 @@ strong {
 @media screen and (max-width: 1280px) {
   /* Navigation bar*/
   .Menu {
-    font-size: 1.1em;
+    font-size: 2.2vw;
     width: 100%;
     background-color: rgb(255, 255, 255, 0.7);
     margin: 0px;
@@ -345,16 +350,25 @@ strong {
     float: left;
     flex: 33%;
     position: relative;
-    padding: 7px;
+    padding: 10px;
+  }
+  .innerConnection {
+    margin-top: -3.5vw;
+    padding: 0px;
   }
   .innerItems {
-    width: 17vw;
+    width: 40%;
     float: right;
     margin-right: 1vw;
-    margin-top: -7vw;
+    padding: 0px;
+  }
+  .emailLink {
+    font-size: 1.5vw;
+    margin-left: 0.5vw;
+    margin-top: -10vw;
   }
   .photographer, .photographer2, .photographer3, .photographer4 {
-    font-size: 1vw;
+    font-size: 1.3vw;
     margin-top: 8vw;
     width: 100%;
   }
@@ -364,7 +378,7 @@ strong {
 @media screen and (max-width: 740px) {
   /*Navigation bar*/
   .Menu {
-    font-size: 0.5em;
+    font-size: 2.5vw;
     position: fixed;
     margin-left: 0px;
     margin-top: 0px;
@@ -404,24 +418,29 @@ strong {
     margin-top: 7vw;
     width: 100%;
   }
-
+  .innerConnection {
+    margin-top: -1.5vw;
+    padding: 0px;
+  }
   .innerCollection {
     width: 33%;
-    margin-top: 4px;
     float: left;
     flex: 33%;
     position: relative;
-    padding: 4px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
   .innerItems {
-    width: 18vw;
-    float: right;
     margin-right: 1vw;
-    margin-top: -7.5vw;
+    float: right;
+    width: 35%;
+    padding:0vw;
   }
-
-  #Copyright {
+  .emailLink {
     font-size: 1.3vw;
-    top: -1.5vw;
+    margin-left: -1vw;
+    margin-top: -10vw;
   }
 }
