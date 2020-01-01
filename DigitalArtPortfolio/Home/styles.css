@@ -599,9 +599,9 @@ ul li ul li :hover {
     display: none;
   }
   .moreInfo {
-    margin-left: 4%;
+    margin-left: 3vw;
     position: absolute;
-    margin-top: -6%;
+    margin-top: -6vw;
     width: 95%;
   }
   .innerConnection {
@@ -616,7 +616,7 @@ ul li ul li :hover {
   }
   .innerItems {
     width: 45%;
-    margin-left: 25vw;
+    margin-left: 26vw;
     margin-top: 10px;
   }
   .emailLink {

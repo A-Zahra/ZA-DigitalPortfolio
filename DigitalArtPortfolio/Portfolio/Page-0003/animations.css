@@ -92,6 +92,18 @@ ul li ul li :hover {
   padding-right: 3%;
   padding-bottom: 1.5%;
 }
+/* .animation-container {
+  display: inline-flex;
+    position: relative;
+} */
+.main-rows {
+  float: left;
+  width: 100%;
+
+}
+.animation-container {
+  width: 100%;
+}
 /* Position of the image container (needed to position the left and right arrows) */
 .container {
   position: relative;
@@ -170,11 +182,11 @@ ul li ul li :hover {
 }
 /* video's general properties*/
 .videoRow {
-  position: absolute;
+  /* position: absolute; */
   z-index: 2;
   width: 80%;
   margin-left: 10%;
-  margin-top: 3%;
+  margin-top: 10vw;
 }
 /* To put videos side by side*/
 .videoColumn {
@@ -187,10 +199,10 @@ ul li ul li :hover {
 iframe {
   height: 22vw;
 }
-.bottom-section {
+/* .bottom-section {
   margin-top: 35vw;
   position: relative;
-}
+} */
 /* Photographer tag properties*/
 #photographer {
   color: white;
@@ -199,7 +211,7 @@ iframe {
   font-size: 1vw;
   text-align: left;
   z-index: 3;
-  padding-bottom: 0px;
+  margin-top: 0.5vw;
 }
 .moreInfo {
   margin-top: 2vw;
@@ -260,7 +272,7 @@ iframe {
 }
 
 /* Tablet version*/
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1280px) {
   /* Navigation bar*/
   .Menu {
     font-size: 1.1em;
@@ -277,18 +289,48 @@ iframe {
     line-height: 2.5vw;
   }
   /* Photographer name and website address properties*/
-  #photographer {
-    margin-top: 44vw;
+  /* #photographer {
+    /* margin-top: 44vw;
     font-size: 1.3vw;
+  } */
+  /* Photographer name and website address*/
+  #photographer {
+    font-size: 1.5vw;
+    margin-top: 2vw;
+  }
+  .moreInfo {
+    margin-left: 3vw;
+    margin-top: 5vw;
+    width: 95%;
+  }
+  .innerConnection {
+    padding: 0px;
+  }
+  .innerCollection {
+    width: 33%;
+    float: left;
+    flex: 33%;
+    position: relative;
+    padding: 10px;
+  }
+  .innerItems {
+    width: 50%;
+    margin-left: 23vw;
+    margin-top: -6px;
+  }
+  .emailLink {
+    font-size: 1.5vw;
+    margin-left: -1vw;
+    margin-top: -10vw;
   }
   /* Copyright*/
   #Copyright {
-    margin-top: 50vw;
+    margin-top: 1vw;
   }
 }
 
 /* Cell phone version*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 740px) {
   /* Navigation bar*/
   .Menu {
     font-size: 0.5em;
@@ -325,14 +367,41 @@ iframe {
   }
   /* Photographer name and website address properties*/
   #photographer {
-    font-size: 4px;
-    margin-top: 58vw;
+    font-size: 1.3vw;
+    margin-top: 3vw;
+    margin-left: 3vw;
+  }
+  .moreInfo {
+    display: inline-flex;
+    margin-left: 0%;
+    width: 95%;
+    margin-left: 1.5vw;
+  }
+  .innerConnection {
+    padding: 0px;
+  }
+  .innerCollection {
+    width: 33%;
+    float: left;
+    flex: 33%;
+    position: relative;
+    padding: 5px;
+  }
+  .innerItems {
+    width: 45%;
+    margin-left: 26vw;
+    margin-top: 5px;
+  }
+  .emailLink {
+    font-size: 1.5vw;
+    margin-left: -1vw;
+    margin-top: -10vw;
   }
   /* Copyright*/
   #Copyright {
     position: relative;
     width: 100%;
-    margin-top: 64vw;
     padding: 2px;
+
   }
 }

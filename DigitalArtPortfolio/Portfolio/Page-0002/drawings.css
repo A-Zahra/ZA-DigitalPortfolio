@@ -178,9 +178,10 @@ ul li ul li :hover {
   color: black;
   font-weight: normal;
   font-family: "Century Gothic", sans-serif;
-  font-size: 1.3vw;
+  font-size: 1vw;
   text-align: left;
   z-index: 3;
+  margin-top: 0.5vw;
 }
 .moreInfo {
   /*margin-left: 8%;*/
@@ -235,7 +236,8 @@ ul li ul li :hover {
   color: white;
   text-align: center;
   z-index: 4;
-  margin-top: 9%;
+  height: 4.5vw;
+  margin-top: 8vw;
   display: inline-flex;
   position: relative;
 }
