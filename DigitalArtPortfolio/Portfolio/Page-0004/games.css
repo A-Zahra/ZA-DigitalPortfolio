@@ -82,7 +82,7 @@ ul li ul li :hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .B-color {
-  width: 90%;
+  width: 100%;
 }
 /* CRAFT logo*/
 /* properties of first logo div that keeps the two columns side by side*/
@@ -118,27 +118,27 @@ ul li ul li :hover {
   display: inline-flex;
   background-color: #FFB85F;
 }
-.row4 {
+/* .row4 {
   /* background-image: url("https://i.ya-webdesign.com/images/retro-games-png-6.png");
   /* background-repeat: repeat; */
-  /*background-size: 40vw; */
+  /*background-size: 40vw;
   z-index: 2;
   width: 100%;
   margin-top: 0vw;
   padding: 0px;
   display: inline-flex;
   background-color: #462066;
-}
+} */
 .row5 {
   /* background-image: url("https://i.ya-webdesign.com/images/retro-games-png-6.png");
   /* background-repeat: repeat; */
   /*background-size: 40vw; */
   z-index: 2;
   width: 100%;
-  margin-top: 0vw;
+  margin-top: -2.5vw;
   padding: 30px;
   display: inline-flex;
-  background-color: #462066;
+  background-color: #FFB85F;
 }
 
 .collection{
@@ -168,7 +168,7 @@ ul li ul li :hover {
   padding-left: 3%;
   padding-right: 3%;
   padding-bottom: 2%;
-  text-indent: 50px;
+  text-indent: 4vw;
 }
 /* Make the text bold*/
 strong {
@@ -223,7 +223,7 @@ strong {
   color: white;
   margin-top: 1.5vw;
   font-size: 1vw;
-  width: 70%;
+  /* width: 70%; */
 }
 .moreInfo {
   /*margin-left: 8%;*/
@@ -282,5 +282,128 @@ strong {
   height: 4.5vw;
 }
 @media only screen and (max-width: 1280px) {
-
+  /* Navigation bar*/
+  .Menu {
+    font-size: 2.2vw;
+    width: 100%;
+    background-color: rgb(255, 255, 255, 0.7);
+    margin: 0px;
+  }
+  .Menu a {
+    font-weight: bold;
+  }
+  .specific{
+    margin-top: 15vw;
+  }
+  .text {
+    text-indent: 3vw;
+  }
+  .B-color {
+    width: 100%;
+  }
+  .gameLink {
+    padding: 5px;
+  }
+  #photographer {
+    margin-top: 2vw;
+    font-size: 1.3vw;
+  }
+  .moreInfo {
+    display: inline-flex;
+  }
+  .innerConnection {
+    padding: 0px;
+  }
+  .innerCollection {
+    width: 33%;
+    float: left;
+    flex: 33%;
+    position: relative;
+    padding: 10px;
+  }
+  .innerItems {
+    width: 50%;
+    margin-left: 23vw;
+    margin-top: -6px;
+  }
+  .emailLink {
+    font-size: 1.5vw;
+    margin-left: -1vw;
+    margin-top: -10vw;
+  }
+}
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other - Cell phone version*/
+@media screen and (max-width: 740px) {
+  /*Navigation bar*/
+  .Menu {
+    font-size: 2.5vw;
+    position: fixed;
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 100%;
+    opacity: 0.8;
+    background-color: white;
+  }
+  .Menu a {
+    padding: 10px;
+    font-weight: bold;
+  }
+  .collection {
+    margin: 5vw;
+  }
+  .specific {
+    margin-top: 15vw;
+  }
+  .text {
+    text-indent: 2.5vw;
+  }
+  .column1 {
+    padding: 10px;
+  }
+  .B-color {
+    width: 100%;
+  }
+  .gameLink {
+    padding: 3px;
+  }
+  .link {
+    padding: 5px 5px;
+  }
+  #photographer {
+    margin-top: 3%;
+    margin-left: 2%;
+    font-size: 1.3vw;
+  }
+  .row5 {
+    padding: 0px;
+  }
+  .moreInfo {
+    display: inline-flex;
+    margin-left: 0%;
+    width:100%;
+    margin-left: 1.5vw;
+  }
+  .innerConnection {
+    padding: 0px;
+  }
+  .innerCollection {
+    width: 33%;
+    float: left;
+    flex: 33%;
+    position: relative;
+    padding: 5px;
+  }
+  .innerItems {
+    width: 45%;
+    margin-left: 26vw;
+    margin-top: 5px;
+  }
+  .emailLink {
+    font-size: 1.5vw;
+    margin-left: -1vw;
+    margin-top: -10vw;
+  }
+  #Copyright {
+    top: 0vw;
+  }
 }
