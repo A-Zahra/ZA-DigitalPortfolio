@@ -517,6 +517,7 @@ ul li ul li :hover {
   #po-title {
     margin-left: 10px;
     width: 92%;
+    font-size: 2.5vw;
   }
   .middle {
     top: 50%;
@@ -665,8 +666,8 @@ ul li ul li :hover {
     margin-top: -43vw;
   }
   .sections {
-    margin-top: 5vw;
-    margin-left: 7%;
+    margin-top: 6vw;
+    margin-left: 7vw;
   }
   .po-column {
     padding: 7px;
@@ -683,6 +684,8 @@ ul li ul li :hover {
     width:93%;
     margin-left: 12px;
     margin-top: -15px;
+    font-size: 2.5vw;
+    padding: 5px;
   }
   .middle {
     width: 60%;
@@ -691,7 +694,7 @@ ul li ul li :hover {
     opacity: 1;
   }
   .text {
-    font-size: 1.45vw;
+    font-size: 1.4vw;
     font-weight: bold;
     padding: 5px 5px;
   }
