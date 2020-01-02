@@ -443,4 +443,7 @@ strong {
     margin-left: -1vw;
     margin-top: -10vw;
   }
+  #Copyright {
+    top: -1vw;
+  }
 }

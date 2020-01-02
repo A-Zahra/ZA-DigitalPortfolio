@@ -277,7 +277,6 @@ strong {
   color: white;
   text-align: center;
   z-index: 4;
-  margin-top: 0vw;
   display: inline-flex;
   height: 4.5vw;
 }
@@ -348,17 +347,18 @@ strong {
     padding: 10px;
     font-weight: bold;
   }
+
   .collection {
-    margin: 5vw;
+    margin: 1vw;
   }
   .specific {
-    margin-top: 15vw;
+    margin-top: 14vw;
   }
   .text {
     text-indent: 2.5vw;
   }
   .column1 {
-    padding: 10px;
+    padding: 5px;
   }
   .B-color {
     width: 100%;
@@ -376,12 +376,21 @@ strong {
   }
   .row5 {
     padding: 0px;
+    margin-top: -2.5vw;
+
+  }
+  .column2 {
+    width: 100%;
+    float: left;
+    flex: 100%;
+    padding: 0px;
   }
   .moreInfo {
     display: inline-flex;
     margin-left: 0%;
     width:100%;
     margin-left: 1.5vw;
+    margin-top: 2vw;
   }
   .innerConnection {
     padding: 0px;
@@ -404,6 +413,6 @@ strong {
     margin-top: -10vw;
   }
   #Copyright {
-    top: 0vw;
+    top: -1vw;
   }
 }

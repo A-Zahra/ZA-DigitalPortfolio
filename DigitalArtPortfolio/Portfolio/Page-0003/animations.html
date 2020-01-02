@@ -9,62 +9,68 @@
     <body>
       <div id="screen">
         <!-- Menu-->
+        <!-- Menu-->
         <div class="Menu">
           <ul>
-            <!-- Home-->
-            <li><a href="../../Home/index.html">HOME</a><li>
+            <!-- Home -->
+            <li><a href="../../Home/index.html">HOME</a>
+            <li>
               <!-- If screen size is less than 1399px, uses slides id for navigation between different slides and pages-->
               <!-- If screen size is more than 1399px, consider the current page as previous page
-                    and finds the slide (the user wants to go there) from local storage, and puts it as next page.-->
+                  and finds the slide (the user wants to go there) from local storage, and puts it as next page.-->
 
-                <!-- About-me-->
-              <li><a href="javascript:
-                if(screen.width<1399){
-                  location.href = '../../Home/index.html#about-me';
-                }
-                else{
-                    console.log('test');
-                    localStorage.setItem('previous','animationsPage');
-                    localStorage.setItem('next','aboutPage');
-                      location.href = '../../Home/index.html';
+              <!-- About-me-->
+            <li>
+              <a href="javascript:
+                  if(screen.width<1399){
+                      location.href = '../../Home/index.html#about-me';
+                    }
+                  else{
+                      console.log('test');
+                      localStorage.setItem('previous','logosPage');
+                      localStorage.setItem('next','aboutPage');
+                        location.href = '../../Home/index.html';
                     }
                   ">ABOUT</a></li>
 
-                <!-- Portfolio-->
-              <li><a href="javascript:
-                if(screen.width<1399){
-                  location.href = '../../Home/index.html#portfolio';
-              }
-              else{
-                    console.log('test');
-                    localStorage.setItem('previous','animationsPage');
-                    localStorage.setItem('next','portfolioPage');
-                      location.href = '../../Home/index.html';
+            <!-- Portfolio-->
+            <li>
+              <a href="javascript:
+                  if(screen.width<1399){
+                    location.href = '../../Home/index.html#portfolio';
                     }
-                  ">PORTFOLIO</a>
-                  <!-- Portfolio options-->
-                <ul>
-                  <li><a class="options" href="../Page-0001/logos.html">Logo Design</a></li>
-                  <li><a class="options" href="../Page-0002/drawings.html">Drawing's Gallery</a></li>
-                  <li><a class="options" href="../Page-0003/animations.html">Animation Project</a></li>
-                  <li><a class="options" href="../Page-0004/games.html">Games</a></li>
-                </ul>
-              </li>
-              <!-- Contact-me-->
-              <!-- <li><a href="javascript:
+                  else{
+                      console.log('test');
+                      localStorage.setItem('previous','logosPage');
+                      localStorage.setItem('next','portfolioPage');
+                        location.href = '../../Home/index.html';
+                      }
+                    ">PORTFOLIO</a>
+              <!-- Portfolio options-->
+              <ul>
+                <li><a class="options" href="../Page-0001/logos.html">Logo Design</a></li>
+                <li><a class="options" href="../Page-0002/drawings.html">Drawing's Gallery</a></li>
+                <li><a class="options" href="../Page-0003/animations.html">Animation Project</a></li>
+                <li><a class="options" href="../Page-0004/games.html">Games</a></li>
+              </ul>
+            </li>
+
+            <!-- Contact-me-->
+            <!-- <li><a href="javascript:
                 if(screen.width<1399){
                   location.href = '../../Home/index.html#Contact-me';
-              }
-              else{
+                  }
+                else{
                     console.log('test');
-                    localStorage.setItem('previous','animationsPage');
+                    localStorage.setItem('previous','logosPage');
                     localStorage.setItem('next','contactPage');
                       location.href = '../../Home/index.html';
-                    }">CONTACT</a>
-              <li> -->
+                }">CONTACT</a>
+            <li> -->
           </ul>
+
         </div>
-        
+
         <div class="animation-container">
         <!-- A short description about the animation character-->
         <div class="desc">
@@ -75,7 +81,7 @@
             good ideas for it's future.</p>
             <h3 class="heading" style="background-color: #FF7D83; padding: 4px;">*Photos</h3>
         </div>
-        <div class="main-rows"> 
+        <div class="main-rows">
         <!-- Images gallery-->
         <div class=" container">
               <!-- Full-width images-->
@@ -166,7 +172,7 @@
             </div>
           </div>
         </div>
-        
+
         </div>
         <div class="bottom-section">
           <!-- Photographer name and website address-->
