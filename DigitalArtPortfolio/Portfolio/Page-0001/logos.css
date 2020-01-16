@@ -413,13 +413,18 @@ strong {
   }
 
   /* Photographers name and address properties*/
-  .photographer, .photographer2, .photographer3, .photographer4 {
+  .photographer, .photographer2, .photographer3{
     font-size: 1vw;
     margin-top: 7vw;
     width: 100%;
   }
+  .photographer4 {
+    font-size: 1vw;
+    margin-top: 4.5vw;
+    width: 100%;
+  }
   .innerConnection {
-    margin-top: -1.5vw;
+    margin-top: -4vw;
     padding: 0px;
   }
   .innerCollection {
@@ -444,6 +449,6 @@ strong {
     margin-top: -10vw;
   }
   #Copyright {
-    top: -1vw;
+    top: -4vw;
   }
 }
