@@ -182,6 +182,7 @@ ul li ul li :hover {
   text-align: left;
   z-index: 3;
   margin-top: 0.5vw;
+  margin-left: -0.2vw;
 }
 .moreInfo {
   /*margin-left: 8%;*/

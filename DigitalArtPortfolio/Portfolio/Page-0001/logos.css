@@ -198,7 +198,6 @@ strong {
   width: 100%;
 }
 /* Column properties*/
-
 .colWidth1 {
   width: 40%;
   float: left;
@@ -231,42 +230,30 @@ strong {
 .photographer {
   font-family: "Century Gothic", sans-serif;
   color: white;
-  margin-left: -42%;
+  margin-left: -7.5vw;
   margin-top: 9vw;
   font-size: 1vw;
-  width: 70%;
+  width: 80%;
 }
 .photographer2 {
   font-family: "Century Gothic", sans-serif;
   color: black;
-  margin-left: -42%;
+  margin-left: -8vw;
   margin-top: 8vw;
   background-color: rgba(112,93,55, 1);
   width: 100%;
   font-size: 1vw;
   padding:3%;
 }
-.photographer3 {
+.photographer3, .photographer4 {
   color: black;
   margin-top: 9vw;
-  margin-left: -42%;
+  margin-left: -7.5vw;
   width: 80%;
   font-family: "Century Gothic", sans-serif;
   font-size: 1vw;
 }
-.photographer4 {
-  color: black;
-  margin-top: 9vw;
-  margin-left: -42%;
-  width: 80%;
-  font-family: "Century Gothic", sans-serif;
-  font-size: 1vw;
-}
-/* .innerConnection {
-  width: 90%;
-  position: relative;
-  padding: 40px;
-} */
+/*Contact icons properties*/
 .innerCollection {
   width: 33%;
   margin-top: -20px;
@@ -276,11 +263,10 @@ strong {
   padding: 10px;
 }
 .innerItems {
-  margin-top: -5.5vw;
-  width: 28%;
-  margin-left: 42vw;
-  /* position: relative; */
-  padding: 30px;
+  margin-top: -5vw;
+  width: 25.4%;
+  margin-left: 44vw;
+  padding: 20px;
 }
 .emailLink {
   color: black;
@@ -294,7 +280,6 @@ strong {
   z-index: 3;
   display: none;
 }
-
 .email:hover .emailLink {
   display: block;
 }
@@ -344,6 +329,7 @@ strong {
   .set, .set-2, .set-3, .set-4{
     padding: 7%;
   }
+  /*Contact icons properties*/
   .innerCollection {
     width: 33%;
     margin-top: 3px;
@@ -403,10 +389,6 @@ strong {
     padding-bottom: 5px;
     text-indent: 15px;
   }
-  /* specifically setting top margin for second logo title*/
-  /* #difference {
-    margin-top: -4%;
-  } */
   /* Logos images*/
   .image {
     margin-top: 15%;

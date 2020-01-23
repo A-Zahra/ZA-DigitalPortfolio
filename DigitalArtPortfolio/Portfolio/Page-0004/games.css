@@ -5,8 +5,6 @@ body {
   margin: 0px;
   z-index: 0;
   padding:0px;
-  /* background-image: url("https://images.unsplash.com/photo-1513151233558-d860c5398176?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80");
-  background-repeat: no-repeat; */
 }
 
 /* Navigation bar*/
@@ -85,9 +83,7 @@ ul li ul li :hover {
 .B-color {
   width: 100%;
 }
-/* CRAFT logo*/
-/* properties of first logo div that keeps the two columns side by side*/
-
+/* Rows properites that keeps the two columns side by side*/
 .row1 {
   z-index: 1;
   width: 100%;
@@ -96,11 +92,7 @@ ul li ul li :hover {
   display: inline-flex;
   background-color: #00C2BD;
 }
-
 .row2 {
-  /* background-image: url("https://i.ya-webdesign.com/images/retro-games-png-6.png");
-  /* background-repeat: repeat;*/
-  /* background-size: 40vw; */
   z-index: 2;
   width: 100%;
   margin-top: 0vw;
@@ -109,9 +101,6 @@ ul li ul li :hover {
   background-color: #FF7A5A;
 }
 .row3 {
-  /* background-image: url("https://i.ya-webdesign.com/images/retro-games-png-6.png");
-  /* background-repeat: repeat; */
-  /*background-size: 40vw; */
   z-index: 2;
   width: 100%;
   margin-top: 0vw;
@@ -119,32 +108,16 @@ ul li ul li :hover {
   display: inline-flex;
   background-color: #FFB85F;
 }
-/* .row4 {
-  /* background-image: url("https://i.ya-webdesign.com/images/retro-games-png-6.png");
-  /* background-repeat: repeat; */
-  /*background-size: 40vw;
-  z-index: 2;
-  width: 100%;
-  margin-top: 0vw;
-  padding: 0px;
-  display: inline-flex;
-  background-color: #462066;
-} */
 .row5 {
-  /* background-image: url("https://i.ya-webdesign.com/images/retro-games-png-6.png");
-  /* background-repeat: repeat; */
-  /*background-size: 40vw; */
   z-index: 2;
   width: 100%;
   margin-top: -2.5vw;
-  /* padding: 30px; */
   display: inline-table;
   background-color: #FFB85F;
 }
 
 .collection{
   background-image: url("../Page-0004/images/gamePattern.png");
-  /* background-repeat: repeat; */
   background-size: 40vw;
   width: 100%;
   margin: 10vw;
@@ -198,7 +171,6 @@ strong {
 /* Click button*/
 .link {
   background-color: white;
-  /* background-color: #2CC8E8; */
   font-size: 1.1vw;
   border-radius: 5px 5px 5px 5px;
   padding: 14px 14px;
@@ -210,7 +182,6 @@ strong {
   color: black;
   text-decoration: none;
 }
-
 .bottom-section {
   float: left;
   flex: 100%;
@@ -223,17 +194,15 @@ strong {
   font-family: "Century Gothic", sans-serif;
   color: white;
   font-size: 1vw;
-  /* width: 70%; */
 }
 .column3 {
   width: 100%;
   float: left;
   flex: 100%;
   position: relative;
-  /* padding: 10px; */
 }
+/*Contact icons properties*/
 .moreInfo {
-  /*margin-left: 8%;*/
   display: inline-flex;
   width: 100%;
 }
@@ -242,7 +211,6 @@ strong {
   float: left;
   flex: 50%;
   position: relative;
-  /* padding: 40px; */
 }
 .innerCollection {
   width: 33%;
@@ -258,10 +226,8 @@ strong {
 }
 .showContact {
   margin-top: -1vw;
-  margin-left: 3vw;
-
+  margin-left: 2.5vw;
 }
-
 .emailLink {
   color: black;
   font-weight: normal;
@@ -274,7 +240,6 @@ strong {
   z-index: 3;
   display: none;
 }
-
 .email:hover .emailLink {
   display: block;
 }
@@ -294,7 +259,6 @@ strong {
   display: inline-table;
   height: 4.5vw;
   margin-top: 1vw;
-
 }
 @media only screen and (max-width: 1280px) {
   /* Navigation bar*/
@@ -326,6 +290,7 @@ strong {
     margin-top: 2vw;
     font-size: 1.3vw;
   }
+  /*Contact icons properties*/
   .moreInfo {
     display: inline-flex;
   }
@@ -409,11 +374,11 @@ strong {
     flex: 100%;
     padding: 0px;
   }
+  /*Contact icons properties*/
   .moreInfo {
     display: inline-flex;
     margin-left: 0%;
     width:100%;
-    /* margin-left: 1.5vw; */
     margin-top: 2vw;
   }
   .innerConnection {
@@ -436,11 +401,4 @@ strong {
     margin-left: -1vw;
     margin-top: -10vw;
   }
-  /* #Copyright {
-    clear:both;
-    margin: -10px;
-    padding: 0px;
-    background:orange;
-
-  } */
 }
