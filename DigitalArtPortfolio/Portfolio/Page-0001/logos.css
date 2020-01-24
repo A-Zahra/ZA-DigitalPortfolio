@@ -347,6 +347,7 @@ strong {
     float: right;
     margin-right: 1vw;
     padding: 0px;
+    margin-top: -5.5vw;
   }
   .emailLink {
     font-size: 1.5vw;
@@ -424,6 +425,7 @@ strong {
     float: right;
     width: 35%;
     padding:0vw;
+    margin-top: -6vw;
   }
   .emailLink {
     font-size: 1.3vw;
@@ -431,6 +433,6 @@ strong {
     margin-top: -10vw;
   }
   #Copyright {
-    top: -4vw;
+    top: -3.5vw;
   }
 }

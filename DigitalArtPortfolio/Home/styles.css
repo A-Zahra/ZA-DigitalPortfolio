@@ -396,6 +396,7 @@ ul li ul li :hover {
     background-color: rgb(255, 255, 255, 0.8);
     padding: 10px;
     width: 100%;
+    margin-top: -3vw;
   }
   .hideContact {
     display: none;
@@ -423,7 +424,7 @@ ul li ul li :hover {
   .innerItems {
     width: 50%;
     margin-left: 23vw;
-    margin-top: -8px;
+    margin-top: -1vw;
   }
   .emailLink {
     font-size: 1.5vw;
@@ -450,7 +451,7 @@ ul li ul li :hover {
     margin-top: 0%;
   }
   #description {
-    font-size: 1.5vw;
+    font-size: 1.6vw;
     padding-top: 3vw;
     padding-left: 1vw;
     padding-right: 1.5vw;
@@ -479,10 +480,11 @@ ul li ul li :hover {
   .middle {
     top: 50%;
     left: 50%;
-    width:65%;
+    width:60%;
   }
   .text {
     font-size: 1.4vw;
+    padding: 10px 10px;
   }
   /* Contact-me slide*/
   .c_row {
@@ -535,7 +537,7 @@ ul li ul li :hover {
     font-family: "Century Gothic", sans-serif;
     padding: 3px;
     background-color: rgb(255,255,255,0.7);
-    margin-top: 1%;
+    margin-top: 3.2vw;
   }
   .Menu {
     font-size: 2.5vw;
@@ -575,7 +577,7 @@ ul li ul li :hover {
   .innerItems {
     width: 45%;
     margin-left: 26vw;
-    margin-top: 10px;
+    margin-top: 1vw;
   }
   .emailLink {
     font-size: 1.3vw;
