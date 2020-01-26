@@ -16,6 +16,9 @@ body {
 .mySlides {
   display: none;
 }
+/* #home {
+  background-image: url("../Home/images/Background/butterfly.jpg");
+} */
 /*Background images position and z-index*/
 .images {
     width: 100%;
@@ -523,7 +526,7 @@ ul li ul li :hover {
   }
   .mySlides {
     display: block;
-    margin-top: -1%;
+    margin-top: -2vw;
   }
   .welcome {
     margin-top: -30%;
@@ -549,7 +552,7 @@ ul li ul li :hover {
     background-color: white;
   }
   .Menu a {
-    padding: 10px;
+    padding: 7px;
     font-weight: bold;
   }
   .hideContact {
@@ -561,7 +564,7 @@ ul li ul li :hover {
   .moreInfo {
     margin-left: 3vw;
     position: absolute;
-    margin-top: -6vw;
+    margin-top: -7vw;
     width: 95%;
   }
   .innerConnection {
@@ -577,7 +580,7 @@ ul li ul li :hover {
   .innerItems {
     width: 45%;
     margin-left: 26vw;
-    margin-top: 1vw;
+    margin-top: 2vw;
   }
   .emailLink {
     font-size: 1.3vw;
@@ -599,8 +602,8 @@ ul li ul li :hover {
 
   /* About-me slide*/
   .row{
-    margin-left: 5%;
-    margin-top: -52%;
+    margin-left: 4vw;
+    margin-top: -58vw;
   }
   .column {
     padding: 10px;
@@ -610,8 +613,8 @@ ul li ul li :hover {
   }
   .col2 {
     width: 38%;
-    margin-left: -12px;
-    margin-top: 3%;
+    margin-left: -2vw;
+    margin-top: 10vw;
   }
   #description {
     font-size: 1.5vw;
@@ -621,7 +624,7 @@ ul li ul li :hover {
 
   /* Portfolio slide*/
   .po_row {
-    margin-left: 5%;
+    margin-left: 4vw;
     margin-top: -43vw;
   }
   .sections {
@@ -640,8 +643,8 @@ ul li ul li :hover {
     margin-top: -3vw;
   }
   #po-title {
-    width:93%;
-    margin-left: 12px;
+    width:86%;
+    margin-left: 4vw;
     margin-top: -15px;
     font-size: 2.5vw;
     padding: 5px;
@@ -660,7 +663,7 @@ ul li ul li :hover {
   .image {
     width: 100%;
   }
-  
+
   /* Copyrights*/
   #Copyright {
     display: block;

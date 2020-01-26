@@ -374,12 +374,12 @@ strong {
     background-color: white;
   }
   .Menu a {
-    padding: 10px;
+    padding: 7px;
     font-weight: bold;
   }
   /* Headings*/
   .Heading {
-    margin-top: 15%;
+    margin-top: 11vw;
   }
   /* Specific setting for EERIC logo description*/
   .paragh {
@@ -425,7 +425,7 @@ strong {
     float: right;
     width: 35%;
     padding:0vw;
-    margin-top: -6vw;
+    margin-top: -7vw;
   }
   .emailLink {
     font-size: 1.3vw;
