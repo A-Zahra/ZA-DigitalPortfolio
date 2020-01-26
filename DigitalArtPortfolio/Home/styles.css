@@ -576,11 +576,12 @@ ul li ul li :hover {
     flex: 33%;
     position: relative;
     padding: 5px;
+    margin-top: 0px;
   }
   .innerItems {
     width: 45%;
     margin-left: 26vw;
-    margin-top: 2vw;
+    margin-top: -3vw;
   }
   .emailLink {
     font-size: 1.3vw;
@@ -597,13 +598,13 @@ ul li ul li :hover {
     height:55vw;
   }
   #photographer {
-    font-size: 1.2vw;
+    font-size: 1.4vw;
   }
 
   /* About-me slide*/
   .row{
     margin-left: 4vw;
-    margin-top: -58vw;
+    margin-top: -56vw;
   }
   .column {
     padding: 10px;

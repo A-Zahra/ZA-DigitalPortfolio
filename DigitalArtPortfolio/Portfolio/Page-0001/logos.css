@@ -403,11 +403,11 @@ strong {
   }
   .photographer4 {
     font-size: 1vw;
-    margin-top: 4.5vw;
+    margin-top: 6vw;
     width: 100%;
   }
   .innerConnection {
-    margin-top: -4vw;
+    margin-top: -3vw;
     padding: 0px;
   }
   .innerCollection {
@@ -419,13 +419,14 @@ strong {
     padding-right: 5px;
     padding-top: 0px;
     padding-bottom: 0px;
+    margin-top: 0vw;
   }
   .innerItems {
     margin-right: 1vw;
     float: right;
     width: 35%;
     padding:0vw;
-    margin-top: -7vw;
+    margin-top: -6vw;
   }
   .emailLink {
     font-size: 1.3vw;
@@ -433,6 +434,6 @@ strong {
     margin-top: -10vw;
   }
   #Copyright {
-    top: -3.5vw;
+    top: -4vw;
   }
 }
