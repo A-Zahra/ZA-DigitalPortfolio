@@ -434,7 +434,7 @@ ul li ul li :hover {
   }
   .moreInfo {
     display: inline-flex;
-    margin-left: 0%;
+    margin-left: 1vw;
     width: 95%;
     margin-left: 1.5vw;
   }
@@ -451,7 +451,7 @@ ul li ul li :hover {
   .innerItems {
     width: 45%;
     margin-left: 27vw;
-    margin-top: 5px;
+    margin-top: -0.5vw;
   }
   .emailLink {
     font-size: 1.5vw;
