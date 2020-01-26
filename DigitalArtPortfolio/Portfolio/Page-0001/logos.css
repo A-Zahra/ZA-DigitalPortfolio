@@ -374,12 +374,12 @@ strong {
     background-color: white;
   }
   .Menu a {
-    padding: 7px;
+    padding: 10px;
     font-weight: bold;
   }
   /* Headings*/
   .Heading {
-    margin-top: 11vw;
+    margin-top: 10vw;
   }
   /* Specific setting for EERIC logo description*/
   .paragh {
