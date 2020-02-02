@@ -1,5 +1,5 @@
 * {
-  box-sizing:border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -12,18 +12,17 @@ body {
   position: fixed;
   margin: 0;
 }
+
 /* Hide the images by default */
 .mySlides {
   display: none;
 }
-/* #home {
-  background-image: url("../Home/images/Background/butterfly.jpg");
-} */
+
 /*Background images position and z-index*/
 .images {
-    width: 100%;
-    height: 49.1vw;
-    z-index: 1;
+  width: 100%;
+  height: 49.1vw;
+  z-index: 1;
 }
 
 /* Next & previous buttons */
@@ -41,14 +40,16 @@ body {
   border-radius: 0 3px 3px 0;
   user-select: none;
 }
+
 /* Position the "next button" to the right */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
+
 /* On hover: add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* The dots/bullets/indicators */
@@ -63,6 +64,7 @@ body {
   transition: background-color 0.6s ease;
   z-index: 3;
 }
+
 /* The dots general properties*/
 .Dots {
   width: 100%;
@@ -70,10 +72,12 @@ body {
   z-index: 3;
   margin-top: -5%;
 }
+
 /* change the dot color once it goes to the next slide*/
 .active, .dot:hover {
   background-color: #717171;
 }
+
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
@@ -81,19 +85,31 @@ body {
   animation-name: fade;
   animation-duration: 1s;
 }
+
 @-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
 }
+
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
 }
 
 /* Navigation bar*/
 /* Menu position, text properties*/
-.Menu{
-  position:  absolute;
+.Menu {
+  position: absolute;
   font-family: "Century Gothic", sans-serif;
   font-size: 1.4em;
   color: black;
@@ -101,43 +117,52 @@ body {
   margin-left: 20px;
   margin-top: 10px;
 }
+
 /* Menu links text properties and display condition*/
 .Menu a {
   text-decoration: none;
   color: black;
   padding: 20px;
-  display:inline-block;
+  display: inline-block;
 }
+
 /* Menu list initial values*/
 ul {
   display: inline;
   margin: 0;
   padding: 0;
 }
+
 ul li {
   display: inline-block;
 }
+
 /* On hover: change menu options color*/
 ul :hover {
-  background: rgba(128,128,128, 0.3);
+  background: rgba(128, 128, 128, 0.3);
 }
+
 ul li:hover ul {
   display: block;
 }
+
 /* Portfolio options poition, width and display condition*/
 ul li ul {
   position: absolute;
   width: 15em;
   display: none;
 }
+
 /* Portfolio options background color and display condition*/
 ul li ul li {
-  background:  rgba(128,128,128, 0.5);
+  background: rgba(128, 128, 128, 0.5);
   display: block;
 }
+
 ul li ul li a {
-  display:block !important;
+  display: block !important;
 }
+
 /* On hover: change background color of portfolio options*/
 ul li ul li :hover {
   background: #555;
@@ -156,6 +181,7 @@ ul li ul li :hover {
   text-align: center;
   z-index: 3;
 }
+
 /* Titles*/
 .Titles {
   margin-top: -4%;
@@ -171,14 +197,16 @@ ul li ul li :hover {
   margin-top: -7%;
   width: 100%;
 }
+
 /*Properties of inner divs*/
 .innerConnection {
-  width:50%;
+  width: 50%;
   float: left;
   flex: 50%;
   position: relative;
   padding: 40px;
 }
+
 .innerCollection {
   width: 33%;
   margin-top: -20px;
@@ -187,10 +215,12 @@ ul li ul li :hover {
   position: relative;
   padding: 10px;
 }
+
 .innerItems {
   width: 28%;
   margin-left: 33vw;
 }
+
 /*Properties of email link*/
 .emailLink {
   color: black;
@@ -204,9 +234,11 @@ ul li ul li :hover {
   z-index: 3;
   display: none;
 }
+
 .email:hover .emailLink {
   display: block;
 }
+
 .contacts {
   width: 100%;
 }
@@ -228,9 +260,11 @@ ul li ul li :hover {
   position: absolute;
   margin-top: -43vw;
 }
+
 .row::after {
- display: flex;
+  display: flex;
 }
+
 /* Set two columns side by side*/
 .column {
   z-index: 3;
@@ -239,14 +273,17 @@ ul li ul li :hover {
   flex: 50%;
   float: left;
 }
+
 /* Columns width*/
 .col1 {
   width: 55%;
 }
+
 .col2 {
-  width:36%;
+  width: 36%;
   margin-top: 26px;
 }
+
 /* About-me short description*/
 #description {
   font-weight: normal;
@@ -261,12 +298,15 @@ ul li ul li :hover {
   padding-bottom: 2%;
   margin-top: -5%;
   text-indent: 10%;
-  -webkit-transition: background-color 2s; /* For Safari 3.0 to 6.0 */
-  transition: background-color 2s; /* For modern browsers */
+  -webkit-transition: background-color 2s;
+  /* For Safari 3.0 to 6.0 */
+  transition: background-color 2s;
+  /* For modern browsers */
 }
+
 /* On hover: change description background color*/
 #description:hover {
-   background-color: rgba(129,129,129, 0.5);
+  background-color: rgba(129, 129, 129, 0.5);
 }
 
 /* Portfolio slide*/
@@ -277,9 +317,11 @@ ul li ul li :hover {
   margin-top: -42.5vw;
   width: 100%;
 }
+
 .po_row::after {
- display: flex;
+  display: flex;
 }
+
 /* Put columns side by side*/
 .po-column {
   z-index: 3;
@@ -289,23 +331,29 @@ ul li ul li :hover {
   padding: 20px;
   position: relative;
 }
+
 .sections {
   margin-top: 9vw;
   width: 85%;
 }
+
 #Drawing-gallery {
   margin-top: -10vw;
 }
-#Games{
-    margin-top: -10vw;
+
+#Games {
+  margin-top: -10vw;
 }
+
 /* On hover: set the opacity of image to 0.5 and the click button to 1.0*/
 .po-column:hover .image {
   opacity: 0.5;
 }
+
 .po-column:hover .middle {
   opacity: 1;
 }
+
 /* Specific properties for Portfolio title*/
 #po-title {
   margin-top: -20px;
@@ -313,6 +361,7 @@ ul li ul li :hover {
   margin-left: 2%;
   font-size: 3vw;
 }
+
 /* My portfolio each section image*/
 .image {
   opacity: 1;
@@ -324,6 +373,7 @@ ul li ul li :hover {
   transition: .5s ease;
   backface-visibility: hidden;
 }
+
 /* On hover: shows the click button*/
 .middle {
   transition: .2s ease;
@@ -334,6 +384,7 @@ ul li ul li :hover {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
+
 /* Click button*/
 .text {
   background-color: #2CC8E8;
@@ -343,7 +394,8 @@ ul li ul li :hover {
   font-weight: normal;
   font-family: "Century Gothic", sans-serif;
 }
-.click  {
+
+.click {
   color: white;
   text-decoration: none;
 }
@@ -367,33 +419,41 @@ ul li ul li :hover {
 
 /* Tablet version*/
 @media only screen and (max-width: 1280px) {
+
   /* Home page*/
   /* slideshow container*/
   .slideshow-container {
     position: absolute;
     margin: 0;
   }
+
   .welcome {
     margin-top: -32%;
     font-size: 4.5vw;
   }
+
   .Menu {
     position: fixed;
     font-size: 2.2vw;
   }
+
   .mySlides {
     display: block;
     margin-top: -1%;
   }
+
   .prev, .next {
     display: none;
   }
+
   .Dots {
     display: none;
   }
+
   .images {
-    height:58vw;
+    height: 58vw;
   }
+
   .Titles {
     font-size: 2vw;
     background-color: rgb(255, 255, 255, 0.8);
@@ -401,12 +461,15 @@ ul li ul li :hover {
     width: 100%;
     margin-top: -3vw;
   }
+
   .hideContact {
     display: none;
   }
+
   .hideContact2 {
     display: none;
   }
+
   /*Contact icons tablet version properties*/
   .moreInfo {
     margin-left: 4%;
@@ -414,9 +477,11 @@ ul li ul li :hover {
     margin-top: -6%;
     width: 95%;
   }
+
   .innerConnection {
     padding: 0px;
   }
+
   .innerCollection {
     width: 33%;
     float: left;
@@ -424,16 +489,19 @@ ul li ul li :hover {
     position: relative;
     padding: 10px;
   }
+
   .innerItems {
     width: 50%;
     margin-left: 23vw;
     margin-top: -1vw;
   }
+
   .emailLink {
     font-size: 1.5vw;
     margin-left: -21vw;
     margin-top: -5vw;
   }
+
   #photographer {
     font-size: 1.3vw;
   }
@@ -443,16 +511,20 @@ ul li ul li :hover {
     margin-left: 5%;
     margin-top: -49%;
   }
+
   .column {
     padding: 3%;
   }
+
   .col1 {
     width: 55%;
   }
+
   .col2 {
     width: 40%;
     margin-top: 0%;
   }
+
   #description {
     font-size: 1.6vw;
     padding-top: 3vw;
@@ -466,45 +538,55 @@ ul li ul li :hover {
     margin-top: -46%;
     width: 90%;
   }
+
   .po-column {
     padding: 15px;
     width: 25%;
     margin-top: -4%;
   }
+
   .sections {
     margin-top: 15vw;
     margin-left: 4.5%;
   }
+
   #po-title {
     margin-left: 10px;
     width: 92%;
     font-size: 2.5vw;
   }
+
   .middle {
     top: 50%;
     left: 50%;
-    width:60%;
+    width: 60%;
   }
+
   .text {
     font-size: 1.4vw;
     padding: 10px 10px;
   }
+
   /* Contact-me slide*/
   .c_row {
     margin-left: 8%;
     margin-top: -46%;
     width: 83%;
   }
+
   .C-column {
     width: 100%;
   }
+
   .items {
     font-size: 2.2vw;
     padding-left: 2px;
   }
+
   .c-links {
     font-size: 2vw;
   }
+
   .C-Info {
     width: 100%;
   }
@@ -517,31 +599,35 @@ ul li ul li :hover {
 }
 
 /* Cell phone version*/
-@media screen and (max-width: 740px){
+@media screen and (max-width: 740px) {
+
   /* Home page*/
   /* Slideshow container*/
   .slideshow-container {
     position: absolute;
     margin: 0;
   }
+
   .mySlides {
     display: block;
     margin-top: -2vw;
   }
+
   .welcome {
     margin-top: -30%;
     margin-left: 30%;
     font-size: 5vw;
-
   }
+
   .Titles {
     font-weight: bold;
     font-size: 2vw;
     font-family: "Century Gothic", sans-serif;
     padding: 3px;
-    background-color: rgb(255,255,255,0.7);
+    background-color: rgb(255, 255, 255, 0.7);
     margin-top: 3.2vw;
   }
+
   .Menu {
     font-size: 2.5vw;
     position: fixed;
@@ -551,25 +637,31 @@ ul li ul li :hover {
     opacity: 0.8;
     background-color: white;
   }
+
   .Menu a {
     padding: 10px;
     font-weight: bold;
   }
+
   .hideContact {
     display: none;
   }
+
   .hideContact2 {
     display: none;
   }
+
   .moreInfo {
     margin-left: 3vw;
     position: absolute;
     margin-top: -7vw;
     width: 95%;
   }
+
   .innerConnection {
     padding: 0px;
   }
+
   .innerCollection {
     width: 33%;
     float: left;
@@ -578,45 +670,55 @@ ul li ul li :hover {
     padding: 5px;
     margin-top: 0px;
   }
+
   .innerItems {
     width: 45%;
     margin-left: 26vw;
     margin-top: -3vw;
   }
+
   .emailLink {
     font-size: 1.3vw;
     margin-left: -20vw;
     margin-top: -5vw;
   }
+
   .prev, .next {
     display: none;
   }
+
   .Dots {
     display: none;
   }
+
   .images {
-    height:55vw;
+    height: 55vw;
   }
+
   #photographer {
     font-size: 1.4vw;
   }
 
   /* About-me slide*/
-  .row{
+  .row {
     margin-left: 4vw;
     margin-top: -56vw;
   }
+
   .column {
     padding: 10px;
   }
+
   .col1 {
     width: 60%;
   }
+
   .col2 {
     width: 38%;
     margin-left: -2vw;
     margin-top: 10vw;
   }
+
   #description {
     font-size: 1.5vw;
     padding-top: 2.5vw;
@@ -628,39 +730,47 @@ ul li ul li :hover {
     margin-left: 4vw;
     margin-top: -43vw;
   }
+
   .sections {
     margin-top: 6vw;
     margin-left: 7vw;
   }
+
   .po-column {
     padding: 7px;
     width: 25%;
     margin-top: -4%;
   }
+
   #Drawing-gallery {
     margin-top: -3vw;
   }
-  #Games{
+
+  #Games {
     margin-top: -3vw;
   }
+
   #po-title {
-    width:86%;
+    width: 86%;
     margin-left: 4vw;
     margin-top: -15px;
     font-size: 2.5vw;
     padding: 5px;
   }
+
   .middle {
     width: 60%;
     top: 22vw;
     left: 50%;
     opacity: 1;
   }
+
   .text {
     font-size: 1.4vw;
     font-weight: bold;
     padding: 5px 5px;
   }
+
   .image {
     width: 100%;
   }
