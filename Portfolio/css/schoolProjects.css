@@ -1,0 +1,443 @@
+
+* {
+  box-sizing: border-box
+}
+
+.InnerContainer {
+  margin: -0.5vw;
+}
+
+.NavigationBar {
+  background-color: rgb(76, 70, 126, 1);
+  display: flex;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 0vw;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+  font-family: "century gothic", sans-serif;
+  transition: 0.7s;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  color: rgb(173 178 196);
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(76, 70, 126, 1);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 2;
+}
+
+.dropdown-content a {
+  color: White;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.AllProjects {
+  background-color: rgb(76, 70, 126, 0.9);
+  position: absolute;
+  z-index: 1;
+  margin-left: -0.2vw;
+}
+
+.groupOne{
+  width: 100%;
+  float: left;
+  display: inline-flex;
+  padding: 7vw;
+  padding-top: 2vw;
+  padding-bottom: 4vw;
+}
+
+
+.groupTwo {
+  padding-top: 2vw;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  display: inline-flex;
+}
+
+.groupThree {
+  padding-top: 2vw;
+  padding-bottom: 5vw;
+  padding-left: 15vw;
+  padding-right: 15vw;
+  display: inline-flex;
+}
+
+.projectOne, .projectTwo, .projectThree  {
+  position: relative;
+  filter: brightness(0.95);
+  width: 100%;
+  padding: 1vw;
+}
+
+.groupTitle {
+  font-family: 'century Gothic', sans-serif;
+  color: white;
+  font-size: 2.5vw;
+  text-align: center;
+  font-weight: Normal;
+  margin-top: 5vw;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgb(67, 75, 104, 0.7);
+}
+
+.projectLink-Small, .projectLink-Middle, .projectLink-Large {
+  font-family: 'century gothic', sans-serif;
+  color: white;
+  font-size: 1.2vw;
+  text-align: center;
+  text-decoration: none;
+  font-weight: Normal;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: 0vw;
+  /* -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%); */
+  transform: translate(-50%, -50%);
+  line-height: 3vw;
+  width: 100%;
+}
+
+.projectLink-Middle {
+  font-size: 1.5vw;
+  line-height: 2vw;
+}
+
+.projectLink-Large {
+  font-size: 1.7vw;
+}
+
+.projectOne:hover .overlay, .projectTwo:hover .overlay, .projectThree:hover .overlay, .projectFive:hover .overlay  {
+  opacity: 1;
+}
+
+.popUps {
+  position: fixed;
+  top: 0;
+  background-color: white;
+  z-index: 2;
+  height: 100%;
+  display: none;
+  width: 100%;
+}
+
+.exit {
+  position: absolute;
+  z-index: 2;
+  width: 6vw;
+  float: right;
+  right: 0;
+  top: 0;
+  padding: 2vw;
+}
+
+.treePopUp {
+  display: none;
+  padding: 2vw;
+  padding-top: 0vw;
+  margin-top: 0vw;
+}
+
+.gameLogoPopUp {
+  display: none;
+  padding: 2vw;
+  margin-top: 1vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
+
+.vestPopUps {
+  display: none;
+  padding: 2vw;
+  margin-top: 1vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
+
+.slideShow {
+  padding-top: 0vw;
+  padding: 3vw;
+  padding-top: 3vw;
+  margin-left: 0vw;
+  width: 100%;
+  display: grid;
+}
+
+.projectImage {
+  padding: 3vw;
+  margin: 2vw;
+  width: 35%;
+  /* padding-right: 0vw; */
+  float: left;
+}
+
+.shortDescription {
+  background-color: rgb(227, 193, 67);
+  box-shadow: 0px 4px 16px 8px rgb(149 143 143 / 40%);
+  margin-top: 5vw;
+  padding: 6vw;
+  /* padding-right: 0vw; */
+  width: 50%;
+  float: left;
+}
+
+.shortDescription2 {
+  box-shadow: 0px 4px 16px 8px rgb(149 143 143 / 40%);
+  margin: 2vw;
+  margin-right: 0vw;
+  padding: 6vw;
+  padding-bottom: 4vw;
+  width: 56%;
+  float: left;
+}
+
+.shortDescription3 {
+  background-color: rgb(255, 180, 65);
+  box-shadow: 0px 4px 16px 8px rgb(149 143 143 / 40%);
+  margin: 10vw;
+  margin-top: 5vw;
+  padding: 6vw;
+  width: 100%;
+  float: left;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@700&family=Karla:wght@700&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+.projectTitle, .projectTitle3 {
+  color: black;
+  font-family: 'source sans pro', sans-serif;
+  font-size: 2.3vw;
+  text-align: left;
+  margin-top: -2vw;
+  font-weight: normal;
+}
+
+.projectBrief, .projectBrief2, .projectBrief3 {
+  margin: 0vw;
+  color: black;
+  font-family: 'source sans pro', sans-serif;
+  font-size: 1.2vw;
+  text-align: justify;
+  line-height: 2.3vw;
+  text-indent: 50px;
+}
+
+.vestLink {
+  font-family: 'century gothic', sans-serif;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+  padding: 2vw;
+  padding-top: 0vw;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+.slides {
+  width: 50%;
+  float: left;
+  padding: 2vw;
+}
+
+/* Next & previous buttons */
+.prev {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 0vw;
+  float: left;
+  width: auto;
+  padding: 16px;
+  color: Black;
+  font-weight: bold;
+  font-size: 35px;
+  transition: 0.6s ease;
+  border-radius: 3px 3px;
+  user-select: none;
+  z-index: 2;
+}
+
+/* Position the "next button" to the right */
+.next {
+  cursor: pointer;
+  position: absolute;
+  float: right;
+  top: 50%;
+  right: 0vw;
+  width: auto;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 35px;
+  transition: 0.6s ease;
+  user-select: none;
+  border-radius: 3px 3px;
+  z-index: 2;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.title {
+  background-color: rgb(253, 212, 147, 1);
+  color: black;
+  font-family: 'source sans pro', sans-serif;
+  font-size: 2.3vw;
+  text-align: left;
+  margin-top: 0vw;
+  margin-bottom: 0vw;
+  padding: 2.5vw;
+  padding-top: 2vw;
+  padding-bottom: 0vw;
+  font-weight: normal;
+}
+
+.photobrief {
+  background-color: rgb(253, 212, 147, 1);
+  color: black;
+  font-family: 'source sans pro', sans-serif;
+  font-size: 1.2vw;
+  line-height: 2.3vw;
+  padding: 2.5vw;
+  padding-top: 1.5vw;
+  margin: 0vw;
+  text-align: left;
+  text-indent: 50px;
+}
+
+/* Caption text */
+.text {
+  width: 55%;
+  float: left;
+  padding: 2vw;
+}
+
+.dots {
+  position: absolute;
+  text-align: left;
+  margin-left: 14vw;
+  margin-top: 36vw;
+  z-index: 2;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.2s;
+  animation-name: fade;
+  animation-duration: 1.2s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+.copyrights {
+  font-family: 'century gothic', sans-serif;
+  text-align: center;
+  font-size: 1.3vw;
+  font-weight: normal;
+  color: white;
+  padding-top: 1.5vw;
+  padding-bottom: 1.5vw;
+  width: 100%;
+  background-color: rgb(76, 70, 126, 1);
+  display: table;
+}
