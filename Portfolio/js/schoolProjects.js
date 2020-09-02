@@ -114,7 +114,7 @@ function addProjectElements(data) {
 function gameLogoPopUp() {
   let id = $(this).attr("class").split(' ')[1];
   // console.log(id);
-
+  
   for (let i = 0; i < 4; i++) {
     if (id === logoId[i]) {
       console.log(id + " === " + logoId[i]);
@@ -136,7 +136,8 @@ function gameLogoPopUp() {
 
       $('.gameCode').css('display', 'none');
       $('.linkCode').css('display', 'none');
-
+        i = 4;
+        
     } else if (id === gameId[i]) {
       console.log(id + " === " + gameId[i]);
       $('.projectImage > img').attr({
@@ -176,7 +177,7 @@ function gameLogoPopUp() {
         "font-size": "1.3vw"
       }).appendTo(".projectImage");
       gameCode.button();
-
+      break;
     }
   }
 

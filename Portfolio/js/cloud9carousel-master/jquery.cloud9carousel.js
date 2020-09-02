@@ -156,7 +156,7 @@
       this.itemOptions.mirror = $.extend( { gap: 2 }, options.mirror );
     }
 
-    $container.css( { position: 'relative', overflow: 'hidden' } );
+    $container.css( { position: 'relative', overflow: 'hidden', display: 'flex'} );
 
     // Rotation:
     //  *      0 : right

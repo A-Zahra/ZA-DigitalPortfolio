@@ -102,15 +102,15 @@ li.dropdown {
   box-shadow: 0px 0px 17px 13px rgb(29, 217, 213, 0.7);
 }
 
-.InvictusGloves {  
+.InvictusGloves {
   box-shadow: 0px 0px 17px 13px rgb(248, 219, 77, 0.7);
 }
 
-.ToranjLogo {  
-  box-shadow: 0px 0px 17px 13px rgb(240, 128, 138, 0.7);
+.ToranjLogo {
+  box-shadow: 0px 0px 17px 13px rgb(255, 205, 118, 0.7);
 }
 
-  
+
 .column2 {
   width: 37%;
   float: left;
@@ -119,13 +119,27 @@ li.dropdown {
   margin: 2vw;
 }
 
+.invictus {
+  background-image: url("../assets/images/Invictus-packaging.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: -2vw;
+}
+
 .craft {
   background-image: url("../assets/images/microfluidic_chip.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: -2vw;
 }
-  
+
+.toranj {
+  background-image: url("../assets/images/table-Background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@700&family=Karla:wght@700&family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
 
@@ -145,6 +159,7 @@ li.dropdown {
   text-align: left;
   font-weight: Normal;
   line-height: 2vw;
+  text-indent: 3vw;
 }
 
 .copyrights {

@@ -288,7 +288,7 @@ li.dropdown {
 }
 
 #carousel {
-  padding-top: 7vw;
+  padding-top: 8vw;
   padding-bottom: 31vw;
 }
 
@@ -303,8 +303,8 @@ li.dropdown {
   margin-bottom: 0vw;
 }
 
-.cloud9-item {
-  margin-top: -4.7vw;
+.slide {
+  margin-top: -5vw;
   box-shadow: 0px 16px 16px 0px rgba(0, 0, 0, 0.5);
 }
 
