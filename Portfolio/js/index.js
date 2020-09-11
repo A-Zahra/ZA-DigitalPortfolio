@@ -9,7 +9,7 @@ $(document).ready(setup);
 // Sets up everything
 
 function setup() {
-  // setInterval(slideShow, 1000);
+  // Carousel embedded code 
   $("#carousel").Cloud9Carousel({
     buttonLeft: $("#buttons > .left"),
     buttonRight: $("#buttons > .right"),
@@ -29,37 +29,5 @@ function setup() {
       }
     });
   });
-
 }
 
-
-
-// function slideShow() {
-//
-//   $(".slideshow-img").on('click', function() {
-//     let slideClass = $(this).attr("class").split(' ')[1];
-//     console.log(slideClass);
-//     let slide1 = $(".slide1Holder");
-//     let slide2 = $(".slide2Holder");
-//     let frontSlide = $(".front-img");
-//
-//     if (slideClass === slides[0]) {
-//       console.log(slideClass);
-//
-//       $(this).appendTo('.slideshowOld').removeClass("slideshow-img slide1Holder").addClass("front-img slide3Holder");
-//       // $( this ).animate({
-//       //
-//       // }, "slow" );
-//       slide2.removeClass("slideshow-img slide2Holder").addClass("slideshow-img slide1Holder");
-//
-//       frontSlide.appendTo('.back-images').removeClass("front-img slide3Holder").addClass("slideshow-img slide2Holder").insertAfter(".slide1Holder");
-//     } else if (slideClass === slides[1]) {
-//       console.log(slideClass);
-//       $(this).appendTo('.slideshowOld').removeClass("slideshow-img slide2Holder").addClass("front-img slide3Holder");
-//
-//       slide1.removeClass("slideshow-img slide1Holder").addClass("slideshow-img slide2Holder");
-//
-//       frontSlide.appendTo('.back-images').removeClass("front-img slide3Holder").addClass("slideshow-img slide1Holder").insertBefore(".slide2Holder");
-//     }
-//   });
-// }

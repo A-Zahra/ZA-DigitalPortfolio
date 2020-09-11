@@ -7,6 +7,7 @@
   margin: -0.5vw;
 }
 
+/* Navigation Bar */
 .NavigationBar {
   background-color: rgb(76, 70, 126, 1);
   display: flex;
@@ -120,7 +121,7 @@ li.dropdown {
 }
 
 .invictus {
-  background-image: url("../assets/images/Invictus-packaging.jpg");
+  background-image: url("../assets/images/gloveBackground.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: -2vw;

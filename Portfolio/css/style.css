@@ -18,6 +18,7 @@
   margin-top: -8px;
 }
 
+/* Navigation bar */
 .NavigationBar {
   background-color: rgb(76, 70, 126, 0.8);
   display: flex;
@@ -82,6 +83,7 @@ li.dropdown {
   display: block;
 }
 
+/* Introduction */
 #Section1 {
   background-color: rgb(103, 108, 126, 0.3);
   display: table;
@@ -109,6 +111,7 @@ li.dropdown {
   color: white;
 }
 
+/* About me and Contact sections */
 #Section2, #Section5 {
   background-color: rgb(103, 108, 126, 0.3);
   display: table;
@@ -228,6 +231,7 @@ li.dropdown {
   margin: 0vw;
 }
 
+/* Work experience */
 #Section3 {
   display: table;
   margin: auto;
@@ -236,7 +240,6 @@ li.dropdown {
   position: relative;
   z-index: 1;
 }
-
 
 .contentHolder {
   background-image: url("https://images.unsplash.com/photo-1518378379207-3418372afea3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80");
@@ -313,27 +316,7 @@ li.dropdown {
   margin-top: 10vw;
 }
 
-/* .slideshowOld{
-  display: table;
-  margin-left: 10vw;
-  margin-right: 10vw;
-}
-
-.back-images {
-  display: flex;
-}
-
-.front-img {
-  display: flex;
-  margin-left: 5vw;
-  margin-right: 5vw;
-  margin-top: -35vw;
-  padding: 16vw;
-}
-
- .slideshow-img {
-  padding: 7vw;
-} */
+/* School projects */
 #Section4 {
   background-color: rgb(76, 70, 126, 0.9);
   display: table;
@@ -475,9 +458,3 @@ li.dropdown {
   background-color: rgb(76, 70, 126, 1);
   position: absolute;
 }
-
-/*
-.Section6 {
-  position: relative;
-    margin-top: 15vw;
-} */

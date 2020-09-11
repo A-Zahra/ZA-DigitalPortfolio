@@ -17,8 +17,7 @@
   <link rel="stylesheet" type="text/css" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
 
-  <!-- We include our own script file(s) -->
-  <!-- SABINE - HERE WE CALL INDEX.JS -->
+  <!-- Script files -->
   <script src="js/index.js" content="text/javascript"></script>
   <script src="js/cloud9carousel-master/jquery.cloud9carousel.js" content="text/javascript"></script>
   <!-- <script src="js/cloud9carousel-master/bower.json" content="text/javascript"></script> -->
@@ -27,10 +26,11 @@
 </head>
 
 <body>
+  <!-- Intial Background image -->
   <img class="Background-img" src="assets/images/grass.jpg" alt="work desk" style="width: 100%;">
   <!-- Main container -->
   <div class="InnerContainer">
-    <!-- Div containing the levels -->
+    <!-- Navigation Bar-->
     <div class="NavigationBar">
       <ul>
         <li><a href="#">HOME</a></li>
@@ -49,13 +49,15 @@
         <li><a href="#Contact">CONTACT</a></li>
       </ul>
     </div>
+
+    <!-- Introduction -->
     <div id="Section1">
       <div class="content1">
         <h2 id="title">I'M </br>ZAHRA </br>AHMADI.</h2>
       </div>
     </div>
 
-
+    <!-- About me -->
     <div id="Section2">
       <div class="content2">
         <p id="AboutMe">My name is Zahra Ahmadi and I am a third-year student from Concordia University in the Computation Arts program. Over the course of three years, I was introduced to a variety of softwares and skills that broadened my knowledge
@@ -64,11 +66,13 @@
           organization logo design competition. I enjoy drawing and creating logos but my main interest is to to pursue my career in Animation. Feel free to contact me for any more details.</p>
           <a href="https://drive.google.com/file/d/1DU4pB4oN8jv-VUhEaqfNaUixqtNNwuSZ/view?usp=sharing" style="text-decoration: none;" target="_blank"><h4 class="resume">See Resume</h4></a>
       </div>
+      <!-- Work experience -->
       <div id="Section3">
         <div class="contentHolder"></div>
           <div id="workExperience" class="content3">
             <h2 id="sectionHeader">01 WORK EXPERIENCE</h2>
             <h2 id="sectiontitle">SEE MY LATEST WORK HERE</h2>
+            <!-- Cloud Carousel -->
             <div class="slideshow">
               <div id="carousel" style="position: inherit;">
                 <a class="slide-1" href="../Portfolio/workExperience.html"> <img class="cloud9-item slide" src="assets/images/colorful.jpg" alt="Item #1" style="width:32vw;"></a>
@@ -86,18 +90,17 @@
           </button>
         </div> -->
           </div>
-
       </div>
     </div>
-
+    <!-- School projects -->
     <div id="Section4">
       <div id="schoolProjects" class="content4">
         <h2 id="sectionHeader2">02 SCHOOL PROJECTS</h2>
-
+        <!-- Projects -->
         <div class="projectsContainer">
-
+          <!-- Interaction Design projects -->
           <div id="InteractionDesign" class="row1">
-            <div class="projects ">
+            <div class="projects">
               <div class="imageHolder">
                 <img class="projectImg" src="assets/images/InteractionDesign-1.png" alt="dog" style="width: 100%; height: auto;">
                 <div class="overlay">
@@ -105,20 +108,18 @@
                 </div>
               </div>
             </div>
-
             <div class="projects text">
               <h2 class="projectYear">2020</h2>
               <h3 class="projectTitle">Interaction Design</h3>
               <p class="projectsIntro">In winter 2020 by taking BELA BELA course, I had the chance to gain experience in Interaction design field by doing some fun, creative and interactive projects.</p>
             </div>
           </div>
-
+          <!-- Programming projects -->
           <div id="GameProgramming" class="row2">
             <div class="projects text">
               <h2 class="projectYear">2019 - 2020</h2>
               <h3 class="projectTitle">Game programming</h3>
               <p class="projectsIntro">Taking programming courses last year gave me the opportunity to work with programming languages and libraries like JQUERY, javascript, JS p5, etc</p>
-
             </div>
             <div class="projects">
               <div class="imageHolder">
@@ -129,7 +130,7 @@
               </div>
             </div>
           </div>
-
+          <!-- Graphic Design projects -->
           <div id="GraphicDesign" class="row3">
             <div class="projects">
               <div class="imageHolder">
@@ -139,7 +140,6 @@
                 </div>
               </div>
             </div>
-
             <div class="projects text">
               <h2 class="projectYear">2017-2019</h2>
               <h3 class="projectTitle">Graphic Design</h3>
@@ -150,6 +150,8 @@
         </div>
         <div class="seperator-line"></div>
       </div>
+
+      <!-- Contact -->
       <div id="Section5">
         <div id="Contact" class="content5">
           <div class="contactContainer">
@@ -171,15 +173,6 @@
       </div>
       <div class="copyrights">© 2020 BY ZAHRA AHMADI</div>
     </div>
-    <!-- <div id="Section6">
-      <div class="slideshowOld">
-        <div class="back-images">
-          <a class="slideshow-img slide1Holder" href="#image1"><img class="slides slide1" src="assets/images/colorful.jpg" alt="colorful" style="width: 100%;"></a>
-          <a class="slideshow-img slide2Holder" href="#image2"><img class="slides slide2" src="assets/images/autumn.jpg" alt="autumn" style="width: 100%;"></a>
-        </div>
-        <a class="front-img slide3Holder" href="#image3"><img class="slides slide3" src="assets/images/food.jpg" alt="food" style="width: 100%;"></a>
-      </div>
-    </div> -->
   </div>
 
 </body>
