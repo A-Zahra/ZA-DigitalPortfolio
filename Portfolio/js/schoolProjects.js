@@ -164,7 +164,9 @@ function gameLogoPopUp() {
       }).text("Play Now").css({
         "margin": "1.2vw",
         "float": "left",
-        "font-size": "1.3vw"
+        "font-size": "1.3vw",
+        "background-color": "rgba(17, 24, 71, 1)",
+        "color":"rgb(225, 126, 153, 1)"
       }).appendTo(".projectImage");
       gameLink.button();
 
@@ -174,7 +176,9 @@ function gameLogoPopUp() {
       }).text("See Code").css({
         "margin": "1.2vw",
         "float": "right",
-        "font-size": "1.3vw"
+        "font-size": "1.3vw",
+        "background-color": "rgba(17, 24, 71, 1)",
+        "color":"rgb(225, 126, 153, 1)"
       }).appendTo(".projectImage");
       gameCode.button();
       break;
