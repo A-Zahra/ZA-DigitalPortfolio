@@ -7,8 +7,8 @@
   display: flex;
   position: fixed;
   /* Add the blur effect */
-  filter: blur(2px);
-  -webkit-filter: blur(2px);
+  filter: blur(1px);
+  /* -webkit-filter: blur(2px); */
 }
 
 .InnerContainer {
@@ -85,7 +85,7 @@ li.dropdown {
 
 /* Introduction */
 #Section1 {
-  background-color: rgb(103, 108, 126, 0.3);
+  background-color: rgb(103, 108, 126, 0.4);
   display: table;
   margin: auto;
   width: 100%;
@@ -113,7 +113,7 @@ li.dropdown {
 
 /* About me and Contact sections */
 #Section2, #Section5 {
-  background-color: rgb(103, 108, 126, 0.3);
+  background-color: rgb(103, 108, 126, 0.4);
   display: table;
   margin: auto;
   width: 100%;
@@ -254,8 +254,8 @@ li.dropdown {
   margin: 0;
   z-index: 1;
   /* Add the blur effect */
-  filter: blur(4px);
-  -webkit-filter: blur(4px);
+  filter: blur(1px);
+  -webkit-filter: blur(2px);
 }
 
 .content3 {
@@ -274,7 +274,7 @@ li.dropdown {
   text-align: center;
   margin-left: 10vw;
   margin-right: 10vw;
-  margin-top: 0vw;
+  margin-top: 1vw;
   font-weight: 800;
   color: white;
   position: relative;
@@ -290,25 +290,51 @@ li.dropdown {
   font-weight: Normal;
 }
 
-#carousel {
+/* #carousel {
   padding-top: 8vw;
   padding-bottom: 31vw;
 }
 
 #carousel .cloud9-item, #buttons button {
   cursor: pointer;
-}
+} */
 
-.slideshow {
+/* .slideshow {
   display: block;
   margin-left: 10vw;
   margin-right: 10vw;
   margin-bottom: 0vw;
+} */
+
+.Gallery {
+  display: flex;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 3vw;
+}
+.row {
+  display: inline-flex;
+    margin-bottom: 6vw;
 }
 
-.slide {
-  margin-top: -3vw;
-  box-shadow: 0px 16px 16px 0px rgba(0, 0, 0, 0.5);
+.column {
+    width: 30%;
+    float: left;
+    left: 0;
+    right: 0;
+    margin: 2vw;
+    box-shadow: 3px 4px 20px 9px rgba(0, 0, 0, 0.5);
+    padding: 1vw;
+}
+
+.item {
+}
+
+.proImgTitle {
+  font-family: "century gothic", sans-serif;
+  font-size: 1.5vw;
+  font-weight: normal;
+  color: white;
 }
 
 #Section6 {
