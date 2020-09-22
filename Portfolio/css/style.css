@@ -20,7 +20,7 @@
 
 /* Navigation bar */
 .NavigationBar {
-  background-color: rgb(76, 70, 126, 0.9);
+  background-color: rgba(17, 24, 71, 0.9);
   display: flex;
   box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
 }
@@ -60,7 +60,7 @@ li.dropdown {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: rgb(76, 70, 126, 0.9);
+  background-color: rgba(17, 24, 71, 0.9);
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
@@ -85,7 +85,7 @@ li.dropdown {
 
 /* Introduction */
 #Section1 {
-  background-color: rgb(103, 108, 126, 0.4);
+  background-color: rgb(26, 34, 89, 0.4);
   display: table;
   margin: auto;
   width: 100%;
@@ -113,7 +113,7 @@ li.dropdown {
 
 /* About me and Contact sections */
 #Section2, #Section5 {
-  background-color: rgb(103, 108, 126, 0.4);
+  background-color: rgb(26, 34, 89, 0.4);
   display: table;
   margin: auto;
   width: 100%;
@@ -128,7 +128,7 @@ li.dropdown {
 }
 
 .content2, .contactContainer {
-  background-color: rgb(145, 76, 95, 1);
+  background-color: rgb(186, 102, 125, 1);
   margin-top: -3vw;
   margin-left: 20vw;
   margin-right: 20vw;
@@ -139,7 +139,7 @@ li.dropdown {
 
 
 .content5 {
-  background-color: rgb(103, 108, 126, 0.5);
+  background-color: rgb(26, 34, 89, 0.5);
 }
 
 .contactContainer {
@@ -255,11 +255,11 @@ li.dropdown {
   z-index: 1;
   /* Add the blur effect */
   filter: blur(1px);
-  -webkit-filter: blur(2px);
+  -webkit-filter: blur(1px);
 }
 
 .content3 {
-  background-color: rgb(103, 108, 126, 0.5);
+  background-color: rgb(26, 34, 89, 0.5);
   padding-top: 27.5vw;
   position: relative;
   z-index: 2;
@@ -325,6 +325,7 @@ li.dropdown {
     margin: 2vw;
     box-shadow: 3px 4px 20px 9px rgba(0, 0, 0, 0.5);
     padding: 1vw;
+    background-color: rgba(186, 102, 125, 1);
 }
 
 .item {
@@ -344,7 +345,7 @@ li.dropdown {
 
 /* School projects */
 #Section4 {
-  background-color: rgb(76, 70, 126, 0.9);
+  background-color: rgba(14, 19, 71, 0.9);
   display: table;
   width: 100%;
   position: relative;
@@ -388,7 +389,7 @@ li.dropdown {
 
 .projectYear {
   font-family: "century gothic", sans-serif;
-  color: #62ffcc;
+  color: rgba(223, 121, 149, 1);
   font-size: 2.1vw;
   margin-top: 0vw;
   margin-bottom: 0vw;
@@ -432,13 +433,13 @@ li.dropdown {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 17vw;
-  width: 17vw;
-  margin-left: 1.2vw;
-  margin-top: 1.2vw;
+  height: 17.5vw;
+  width: 17.5vw;
+  margin-left: 0.9vw;
+  margin-top: 0.9vw;
   opacity: 0;
   transition: .5s ease;
-  background-color: rgb(57, 170, 147, 0.9);
+  background-color: rgb(186, 102, 125, 1);
   border-radius: 20vw;
 }
 
@@ -460,7 +461,7 @@ li.dropdown {
 }
 
 .seperator-line {
-  border-left: 6px solid rgba(22, 106, 98, 1);
+  border-left: 6px solid rgb(186, 102, 125, 1);
   height: 75vw;
   position: absolute;
   left: 50%;
@@ -481,6 +482,6 @@ li.dropdown {
   padding-top: 1.5vw;
   padding-bottom: 1.5vw;
   width: 100%;
-  background-color: rgb(76, 70, 126, 1);
+  background-color: rgba(17, 24, 71, 1);
   position: absolute;
 }

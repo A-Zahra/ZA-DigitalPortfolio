@@ -3,15 +3,16 @@
   box-sizing: border-box
 }
 
-.InnerContainer {
-  margin: -0.5vw;
+body {
+  margin: 0vw;
 }
 
+
 .NavigationBar {
-  background-color: rgb(76, 70, 126, 1);
+  background-color: rgba(17, 24, 71, 1);
   display: flex;
   box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
-  margin-bottom: 0vw;
+
 }
 
 ul {
@@ -49,7 +50,7 @@ li.dropdown {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: rgb(76, 70, 126, 1);
+  background-color: rgba(17, 24, 71, 1);
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 2;
@@ -64,7 +65,7 @@ li.dropdown {
 }
 
 .dropdown-content a:hover {
-  background-color: #f1f1f1;
+  background-color: rgb(225, 126, 153, 1);
   color: black;
 }
 
@@ -73,7 +74,7 @@ li.dropdown {
 }
 
 .AllProjects {
-  background-color: rgb(76, 70, 126, 0.9);
+  background-color: rgba(14, 19, 71, 0.9);
   position: absolute;
   z-index: 1;
   margin-left: -0.2vw;
@@ -109,6 +110,9 @@ li.dropdown {
   filter: brightness(0.95);
   width: 100%;
   padding: 1vw;
+  box-shadow: 3px 4px 20px 9px rgba(0, 0, 0, 0.5);
+  background-color: rgb(225, 126, 153, 1);
+  margin: 1vw;
 }
 
 .groupTitle {
@@ -438,6 +442,6 @@ li.dropdown {
   padding-top: 1.5vw;
   padding-bottom: 1.5vw;
   width: 100%;
-  background-color: rgb(76, 70, 126, 1);
+  background-color: rgba(17, 24, 71, 1);
   display: table;
 }
