@@ -1,5 +1,15 @@
+
+* {
+  box-sizing: border-box
+}
+
+body {
+  margin: 0vw;
+}
+
+
 .Background-img {
-  width: auto;
+  width: 110vw;
   height: auto;
   top: 0;
   left: 0;
@@ -13,9 +23,9 @@
 
 .InnerContainer {
   position: relative;
-  margin-left: -8px;
+  /* margin-left: -8px;
   margin-right: -8px;
-  margin-top: -8px;
+  margin-top: -8px; */
 }
 
 /* Navigation bar */
@@ -146,9 +156,10 @@ li.dropdown {
   margin-top: -6vw;
   display: flex;
   padding: 3vw;
+  padding-left: 4vw;
+  padding-right: 4vw;
   float: left;
   margin-bottom: 7vw;
-  width: 52vw;
 }
 
 .contact {
@@ -157,27 +168,24 @@ li.dropdown {
   color: #f6f6f6;
   font-weight: normal;
   padding: 2vw;
+  padding-left: 1vw;
   text-align: left;
-  width: 23%;
+  width: 50%;
   margin: 0vw;
 }
 
-.contactOptions {
-  width: 40%;
-  display: inline-flex;
-  margin-left: -0.9vw;
+#contactOptions {
+  width: 50%;
+  display: contents;
+  
 }
 
-.options {
-  display: inline-flex;
+.items {
+  display: contents;
+  width: 100%;
 }
 
 .contactLink {
-  text-decoration: none;
-  display: flex;
-  padding: 1vw;
-  width: 4vw;
-  height: 4vw;
 }
 
 .GmailAddress {
@@ -186,6 +194,7 @@ li.dropdown {
   text-align: left;
   line-height: 2;
   padding: 1vw;
+  padding-right: 0vw;
   color: #f6f6f6;
   font-weight: normal;
   opacity: 0;
@@ -219,7 +228,7 @@ li.dropdown {
 .resume {
   /* font-family: 'Open Sans Condensed', sans-serif; */
   font-family: 'century gothic', sans-serif;
-  font-size: 1.2vw;
+  font-size: 1.3vw;
   text-align: center;
   line-height: 2;
   color: #f6f6f6;
@@ -285,7 +294,7 @@ li.dropdown {
 
 #sectiontitle {
   font-family: "century gothic", sans-serif;
-  font-size: 2.5vw;
+  font-size: 2vw;
   margin-top: -0.6vw;
   margin-bottom: 0vw;
   font-weight: Normal;
@@ -309,13 +318,13 @@ li.dropdown {
 
 .Gallery {
   display: flex;
-  margin-left: 10vw;
-  margin-right: 10vw;
+  margin-left: 12vw;
+  margin-right: 12vw;
   margin-top: 3vw;
 }
 .row {
   display: inline-flex;
-    margin-bottom: 6vw;
+    margin-bottom: 7vw;
 }
 
 .column {
@@ -323,7 +332,7 @@ li.dropdown {
     float: left;
     left: 0;
     right: 0;
-    margin: 2vw;
+    margin: 2.2vw;
     box-shadow: 3px 4px 20px 9px rgba(0, 0, 0, 0.5);
     padding: 1vw;
     background-color: rgba(186, 102, 125, 1);
@@ -347,7 +356,7 @@ li.dropdown {
 /* School projects */
 #Section4 {
   background-color: rgba(14, 19, 71, 0.9);
-  display: table;
+  /* display: table; */
   width: 100%;
   position: relative;
   z-index: 2;
@@ -361,16 +370,19 @@ li.dropdown {
 
 .projectsContainer {
   display: table;
-  margin-left: 20vw;
-  margin-right: 20vw;
-  margin-bottom: 13vw;
-  padding-left: 2vw;
+  /* margin-left: 20vw; */
+  /* margin-right: 20vw; */
+  margin-bottom: 12vw;
+  /* padding-left: 2vw; */
 }
 
 .row1, .row2, .row3 {
   width: 100%;
-  display: table;
-  margin-top: -2vw;
+  display: inline-flex;
+/* margin-top: -2vw; */
+  margin: 0vw;
+  padding-left: 20vw;
+  padding-right: 20vw;
 }
 
 .row1 {
@@ -434,10 +446,10 @@ li.dropdown {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 17.5vw;
-  width: 17.5vw;
-  margin-left: 0.9vw;
-  margin-top: 0.9vw;
+  height: 19.5vw;
+  width: 19.5vw;
+  margin-left: 0.95vw;
+  margin-top: 0.95vw;
   opacity: 0;
   transition: .5s ease;
   background-color: rgb(186, 102, 125, 1);
@@ -463,15 +475,15 @@ li.dropdown {
 
 .seperator-line {
   border-left: 6px solid rgb(186, 102, 125, 1);
-  height: 75vw;
+  height: 80vw;
   position: absolute;
   left: 50%;
   top: 0;
-  margin-top: 17vw;
+  margin-top: 20vw;
 }
 
 #sectionHeader2 {
-  margin-top: 5vw;
+  margin-top: 6.5vw;
 }
 
 .copyrights {
