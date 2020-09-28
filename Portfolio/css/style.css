@@ -468,7 +468,7 @@ li.dropdown {
   height: 18vw;
   width: 18vw;
   /*margin-left: 0.95vw;*/
-  margin-top: 0.94vw;
+  /* margin-top: 0.94vw; */
   opacity: 0;
   transition: .5s ease;
   background-color: rgb(186, 102, 125, 1);
