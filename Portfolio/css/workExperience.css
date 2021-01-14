@@ -11,7 +11,7 @@ body {
   background-color: rgba(17, 24, 71, 1);
   display: flex;
   box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
-  
+
 }
 
 ul {
@@ -118,7 +118,7 @@ li.dropdown {
   /* display: table-caption; */
   padding: 3vw;
   margin: 2vw;
-  
+
 }
 
 .invictus {
@@ -188,7 +188,7 @@ li.dropdown {
 
 .videoPopUp {
   display: none;
-  padding-top: 5vw;
+  padding-top: 6.5vw;
   padding-left: 15vw;
   padding-right: 15vw;
 }
