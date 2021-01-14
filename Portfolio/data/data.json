@@ -10,7 +10,8 @@
       "logos": [
         "assets/images/EERIC.png",
         "assets/images/LoyolaCommittee.png",
-        "assets/images/ATLAS.png"
+        "assets/images/ATLAS.png",
+        "assets/images/Gap-Eugolaid.png"
       ]
     },
     "titles": {
@@ -23,7 +24,8 @@
       "logoTitles": [
         "Nomination in EERIC logo contest!",
         "Loyola-Committee logo contest Winner!",
-        "Atlas Logo"
+        "Atlas Logo",
+        "Gap-Eugolaid Logo"
       ]
     },
     "backgroundImages": {
@@ -31,7 +33,8 @@
       "logoBackgroundImg": [
         "assets/images/earthquake.jpg",
         "assets/images/friends.jpg",
-        "assets/images/googleMap2.jpg"
+        "assets/images/googleMap2.jpg",
+        "assets/images/Dialogue.jpg"
       ]
     },
     "backgroundColor": {
@@ -70,31 +73,39 @@
           "r": "159",
           "g": "182",
           "b": "188"
+        },
+        {
+          "r": "210",
+          "g": "211",
+          "b": "213"
         }
       ]
     },
     "projectsBriefs": {
       "gamesBriefs": [{
-          "brief": "This puzzle game has two different levels that are not complementary. The rules considered for each level are such that distinguishes them from all other puzzle games. The main goal behind this game is more to amuse the player than letting them win in the first place. </br>In the first level which is the easier one , the puzzle frame is hidden and to find puzzle pieces spots, the player should mouse over the screen. Once a piece is dropped, it no longer can be replaced or moved. In second level, the player should complete the puzzle while they are answering a set of random questions. The questions pop up every few seconds and in case of giving the wrong answer, the next question immediately pops up. The player can win the game only if they finish the puzzle sooner than the questions are finished. (All of the images were borrowed from online resources due to time limitation)"
+          "brief": "This puzzle game has two different levels that are not complimentary. The rules considered for each level are such that distinguishes them from all other puzzle games. The main goal behind this game is more to amuse the player than letting them win in the first place. In the first level which is the easier one, the puzzle frame is hidden, and to find puzzle pieces spots, the player should mouse over the screen. Once a piece is dropped, it no longer can be replaced or moved. In the second level, the player should complete the puzzle while they are answering a set of random questions. The questions pop up every few seconds and in case of giving the wrong answer, the next question immediately pops up. The player can win the game only if they finish the puzzle sooner than the questions are finished. (All of the images were borrowed from online resources due to time limitation)"
         },
         {
-          "brief": "Game of life is a simulation of a pong game and contains three complementary steps. It consists of several main parts including introduction, instruction, game story , connecting pages, steps and screens of win or lose. The main purpose of my game is, to let the player experience different and respective stages which all human beings experience during their life in form of game and entertainment. Just like real life that we are first trained and taught how to develop our skills in order to achieve our goals, my game gives the player the same opportunity to train himself through first and second steps and then, using the developed skills, succeeds to win the last level and ends up winning the whole game! (All of the images and vector images were borrowed from online resources due to time limitation)"
+          "brief": "The Game of life is a simulation of a pong game and contains three complementary steps. It consists of several main parts including the introduction, instruction, a game story, connecting pages, steps, and screens of win or lose. The main purpose of my game is, to let the player experience different and respective stages which all human beings experience during their life in form of game and entertainment. Just like real life that we are first trained and taught how to develop our skills in order to achieve our goals, my game gives the player the same opportunity to train himself through the first and second steps and then, using the developed skills, succeeds to win the last level and ends up winning the whole game! (All of the images and vector images were borrowed from online resources due to time limitation)"
         },
         {
-          "brief": "The concept of this game is about the common goals that exist in the lives of all of us, and we humans compete to achieve as many of them as possible.</br>This game can be won in two different ways. The player should either gain all of the targets or as much as possible before their competitor dies. Meanwhile, to keep playing they should stay alive by getting energy from their 'family'. Also, once one of the players hit a barrier, the targets are hidden for both. To get the targets back, one of the players should consult their 'friends'.My goal in making this game was to simulate the situation in which we humans really find ourselves in real life for the players. The main template of this game was given by my professor and I built my own ideas upon that. (All of the vector images were borrowed from online resources due to time limitation)"
+          "brief": "The concept of this game is about the common goals that exist in the lives of all of us, and we humans compete to achieve as many of them as possible.</br>This game can be won in two different ways. The player should either gain all of the targets or as much as possible before their competitor dies. Meanwhile, to keep playing they should stay alive by getting energy from their 'family'. Also, once one of the players hits a barrier, the targets are hidden for both. To get the targets back, one of the players should consult their 'friends'.My goal in making this game was to simulate the situation in which we humans really find ourselves in real life for the players. The main template of this game was given by my professor and I built my own ideas upon that. (All of the vector images were borrowed from online resources due to time limitation)"
         },
         {
-          "brief": "Game - Chaser is a simple game of cat and mouse. The player is an owl and can move with keys, if it overlaps the (randomly moving) prey, it eats it by sucking out the prey life and adding that to its own. To stay alive, the player should keep eating the prey otherwise it dies.</br>This game has three levels and it gets harder as the game goes forward. The main template of this game was given by my professor to me and I built my own ideas upon that. (All of the vector images were borrowed from online resources due to time limitation)"
+          "brief": "Game - Chaser is a simple game of cat and mouse. The player is an owl and can move with keys, if it overlaps the (randomly moving) prey, it eats it by sucking out the prey's life and adding that to its own. To stay alive, the player should keep eating the prey otherwise it dies.</br>This game has three levels and it gets harder as the game goes forward. The main template of this game was given by my professor to me and I built my own ideas upon that. (All of the vector images were borrowed from online resources due to time limitation)"
         }
       ],
       "logosBriefs": [{
-          "brief": "In the logo contest that EERIC (Earthquake Engineering Research Institute-Concordia) held in Spring-2019, among all participants, my logo was selected as one of the four best designs to be in the nomination for voting. The organization’ s new logo 'should reflect the devastating impact of earthquakes on human life, and how earthquake engineering is trying to inspire hope and save lives.'(Bayan Abu Safieh). Using three elements, I tried to illustrate this purpose. The yellow and blue colours convey respectively the notion of damaged ground and hope in first sight. The cracks on the first 'E' letter pictures earthquake physical appearance. Finally, the two wavy lines on top of the EERIC show the help and hope concepts that the organization aimed to provide people with. The top right hand represents EERIC and the lower left one are people and their lives being in danger of earthquake damages."
+          "brief": "In the logo contest that EERIC (Earthquake Engineering Research Institute-Concordia) held in Spring-2019, among all participants, my logo was selected as one of the four best designs to be in the nomination for voting. The organization’s new logo 'should reflect the devastating impact of earthquakes on human life, and how earthquake engineering is trying to inspire hope and save lives.'(Bayan Abu Safieh). Using three elements, I tried to illustrate this purpose. The yellow and blue colors convey respectively the notion of damaged ground and hope at first sight. The cracks on the first 'E' letter pictures earthquake's physical appearance. Finally, the two wavy lines on top of the EERIC show the help and hope concepts that the organization aimed to provide people with. The top right hand represents EERIC and the lower left one are people and their lives being in danger of earthquake damages."
         },
         {
-          "brief": "'The Loyola Committee is one of the subsidiaries of the ASFA organization. It is a conglomeration of all MA’s and it was created to ease cooperation between MA’s in Loyola Campus. The Loyola Committee’s goal is to make student’s discover the Loyola Campus and facilitate socialization between students on their campus.' (Victoria Videira) In fact, the second part of this committee goal is the boldest feature that could be used to design their logo. Using one of the Concordia University logos, first, I showed the Loyola committee belongs to Concordia University. Second, I modified the shape of the letter 'C' to showcase the socialization between students and the committee that is helpful and supportive."
+          "brief": "'The Loyola Committee is one of the subsidiaries of the ASFA organization. It is a conglomeration of all MA’s and it was created to ease cooperation between MA’s in Loyola Campus. The Loyola Committee’s goal is to make students discover the Loyola Campus and facilitate socialization between students on their campus.' (Victoria Videira) In fact, the second part of this committee goal is the boldest feature that could be used to design their logo. Using one of the Concordia University logos, first, I showed the Loyola committee belongs to Concordia University. Second, I modified the shape of the letter 'C' to showcase the socialization between students and the committee that is helpful and supportive."
         },
         {
-          "brief": "Atlas is an app that can track items, people and pets. It can be used by: </br> a. Normal users to detect items such as wallet, keys, bags & purses.</br> b. Kindergarten teachers keep track of children on outings.</br>c. Pet owners to keep track of their pets.</br>While designing the logo, I considered two important factors: the simplicity of the logo for app design and the use of negative space to enhance the logo.I put the first letter of ATLAS at the centre of map symbol to remind the users of the app name. Second, in order to gain the users trust at the first sight, I used green colour as the logo’s primary colour "
+          "brief": "Atlas is an app that can track items, people, and pets. It can be used by </br> a. Normal users to detect items such as wallet, keys, bags & purses.</br> b. Kindergarten teachers keep track of children on outings.</br>c. Pet owners keep track of their pets.</br>While designing the logo, I considered two important factors: the simplicity of the logo for app design and the use of negative space to enhance the logo. I put the first letter of ATLAS at the center of the map symbol to remind the users of the app name. Second, in order to gain the user's trust at the first sight, I used green color as the logo’s primary color"
+        },
+        {
+          "brief": "Gap-Eugolaid is a Persian discussion group on an online platform. The main purpose of this group is to have a free and useful discussion about all sorts of topics that the group members would suggest. To design a logo that would perfectly demonstrate the main goal of this group, the group name's letters potential seized my attention. Considering that both 'G' and 'P' letters almost look circular, I realized that I can turn them into two people sitting in front of each other. Moreover, the letter 'A' structure had the potential to turn into a table with a light on top. The 'G' and 'P' letters are colorful to represent the variety of thoughts and personalities. The light represents the knowledge that emerges as a result of different opinions and thoughts being expressed."
         }
       ]
     }
@@ -102,10 +113,10 @@
   "workExperience" : {
     "projectsBriefs": {
       "logosBriefs": [{
-          "brief": "In the logo contest that EERIC (Earthquake Engineering Research Institute-Concordia) held in Spring-2019, among all participants, my logo was selected as one of the four best designs to be in the nomination for voting. The organization’ s new logo 'should reflect the devastating impact of earthquakes on human life, and how earthquake engineering is trying to inspire hope and save lives.'(Bayan Abu Safieh). Using three elements, I tried to illustrate this purpose. The yellow and blue colours convey respectively the notion of damaged ground and hope in first sight. The cracks on the first 'E' letter pictures earthquake physical appearance. Finally, the two wavy lines on top of the EERIC show the help and hope concepts that the organization aimed to provide people with. The top right hand represents EERIC and the lower left one are people and their lives being in danger of earthquake damages."
+          "brief": "In the logo contest that EERIC (Earthquake Engineering Research Institute-Concordia) held in Spring-2019, among all participants, my logo was selected as one of the four best designs to be in the nomination for voting. The organization’s new logo 'should reflect the devastating impact of earthquakes on human life, and how earthquake engineering is trying to inspire hope and save lives.'(Bayan Abu Safieh). Using three elements, I tried to illustrate this purpose. The yellow and blue colors convey respectively the notion of damaged ground and hope at first sight. The cracks on the first 'E' letter pictures earthquake's physical appearance. Finally, the two wavy lines on top of the EERIC show the help and hope concepts that the organization aimed to provide people with. The top right hand represents EERIC and the lower left one are people and their lives being in danger of earthquake damages."
         },
         {
-          "brief": "'The Loyola Committee is one of the subsidiaries of the ASFA organization. It is a conglomeration of all MA’s and it was created to ease cooperation between MA’s in Loyola Campus. The Loyola Committee’s goal is to make student’s discover the Loyola Campus and facilitate socialization between students on their campus.' (Victoria Videira) In fact, the second part of this committee goal is the boldest feature that could be used to design their logo. Using one of the Concordia University logos, first, I showed the Loyola committee belongs to Concordia University. Second, I modified the shape of the letter 'C' to showcase the socialization between students and the committee that is helpful and supportive."
+          "brief": "'The Loyola Committee is one of the subsidiaries of the ASFA organization. It is a conglomeration of all MA’s and it was created to ease cooperation between MA’s in Loyola Campus. The Loyola Committee’s goal is to make students discover the Loyola Campus and facilitate socialization between students on their campus.' (Victoria Videira) In fact, the second part of this committee goal is the boldest feature that could be used to design their logo. Using one of the Concordia University logos, first, I showed the Loyola committee belongs to Concordia University. Second, I modified the shape of the letter 'C' to showcase the socialization between students and the committee that is helpful and supportive."
         }
       ]
     }

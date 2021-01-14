@@ -316,22 +316,6 @@ li.dropdown {
   font-weight: Normal;
 }
 
-/* #carousel {
-  padding-top: 8vw;
-  padding-bottom: 31vw;
-}
-
-#carousel .cloud9-item, #buttons button {
-  cursor: pointer;
-} */
-
-/* .slideshow {
-  display: block;
-  margin-left: 10vw;
-  margin-right: 10vw;
-  margin-bottom: 0vw;
-} */
-
 .Gallery {
   display: flex;
   margin-left: 12vw;
@@ -386,33 +370,36 @@ li.dropdown {
 
 .projectsContainer {
   display: table;
-  /* margin-left: 20vw; */
-  /* margin-right: 20vw; */
+  margin-left: 15vw;
+   margin-right: 15vw;
   margin-bottom: 12vw;
-  /* padding-left: 2vw; */
 }
 
-.row1, .row2, .row3 {
+.row1, .row2, .row3, .row4 {
   width: 100%;
   display: inline-flex;
-/* margin-top: -2vw; */
-  margin: 0vw;
-  padding-left: 20vw;
-  padding-right: 20vw;
+  margin: 1vw;
+  float: left;
+  padding: 2vw;
+  margin-left: 0vw;
 }
 
-.row1 {
-  /* margin-top: 0.1vw; */
-}
-
-.projects {
+.projects1 {
   float: left;
   flex: auto;
-  width: 34%;
-  padding-right: 5.5vw;
-  padding-left: 6vw;
-  padding-top: 5vw;
-  padding-bottom: 4vw;
+  width: 60%;
+  padding-top: 2vw;
+  padding-right: 5vw;
+  padding-left: 2vw;
+}
+
+.projects2 {
+  float: left;
+  flex: auto;
+  width: 40%;
+  padding-top: 2vw;
+  padding-right: 2vw;
+  padding-left: 5vw;
 }
 
 .text {
@@ -422,7 +409,7 @@ li.dropdown {
 .projectYear {
   font-family: "century gothic", sans-serif;
   color: rgba(223, 121, 149, 1);
-  font-size: 2.1vw;
+  font-size: 1.7vw;
   margin-top: 0vw;
   margin-bottom: 0vw;
   font-weight: Normal;
@@ -430,12 +417,11 @@ li.dropdown {
 
 .projectTitle {
   font-family: "century gothic", sans-serif;
-  color: white;
-  font-size: 1.6vw;
-  margin-top: 1vw;
+  color: rgba(223, 121, 149, 1);
+  font-size: 1.4vw;
+  margin-top: 0vw;
   margin-bottom: 0vw;
   font-weight: bold;
-  line-height: 2vw;
 }
 
 .projectsIntro, .projectsLink {
@@ -450,12 +436,11 @@ li.dropdown {
 .imageHolder {
   position: relative;
   padding-top: 0vw;
-  /* margin-top: -0.5vw; */
 }
 
 .projectImg {
   display: block;
-  border-radius: 20vw;
+  border-radius: 1.5vw;
   box-shadow: 0px 16px 16px 0px rgba(0, 0, 0, 0.1);
 }
 
@@ -465,14 +450,10 @@ li.dropdown {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 18vw;
-  width: 18vw;
-  /*margin-left: 0.95vw;*/
-  /* margin-top: 0.94vw; */
   opacity: 0;
   transition: .5s ease;
   background-color: rgb(186, 102, 125, 1);
-  border-radius: 20vw;
+  border-radius: 1.5vw;
 }
 
 .imageHolder:hover .overlay {
@@ -481,7 +462,7 @@ li.dropdown {
 
 .projectsLink {
   color: white;
-  font-size: 1.4vw;
+  font-size: 1.5vw;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -494,11 +475,11 @@ li.dropdown {
 
 .seperator-line {
   border-left: 6px solid rgb(186, 102, 125, 1);
-  height: 84vw;
-  position: absolute;
+  height: 19vw;
+  /* position: absolute; */
   left: 50%;
   top: 0;
-  margin-top: 20vw;
+  margin-top: 2vw;
 }
 
 #sectionHeader2 {
@@ -516,4 +497,19 @@ li.dropdown {
   width: 100%;
   background-color: rgba(17, 24, 71, 1);
   position: absolute;
+}
+
+@media only screen and (max-width: 1200px) {
+  .Background-img {
+    width: 130vw;
+    height: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    position: fixed;
+    /* Add the blur effect */
+    filter: blur(1px);
+    /* -webkit-filter: blur(2px); */
+  }
 }

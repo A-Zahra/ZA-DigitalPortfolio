@@ -3,7 +3,7 @@
 /********************************************************************
 
 ********************************************************************/
-let logoId = ["EERIC", "LoyolaCommittee", "ATLAS"];
+let logoId = ["EERIC", "LoyolaCommittee", "ATLAS", "GAP_EUGOLAID"];
 let gameId = ["JigsawGame", "GameOfLife", "RealLifeGame", "ChaserGame"];
 let gameButtons = {
   link: [
@@ -43,7 +43,8 @@ function setup() {
   $('.tree').on("click", treePopUp);
   $('.vest').on("click", vestPopUp);
   $('h4').on("click", gameLogoPopUp);
-
+  $('.monster').on("click", monsterPopUp);
+  $('.planet').on("click", planetPopUp);
   $('.exit').on("click", closeWindow);
 
 }
@@ -63,10 +64,32 @@ function vestPopUp() {
     "display": "block"
   });
 
-  $('.vestPopUps').css({
+  $('.vestPopUp').css({
     "display": "flex"
   });
 }
+
+function monsterPopUp() {
+  $('.popUps').css({
+    "display": "block"
+  });
+
+  $('.monsterPopUp').css({
+    "display": "flex"
+  });
+}
+
+
+function planetPopUp() {
+  $('.popUps').css({
+    "display": "block"
+  });
+
+  $('.planetPopUp').css({
+    "display": "flex"
+  });
+}
+
 
 function dataLoaded(data) {
   project = [{
@@ -91,7 +114,7 @@ function dataLoaded(data) {
 
 function addProjectElements(data) {
   // console.log(`${project[0].img[0]}`);
-  for (let i = 0; i < 3; i++) {
+  for (let i = 0; i < 4; i++) {
     logoProjectImg.push(project[0].img[i]);
     logoTitle.push(project[0].title[i]);
     logoProjectBrief.push(project[0].brief[i]);
@@ -200,7 +223,13 @@ function closeWindow() {
   $('.treePopUp').css({
     "display": "none"
   });
-  $('.vestPopUps').css({
+  $('.vestPopUp').css({
+    "display": "none"
+  });
+  $('.monsterPopUp').css({
+    "display": "none"
+  });
+  $('.planetPopUp').css({
     "display": "none"
   });
   $('.gameLogoPopUp').css({

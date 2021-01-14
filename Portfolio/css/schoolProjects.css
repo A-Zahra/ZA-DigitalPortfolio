@@ -86,26 +86,43 @@ li.dropdown {
   display: inline-flex;
   padding: 7vw;
   padding-top: 2vw;
-  padding-bottom: 4vw;
+  padding-bottom: 0vw;
 }
 
 
 .groupTwo {
   padding-top: 2vw;
-  padding-left: 10vw;
-  padding-right: 10vw;
+  padding-left: 7vw;
+  padding-right: 7vw;
   display: inline-flex;
 }
 
 .groupThree {
   padding-top: 2vw;
   padding-bottom: 5vw;
-  padding-left: 15vw;
-  padding-right: 15vw;
+  padding-left: 7vw;
+  padding-right: 0.5vw;
+  display: inline-flex;
+}
+.groupFour {
+  padding-top: 2vw;
+  padding-bottom: 5vw;
+  padding-left: 0.5vw;
+  padding-right: 7vw;
   display: inline-flex;
 }
 
-.projectOne, .projectTwo, .projectThree  {
+.row1, .row2 {
+  width: 100%;
+  display: table;
+}
+.row3, .row4 {
+  width: 50%;
+  float: left;
+  display: table;
+  margin-bottom: 5vw;
+}
+.projectOne, .projectTwo, .projectThree, .projectFour  {
   position: relative;
   filter: brightness(0.95);
   width: 100%;
@@ -121,7 +138,8 @@ li.dropdown {
   font-size: 2.5vw;
   text-align: center;
   font-weight: Normal;
-  margin-top: 5vw;
+  margin-top: 7vw;
+  margin-bottom: 0vw;
 }
 
 .overlay {
@@ -135,10 +153,10 @@ li.dropdown {
   background-color: rgb(67, 75, 104, 0.7);
 }
 
-.projectLink-Small, .projectLink-Middle, .projectLink-Large {
+.projectLink {
   font-family: 'century gothic', sans-serif;
   color: white;
-  font-size: 1.2vw;
+  font-size: 1.5vw;
   text-align: center;
   text-decoration: none;
   font-weight: Normal;
@@ -153,16 +171,8 @@ li.dropdown {
   width: 100%;
 }
 
-.projectLink-Middle {
-  font-size: 1.5vw;
-  line-height: 2vw;
-}
 
-.projectLink-Large {
-  font-size: 1.7vw;
-}
-
-.projectOne:hover .overlay, .projectTwo:hover .overlay, .projectThree:hover .overlay, .projectFive:hover .overlay  {
+.projectOne:hover .overlay, .projectTwo:hover .overlay, .projectThree:hover .overlay, .projectFour:hover .overlay  {
   opacity: 1;
 }
 
@@ -193,15 +203,7 @@ li.dropdown {
   margin-top: 0vw;
 }
 
-.gameLogoPopUp {
-  display: none;
-  padding: 2vw;
-  margin-top: 1vw;
-  margin-left: 3vw;
-  margin-right: 3vw;
-}
-
-.vestPopUps {
+.gameLogoPopUp, .vestPopUp, .monsterPopUp, .planetPopUp {
   display: none;
   padding: 2vw;
   margin-top: 1vw;
@@ -246,20 +248,56 @@ li.dropdown {
   float: left;
 }
 
-.shortDescription3 {
-  background-color: rgb(255, 180, 65);
+.vestInnerContainer, .monsterInnerContainer, .planetInnerContainer{
+  background-color: rgb(252, 186, 85);
   box-shadow: 0px 4px 16px 8px rgb(149 143 143 / 40%);
-  margin: 10vw;
-  margin-top: 5vw;
-  padding: 6vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-top: 2vw;
+  margin-bottom: 1vw;
+  padding: 4vw;
+  padding-bottom: 2.5vw;
+  width: 100%;
+  position: relative;
+}
+
+.monsterInnerContainer {
+  background-color: rgb(106 190 169);
+}
+.planetInnerContainer {
+  background-color: rgb(148 149 254);
+}
+.shortDescription3, .shortDescription5 {
+  margin-top: 0.5vw;
+  padding-right: 0vw;
+  width: 30%;
+  float: left;
+}
+
+.shortDescription4 {
+  margin-top: 0.5vw;
+  padding-right: 0vw;
   width: 100%;
   float: left;
 }
 
+.videoContainer {
+  margin-top: 1.2vw;
+  padding-left: 2vw;
+  width: 70%;
+  float: left;
+}
+
+.videoContainer1 {
+  margin-top: 1.2vw;
+  padding-left: 4vw;
+  width: 50%;
+  float: left;
+}
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@700&family=Karla:wght@700&family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
 
-.projectTitle, .projectTitle3 {
+.projectTitle, .projectTitle3, .projectTitle4, .projectTitle5 {
   color: black;
   font-family: 'source sans pro', sans-serif;
   font-size: 2.3vw;
@@ -268,7 +306,7 @@ li.dropdown {
   font-weight: normal;
 }
 
-.projectBrief, .projectBrief2, .projectBrief3 {
+.projectBrief, .projectBrief2, .projectBrief3, .projectBrief4, .projectBrief5 {
   margin: 0vw;
   color: black;
   font-family: 'source sans pro', sans-serif;
@@ -276,6 +314,10 @@ li.dropdown {
   text-align: justify;
   line-height: 2.3vw;
   text-indent: 50px;
+}
+.projectBrief3, .projectBrief4, .projectBrief5 {
+  text-align: left;
+  line-height: 2.1vw;
 }
 
 .vestLink {
@@ -310,6 +352,7 @@ li.dropdown {
 .prev {
   cursor: pointer;
   position: absolute;
+  margin-left: 5vw;
   top: 50%;
   left: 0vw;
   float: left;
@@ -328,6 +371,7 @@ li.dropdown {
 .next {
   cursor: pointer;
   position: absolute;
+  margin-right: 5vw;
   float: right;
   top: 50%;
   right: 0vw;
