@@ -45,6 +45,7 @@ function setup() {
   $('h4').on("click", gameLogoPopUp);
   $('.monster').on("click", monsterPopUp);
   $('.planet').on("click", planetPopUp);
+  $('.video-cre-edi').on("click", videoCrePopUp);
   $('.exit').on("click", closeWindow);
 
 }
@@ -90,6 +91,15 @@ function planetPopUp() {
   });
 }
 
+function videoCrePopUp() {
+  $('.popUps').css({
+    "display": "block"
+  });
+
+  $('.videoCrePopUp').css({
+    "display": "flex"
+  });
+}
 
 function dataLoaded(data) {
   project = [{
@@ -137,7 +147,7 @@ function addProjectElements(data) {
 function gameLogoPopUp() {
   let id = $(this).attr("class").split(' ')[1];
   // console.log(id);
-  
+
   for (let i = 0; i < 4; i++) {
     if (id === logoId[i]) {
       console.log(id + " === " + logoId[i]);
@@ -159,8 +169,8 @@ function gameLogoPopUp() {
 
       $('.gameCode').css('display', 'none');
       $('.linkCode').css('display', 'none');
-        i = 4;
-        
+      i = 4;
+
     } else if (id === gameId[i]) {
       console.log(id + " === " + gameId[i]);
       $('.projectImage > img').attr({
@@ -189,7 +199,7 @@ function gameLogoPopUp() {
         "float": "left",
         "font-size": "1.3vw",
         "background-color": "rgba(17, 24, 71, 1)",
-        "color":"rgb(225, 126, 153, 1)"
+        "color": "rgb(225, 126, 153, 1)"
       }).appendTo(".projectImage");
       gameLink.button();
 
@@ -201,7 +211,7 @@ function gameLogoPopUp() {
         "float": "right",
         "font-size": "1.3vw",
         "background-color": "rgba(17, 24, 71, 1)",
-        "color":"rgb(225, 126, 153, 1)"
+        "color": "rgb(225, 126, 153, 1)"
       }).appendTo(".projectImage");
       gameCode.button();
       break;
@@ -230,6 +240,9 @@ function closeWindow() {
     "display": "none"
   });
   $('.planetPopUp').css({
+    "display": "none"
+  });
+  $('.videoCrePopUp').css({
     "display": "none"
   });
   $('.gameLogoPopUp').css({

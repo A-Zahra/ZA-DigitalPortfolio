@@ -1,4 +1,3 @@
-
 * {
   box-sizing: border-box
 }
@@ -7,12 +6,10 @@ body {
   margin: 0vw;
 }
 
-
 .NavigationBar {
   background-color: rgba(17, 24, 71, 1);
   display: flex;
   box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
-
 }
 
 ul {
@@ -80,7 +77,7 @@ li.dropdown {
   margin-left: -0.2vw;
 }
 
-.groupOne{
+.groupOne {
   width: 100%;
   float: left;
   display: inline-flex;
@@ -88,7 +85,6 @@ li.dropdown {
   padding-top: 2vw;
   padding-bottom: 0vw;
 }
-
 
 .groupTwo {
   padding-top: 2vw;
@@ -104,6 +100,7 @@ li.dropdown {
   padding-right: 0.5vw;
   display: inline-flex;
 }
+
 .groupFour {
   padding-top: 2vw;
   padding-bottom: 5vw;
@@ -112,17 +109,31 @@ li.dropdown {
   display: inline-flex;
 }
 
-.row1, .row2 {
+.groupFive {
+  padding-top: 2vw;
+  padding-bottom: 5vw;
+  padding-left: 7vw;
+  padding-right: 71.5vw;
+  display: inline-flex;
+}
+
+.row1, .row2, .row5 {
   width: 100%;
   display: table;
 }
+
 .row3, .row4 {
   width: 50%;
   float: left;
   display: table;
+}
+
+.row5 {
+  float: left;
   margin-bottom: 5vw;
 }
-.projectOne, .projectTwo, .projectThree, .projectFour  {
+
+.projectOne, .projectTwo, .projectThree, .projectFour, .projectFive {
   position: relative;
   filter: brightness(0.95);
   width: 100%;
@@ -171,8 +182,7 @@ li.dropdown {
   width: 100%;
 }
 
-
-.projectOne:hover .overlay, .projectTwo:hover .overlay, .projectThree:hover .overlay, .projectFour:hover .overlay  {
+.projectOne:hover .overlay, .projectTwo:hover .overlay, .projectThree:hover .overlay, .projectFour:hover .overlay, .projectFive:hover .overlay {
   opacity: 1;
 }
 
@@ -203,12 +213,16 @@ li.dropdown {
   margin-top: 0vw;
 }
 
-.gameLogoPopUp, .vestPopUp, .monsterPopUp, .planetPopUp {
+.gameLogoPopUp, .vestPopUp, .monsterPopUp, .planetPopUp, .videoCrePopUp {
   display: none;
   padding: 2vw;
   margin-top: 1vw;
   margin-left: 3vw;
   margin-right: 3vw;
+}
+
+.videoCrePopUp {
+  margin-top: 1vw;
 }
 
 .slideShow {
@@ -248,7 +262,21 @@ li.dropdown {
   float: left;
 }
 
-.vestInnerContainer, .monsterInnerContainer, .planetInnerContainer{
+.shortDescription3, .shortDescription5, .shortDescription6 {
+  margin-top: 0.5vw;
+  padding-right: 0vw;
+  width: 30%;
+  float: left;
+}
+
+.shortDescription4 {
+  margin-top: 0.5vw;
+  padding-right: 0vw;
+  width: 100%;
+  float: left;
+}
+
+.vestInnerContainer, .monsterInnerContainer, .planetInnerContainer, .videoCreInnerContainer {
   background-color: rgb(252, 186, 85);
   box-shadow: 0px 4px 16px 8px rgb(149 143 143 / 40%);
   margin-left: 5vw;
@@ -262,23 +290,15 @@ li.dropdown {
 }
 
 .monsterInnerContainer {
-  background-color: rgb(106 190 169);
-}
-.planetInnerContainer {
-  background-color: rgb(148 149 254);
-}
-.shortDescription3, .shortDescription5 {
-  margin-top: 0.5vw;
-  padding-right: 0vw;
-  width: 30%;
-  float: left;
+  background-color: rgb(106, 190, 169);
 }
 
-.shortDescription4 {
-  margin-top: 0.5vw;
-  padding-right: 0vw;
-  width: 100%;
-  float: left;
+.planetInnerContainer {
+  background-color: rgb(148, 149, 254);
+}
+
+.videoCreInnerContainer {
+  background-color: rgb(186, 192, 211);
 }
 
 .videoContainer {
@@ -294,10 +314,11 @@ li.dropdown {
   width: 50%;
   float: left;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@700&family=Karla:wght@700&family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
 
-.projectTitle, .projectTitle3, .projectTitle4, .projectTitle5 {
+.projectTitle, .projectTitle3, .projectTitle4, .projectTitle5, .projectTitle6 {
   color: black;
   font-family: 'source sans pro', sans-serif;
   font-size: 2.3vw;
@@ -306,7 +327,7 @@ li.dropdown {
   font-weight: normal;
 }
 
-.projectBrief, .projectBrief2, .projectBrief3, .projectBrief4, .projectBrief5 {
+.projectBrief, .projectBrief2, .projectBrief3, .projectBrief4, .projectBrief5, .projectBrief6 {
   margin: 0vw;
   color: black;
   font-family: 'source sans pro', sans-serif;
@@ -315,7 +336,8 @@ li.dropdown {
   line-height: 2.3vw;
   text-indent: 50px;
 }
-.projectBrief3, .projectBrief4, .projectBrief5 {
+
+.projectBrief3, .projectBrief4, .projectBrief5, .projectTitle6 {
   text-align: left;
   line-height: 2.1vw;
 }

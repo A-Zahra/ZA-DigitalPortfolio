@@ -11,7 +11,6 @@ body {
   background-color: rgba(17, 24, 71, 1);
   display: flex;
   box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
-
 }
 
 ul {
@@ -90,7 +89,6 @@ li.dropdown {
   float: left;
   display: inline-flex;
   padding: 2vw;
-
 }
 
 .content {
@@ -118,25 +116,24 @@ li.dropdown {
   /* display: table-caption; */
   padding: 3vw;
   margin: 2vw;
-
 }
 
 .invictus {
-  background-image: url("../assets/images/invictusLogo.png");
+  background-image: url("../assets/images/Backgrounds/invictusLogo.png");
   background-size: cover;
   background-repeat: no-repeat;
   /* background-position-x: -2vw; */
 }
 
 .craft {
-  background-image: url("../assets/images/microfluidic_chip.jpg");
+  background-image: url("../assets/images/Backgrounds/microfluidic_chip.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: -2vw;
 }
 
 .toranj {
-  background-image: url("../assets/images/table-Background.jpg");
+  background-image: url("../assets/images/Backgrounds/table-Background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -168,7 +165,7 @@ li.dropdown {
 .popUps {
   position: fixed;
   top: 0;
-  left:0vw;
+  left: 0vw;
   background-color: rgba(0, 0, 0, 1);
   z-index: 2;
   height: 100%;
