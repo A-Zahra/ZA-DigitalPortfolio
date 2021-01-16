@@ -95,7 +95,7 @@ li.dropdown {
 
 .groupThree {
   padding-top: 2vw;
-  padding-bottom: 5vw;
+  padding-bottom: 0vw;
   padding-left: 7vw;
   padding-right: 0.5vw;
   display: inline-flex;
@@ -103,7 +103,7 @@ li.dropdown {
 
 .groupFour {
   padding-top: 2vw;
-  padding-bottom: 5vw;
+  padding-bottom: 0vw;
   padding-left: 0.5vw;
   padding-right: 7vw;
   display: inline-flex;
