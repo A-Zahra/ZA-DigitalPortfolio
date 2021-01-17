@@ -338,7 +338,7 @@ li.dropdown {
 }
 
 .projectBrief3, .projectBrief4, .projectBrief5, .projectTitle6 {
-  text-align: left;
+  text-align: justify;
   line-height: 2.1vw;
 }
 
@@ -436,7 +436,7 @@ li.dropdown {
   padding: 2.5vw;
   padding-top: 1.5vw;
   margin: 0vw;
-  text-align: left;
+  text-align: justify;
   text-indent: 50px;
 }
 
