@@ -98,16 +98,18 @@ li.dropdown {
   /* background-color: rgb(255, 255, 255); */
 }
 
-.CraftLogo {
-  box-shadow: 0px 0px 10px 5px rgb(29, 217, 213, 0.7);
-}
-
 .InvictusGloves {
   box-shadow: 0px 0px 10px 5px rgb(248, 219, 77, 0.7);
 }
 
+.CraftLogo {
+  box-shadow: 0px 0px 10px 5px rgb(29, 217, 213, 0.7);
+  padding-bottom: 5.9vw;
+}
+
 .ToranjLogo {
   box-shadow: 0px 0px 10px 5px rgb(255, 205, 118, 0.7);
+  padding-bottom: 16vw;
 }
 
 .column2 {
@@ -206,4 +208,75 @@ li.dropdown {
   width: 100%;
   background-color: rgba(17, 24, 71, 1);
   display: table;
+}
+
+@media only screen and (max-width: 1240px) {
+  li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    font-size: 1.1vw;
+    padding: 3vw 1vw;
+    text-decoration: none;
+    font-family: "century gothic", sans-serif;
+    transition: 0.7s;
+  }
+
+.content {
+  padding: 3vw;
+  padding-top: 1vw;
+  padding-bottom: 6vw;
+  /* background-color: rgb(255, 255, 255); */
+}
+
+.InvictusGloves {
+  box-shadow: 0px 0px 10px 5px rgb(248, 219, 77, 0.7);
+}
+
+.CraftLogo {
+  box-shadow: 0px 0px 10px 5px rgb(29, 217, 213, 0.7);
+  padding-bottom: 6vw;
+}
+
+.ToranjLogo {
+  box-shadow: 0px 0px 10px 5px rgb(255, 205, 118, 0.7);
+  padding-bottom: 16.6vw;
+}
+
+}
+
+
+@media only screen and (max-width: 740px) {
+  li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    font-size: 1.1vw;
+    padding: 3vw 1vw;
+    text-decoration: none;
+    font-family: "century gothic", sans-serif;
+    transition: 0.7s;
+  }
+
+.content {
+  padding: 3vw;
+  padding-top: 1vw;
+  padding-bottom: 7vw;
+  /* background-color: rgb(255, 255, 255); */
+}
+
+.InvictusGloves {
+  box-shadow: 0px 0px 10px 5px rgb(248, 219, 77, 0.7);
+}
+
+.CraftLogo {
+  box-shadow: 0px 0px 10px 5px rgb(29, 217, 213, 0.7);
+  padding-bottom: 7vw;
+}
+
+.ToranjLogo {
+  box-shadow: 0px 0px 10px 5px rgb(255, 205, 118, 0.7);
+  padding-bottom: 17.3vw;
+}
+
 }

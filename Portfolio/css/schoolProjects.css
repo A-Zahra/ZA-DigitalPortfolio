@@ -511,3 +511,31 @@ li.dropdown {
   background-color: rgba(17, 24, 71, 1);
   display: table;
 }
+
+@media only screen and (max-width: 1240px) {
+
+  li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    font-size: 1.1vw;
+    padding: 3vw 1vw;
+    text-decoration: none;
+    font-family: "century gothic", sans-serif;
+    transition: 0.7s;
+  }
+}
+
+@media only screen and (max-width: 740px) {
+
+  li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    font-size: 1.1vw;
+    padding: 3vw 1vw;
+    text-decoration: none;
+    font-family: "century gothic", sans-serif;
+    transition: 0.7s;
+  }
+}
